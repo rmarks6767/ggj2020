@@ -99,7 +99,6 @@ namespace Assets.Scripts
         /// <param name="amount">The amount to add to the money</param>
         public void AddMoney(int amount) 
             => money += amount;
-
         /// <summary>
         /// Used to get the SCP by the name and the DangerLevel
         /// </summary>
