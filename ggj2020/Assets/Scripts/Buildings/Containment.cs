@@ -13,6 +13,16 @@ namespace Assets.Scripts
         private int maxCells;
         private int numberOfFloors;
 
+        private Floor[] floors;
+
+        /// <summary>
+        /// Array of all the floors in the building
+        /// </summary>
+        public Floor[] Floors
+        {
+            get { return floors; }
+            set { floors = value; }
+        }
 
         /// <summary>
         /// 
@@ -23,7 +33,7 @@ namespace Assets.Scripts
         {
             this.maxFloors = maxFloors;
             this.maxCells = maxCells;
-
+            floors = new Floor[maxFloors];
         }
 
         /// <summary>
