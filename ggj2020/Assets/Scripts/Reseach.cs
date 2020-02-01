@@ -16,7 +16,7 @@ public class Reseach : MonoBehaviour
         
     }
 
-	public void Research(ReseachStaff researcher, SCP scp)
+	/*public void Research(ReseachStaff researcher, SCP scp)
 	{
 
 	}
@@ -24,5 +24,5 @@ public class Reseach : MonoBehaviour
 	public void Research(ReseachStaff researcher, SCP scp, SecurityStaff security)
 	{
 
-	}
+	}*/
 }

@@ -92,7 +92,7 @@ namespace Assets.Scripts
         /// <param name="name">The name of the given SCP</param>
         /// <returns>Returns a given SCP object</returns>
         public SCP GetScp(DangerLevel dangerLevel, string name) 
-            => scps[dangerLevel].Find(scp => scp.name = name);
+            => scps[dangerLevel].Find(scp => scp.Name == name);
 
         /// <summary>
         /// Used to get a given staff member
