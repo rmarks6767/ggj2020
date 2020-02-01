@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public delegate void RunCommand(string parameters);
+public delegate void RunCommand(List<string> parameters);
 
 public class Terminal : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Terminal : MonoBehaviour
     private TextMesh displayText, inputText;
     private List<string> preivousCommands;
     private Event e;
+    private Parser parser;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class Terminal : MonoBehaviour
         inputText = input.GetComponent<TextMesh>();
         preivousCommands = new List<string>();
         e = new Event();
+        parser = new Parser();
     }
 
     void OnGUI()
@@ -49,8 +52,8 @@ public class Terminal : MonoBehaviour
     void EnterCommand()
     {
         string command = inputText.text.Substring(2);
-
-        displayText.text += '\n' + command;
+        string output = parser.ProcessCommand(command);
+        displayText.text += '\n' + command + "\n\t" + output;
         inputText.text = "> ";
     }
 
