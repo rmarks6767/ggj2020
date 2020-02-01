@@ -41,7 +41,7 @@ namespace Assets.Scripts
 
 
             containmentFloors = new Cell[maxFloors, maxCells];
-            for(
+            //for(
         }
 
         /// <summary>
@@ -53,10 +53,10 @@ namespace Assets.Scripts
         /// <returns></returns>
         public bool AddSCP(int floorNumber, int roomNumber, SCP newSCP)
         {
-            if(
+            //if(
         }
 
-        public string Export
+        //public string Export
 
         public override void Destroy()
         {
