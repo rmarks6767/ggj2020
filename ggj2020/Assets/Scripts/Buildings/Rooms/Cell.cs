@@ -53,6 +53,8 @@ namespace Assets.Scripts
         {
             cellInhabitant = scip;
         }
+
+
     }
 
 }
