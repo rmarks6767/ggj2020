@@ -19,7 +19,7 @@
         {
             get
             {
-                return cells[];
+                return cells;
             }
         }
 
