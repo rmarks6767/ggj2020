@@ -86,7 +86,7 @@ public class Terminal : MonoBehaviour
         {
             previousCommands.RemoveAt(0);
         }
-        string output = parser.ProcessCommand(command);
+        string output = Parser.ProcessCommand(command);
         displayText.text += '\n' + command + "\n\t" + output;
         inputText.text = "> ";
     }

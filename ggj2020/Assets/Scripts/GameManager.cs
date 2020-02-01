@@ -72,9 +72,9 @@ namespace Assets.Scripts
             // Creates the commands to be used in the terminal
             commands = new Dictionary<string, RunCommand>()
             {
-                {"capture", RunCommands.CaptureSCP},
+                {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"change room", RunCommands.ChangeRoom}
+                {"change room", RunCommands.Move}
             };
         }
 
