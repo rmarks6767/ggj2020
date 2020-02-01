@@ -7,7 +7,6 @@ namespace Assets.Scripts
     /// </summary>
     public enum Staff
     {
-        maintenance,
         research,
         security
     }
@@ -20,6 +19,16 @@ namespace Assets.Scripts
         safe,
         euclid,
         keter
+    }
+
+    /// <summary>
+    /// Type of building
+    /// </summary>
+    public enum BuildingType
+    {
+        research,
+        security,
+        containment
     }
 
     public delegate string RunCommand(List<string> parameters);
@@ -63,7 +72,6 @@ namespace Assets.Scripts
             // Create the defaults for the staff
             staff = new Dictionary<Staff, int>()
             {
-                { Staff.maintenance, 0 },
                 { Staff.research, 0 },
                 { Staff.security, 0 }
             };
@@ -134,6 +142,59 @@ namespace Assets.Scripts
             return targetSCP;
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list of every cell in the containment building</returns>
+        public List<Cell> FindCells(Containment building)
+        {
+            List<Cell> tempList = new List<Cell>();
+            CellBlock tempCellBlock;
+            foreach (Floor block in building.Floors)
+            {
+                if (block.FloorRoom is CellBlock)
+                {
+                    tempCellBlock = (CellBlock)block.FloorRoom;
+                    foreach (Cell cell in tempCellBlock.Cells)
+                    {
+                            tempList.Add(cell);
+                    }
+                }
+            }
+            return tempList;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list of every empty cell in the containment building</returns>
+        public List<Cell> FindOpenCells(Containment building)
+        {
+            List<Cell> tempList = new List<Cell>();
+            foreach(Cell cell in FindCells(building))
+            {
+                if (cell.CellInhabitant == null)
+                    tempList.Add(cell);
+            }
+            return tempList;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list of every full cell in the containment building</returns>
+        public List<Cell> FindFilledCells(Containment building)
+        {
+            List<Cell> tempList = new List<Cell>();
+            foreach (Cell cell in FindCells(building))
+            {
+                if (cell.CellInhabitant != null)
+                    tempList.Add(cell);
+            }
+            return tempList;
+        }
+
         /// <summary>
         /// Used to get a given staff member
         /// </summary>
@@ -154,4 +215,6 @@ namespace Assets.Scripts
             return null;
         }
     }
+
+
 }

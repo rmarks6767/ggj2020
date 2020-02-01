@@ -11,37 +11,32 @@ namespace Assets.Scripts
         // Max ammount of floors and cells possible in the building 
         private int maxFloors;
         private int maxCells;
-        private int numberOfFloors;
+        private int floorCount;
 
-        // number of cells (value) per floor (index)
-        private int[] occupiedCellsPerFloor;
+        private Floor[] floors;
 
         /// <summary>
-        /// [Floor #, Cell #]
+        /// Array of all the floors in the building
         /// </summary>
-        private Cell[,] containmentFloors;
-
+        public Floor[] Floors
+        {
+            get { return floors; }
+            set { floors = value; }
+        }
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="maxFloors">Max floors per building</param>
         /// <param name="maxCells">Max cells per floor</param>
-        public Containment(int maxFloors = 3, int maxCells = 6)
+        public Containment(int maxFloors = 5, int maxCells = 3)
         {
             this.maxFloors = maxFloors;
             this.maxCells = maxCells;
-
-            // Sets up counter for cells that are occupied on each floor
-            occupiedCellsPerFloor = new int[maxFloors];
-            for (int i = 0; i < maxFloors; i++)
-            {
-                occupiedCellsPerFloor[i] = 0;
-            }
-
-
-            containmentFloors = new Cell[maxFloors, maxCells];
-            //for(
+            floors = new Floor[maxFloors];
+            
+            floors[0] = new Floor(BuildingType.containment);
+            floorCount = 1;
         }
 
         /// <summary>
@@ -58,16 +53,26 @@ namespace Assets.Scripts
             return false;
         }
 
-        public string Export = "";
-
         public override void Destroy()
         {
             throw new System.NotImplementedException();
         }
 
-        public override void Upgrade()
+        /// <summary>
+        /// Returns False if floor cannot be added.
+        /// </summary>
+        /// <returns></returns>
+        public override bool AddFloor()
         {
-            throw new System.NotImplementedException();
+            if (floorCount == maxFloors)
+            {
+                return false;
+            }
+
+            floors[floorCount - 1] = new Floor(BuildingType.containment);
+            floorCount++;
+            return true;
+           
         }
     }
 }

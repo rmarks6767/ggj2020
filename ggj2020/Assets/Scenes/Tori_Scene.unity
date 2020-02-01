@@ -269,12 +269,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1701914823 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1701914823, guid: 9e61c27d131c5404cab7a3eb88c5177e,
-    type: 3}
-  m_PrefabInstance: {fileID: 7602976401860457757}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7602976401860457757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282,21 +276,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7602976401641133961, guid: 9e61c27d131c5404cab7a3eb88c5177e,
-        type: 3}
-      propertyPath: BuildingPreviewDisplay
-      value: 
-      objectReference: {fileID: 1701914823}
-    - target: {fileID: 7602976401641133961, guid: 9e61c27d131c5404cab7a3eb88c5177e,
-        type: 3}
-      propertyPath: staffBuildingSpawn
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7602976401641133961, guid: 9e61c27d131c5404cab7a3eb88c5177e,
-        type: 3}
-      propertyPath: containmentBuildingSpawn
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7602976401641133966, guid: 9e61c27d131c5404cab7a3eb88c5177e,
         type: 3}
       propertyPath: m_LocalPosition.x

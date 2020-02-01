@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Buildings : MonoBehaviour
+namespace Assets.Scripts
 {
 
-    public abstract void Upgrade();
+    public abstract class Buildings : MonoBehaviour
+    {
 
-    public abstract void Destroy();
+        public abstract bool AddFloor();
 
+        public abstract void Destroy();
+
+    }
 }

@@ -1,0 +1,8083 @@
+fileFormatVersion: 2
+guid: e4bf782f2c19f8d44a36d6bf9b1ab578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5184663955158131182
+    second: Guard
+  - first:
+      213: 6390057043676014329
+    second: MTF
+  - first:
+      213: -5407798021453603776
+    second: D1
+  - first:
+      213: -5640059319420733618
+    second: D2
+  - first:
+      213: 3164929240993809794
+    second: D3
+  - first:
+      213: -8463992506566791655
+    second: D4
+  - first:
+      213: -7466074316958994898
+    second: D5
+  - first:
+      213: -7597582777183047496
+    second: D6
+  - first:
+      213: 4348267616386873936
+    second: 093
+  - first:
+      213: 9167360972612348164
+    second: scps_9
+  - first:
+      213: -6838781902151176364
+    second: scps_10
+  - first:
+      213: -2254923194859617449
+    second: scps_11
+  - first:
+      213: 6317353047824952520
+    second: scps_12
+  - first:
+      213: -1195655845843731843
+    second: scps_13
+  - first:
+      213: -5695999612484572217
+    second: scps_14
+  - first:
+      213: -6894121546437394914
+    second: scps_15
+  - first:
+      213: -2367494843392827109
+    second: scps_16
+  - first:
+      213: -8598008251432056776
+    second: scps_17
+  - first:
+      213: 1442991623831808759
+    second: scps_18
+  - first:
+      213: 2549131101022081854
+    second: scps_19
+  - first:
+      213: 2041354100288400449
+    second: 019_1
+  - first:
+      213: -3287991262771906915
+    second: scps_21
+  - first:
+      213: 5144235123128699678
+    second: 035
+  - first:
+      213: 5257364440925927491
+    second: scps_23
+  - first:
+      213: -9038935247153544314
+    second: 049
+  - first:
+      213: 4819924191483439175
+    second: scps_25
+  - first:
+      213: 3776228652557972667
+    second: scps_26
+  - first:
+      213: -3500528491645904546
+    second: 073
+  - first:
+      213: -4464368720603445612
+    second: 076
+  - first:
+      213: -4046980648848262662
+    second: scps_29
+  - first:
+      213: 108968057417743342
+    second: scps_30
+  - first:
+      213: 1037087365025940574
+    second: 096
+  - first:
+      213: -5180221533347254103
+    second: scps_32
+  - first:
+      213: 4408998506559745982
+    second: 106
+  - first:
+      213: -8854895701560177438
+    second: 019_2
+  - first:
+      213: -1571677465912223213
+    second: scps_35
+  - first:
+      213: -6260302914306110263
+    second: 055
+  - first:
+      213: 632133024882697172
+    second: scps_37
+  - first:
+      213: -3977779107011731239
+    second: 066
+  - first:
+      213: 2551518094793869659
+    second: 131
+  - first:
+      213: -5316660287183868892
+    second: scps_40
+  - first:
+      213: 4611724816430048866
+    second: scps_41
+  - first:
+      213: -1190897535619497370
+    second: scps_42
+  - first:
+      213: -6679862793453931386
+    second: scps_43
+  - first:
+      213: 4110271347408640198
+    second: scps_44
+  - first:
+      213: -4748215778197085299
+    second: scps_45
+  - first:
+      213: 6719232508357752249
+    second: scps_46
+  - first:
+      213: -7375449007497043833
+    second: scps_47
+  - first:
+      213: 7789702441365207770
+    second: scps_48
+  - first:
+      213: -4319824544219654220
+    second: scps_49
+  - first:
+      213: 1888495444528091218
+    second: scps_50
+  - first:
+      213: -8224577006287824471
+    second: scps_51
+  - first:
+      213: 7874651790786148385
+    second: scps_52
+  - first:
+      213: 7377417952210495417
+    second: scps_53
+  - first:
+      213: 5827691451478498752
+    second: scps_54
+  - first:
+      213: -5022297324718118289
+    second: scps_55
+  - first:
+      213: -2124333485300208747
+    second: scps_56
+  - first:
+      213: 5746222356253791634
+    second: scps_57
+  - first:
+      213: 8679249221924043934
+    second: scps_58
+  - first:
+      213: 534398097297445652
+    second: scps_59
+  - first:
+      213: -3482467917029674670
+    second: scps_60
+  - first:
+      213: 8660950362977097130
+    second: scps_61
+  - first:
+      213: 4609411992576868798
+    second: scps_62
+  - first:
+      213: -7043863690790349065
+    second: scps_63
+  - first:
+      213: -4881541740929035688
+    second: scps_64
+  - first:
+      213: -3931011106204477582
+    second: scps_65
+  - first:
+      213: -6506171603385042721
+    second: scps_66
+  - first:
+      213: -929904203775779699
+    second: scps_67
+  - first:
+      213: 6806612830826651915
+    second: scps_68
+  - first:
+      213: 8095847199713640717
+    second: scps_69
+  - first:
+      213: -6295357239866149568
+    second: scps_70
+  - first:
+      213: -924556693527878359
+    second: scps_71
+  - first:
+      213: -5488476591167701036
+    second: scps_72
+  - first:
+      213: 5209183250676368258
+    second: scps_73
+  - first:
+      213: 183842951038398515
+    second: scps_74
+  - first:
+      213: 6760852901501060516
+    second: scps_75
+  - first:
+      213: 9118680094599628669
+    second: scps_76
+  - first:
+      213: -2961315364422942737
+    second: scps_77
+  - first:
+      213: -2655453928224474631
+    second: scps_78
+  - first:
+      213: -8548461055994239496
+    second: scps_79
+  - first:
+      213: 7725031965742513191
+    second: scps_80
+  - first:
+      213: -8611107492200602807
+    second: scps_81
+  - first:
+      213: 6636694338573856784
+    second: scps_82
+  - first:
+      213: 5950614522638008699
+    second: scps_83
+  - first:
+      213: 5719100306464428831
+    second: scps_84
+  - first:
+      213: -3800309927838401049
+    second: scps_85
+  - first:
+      213: 8411405536994564443
+    second: scps_86
+  - first:
+      213: -6848136828857868286
+    second: 166
+  - first:
+      213: -1300805632072158905
+    second: 173
+  - first:
+      213: 5938548863021194942
+    second: scps_89
+  - first:
+      213: -2718531019097836056
+    second: scps_90
+  - first:
+      213: 4756981776676464457
+    second: scps_91
+  - first:
+      213: 5281638212969618885
+    second: 184
+  - first:
+      213: 6373337373769663607
+    second: scps_93
+  - first:
+      213: 417648039258420267
+    second: scps_94
+  - first:
+      213: 271178689467477090
+    second: 258
+  - first:
+      213: -7297813835372463453
+    second: 294
+  - first:
+      213: -8404687236603638454
+    second: scps_97
+  - first:
+      213: -1960017832309878007
+    second: 343
+  - first:
+      213: -4265503605519686612
+    second: scps_99
+  - first:
+      213: 3941397925203812741
+    second: 420
+  - first:
+      213: 851391027553638417
+    second: scps_101
+  - first:
+      213: 5341915492894051597
+    second: 500
+  - first:
+      213: 2380104059911481725
+    second: scps_103
+  - first:
+      213: 7541321262530775948
+    second: 529
+  - first:
+      213: 5444873617880627255
+    second: scps_105
+  - first:
+      213: 3640322016989128640
+    second: scps_106
+  - first:
+      213: -3889326957576019597
+    second: 662_1
+  - first:
+      213: 3231585765091703911
+    second: 662_2
+  - first:
+      213: -2314672243943286610
+    second: 682
+  - first:
+      213: 4934624501295253724
+    second: 701
+  - first:
+      213: -4105631429237714829
+    second: scps_111
+  - first:
+      213: 8315942950193793010
+    second: scps_112
+  - first:
+      213: -4550698304401706472
+    second: scps_113
+  - first:
+      213: -170242858725466651
+    second: scps_114
+  - first:
+      213: 2772116033082066419
+    second: scps_115
+  - first:
+      213: -6095431909568758100
+    second: scps_116
+  - first:
+      213: -4926544491714551597
+    second: scps_117
+  - first:
+      213: -5090871039198146716
+    second: scps_118
+  - first:
+      213: 2076152879437408267
+    second: scps_119
+  - first:
+      213: 2295578807524513276
+    second: scps_120
+  - first:
+      213: 4549691758835050383
+    second: scps_121
+  - first:
+      213: 3989848813757548430
+    second: scps_122
+  - first:
+      213: -3865531357379099999
+    second: scps_123
+  - first:
+      213: 7721635582695160165
+    second: scps_124
+  - first:
+      213: -8843926663814955758
+    second: scps_125
+  - first:
+      213: -1290795536109576319
+    second: scps_126
+  - first:
+      213: 5487838988468757358
+    second: scps_127
+  - first:
+      213: 8411356928489410450
+    second: scps_128
+  - first:
+      213: -1965505851350500090
+    second: scps_129
+  - first:
+      213: 3871097248609354785
+    second: scps_130
+  - first:
+      213: -5639773850514904802
+    second: scps_131
+  - first:
+      213: 8559536704342520240
+    second: scps_132
+  - first:
+      213: 5899419114419026698
+    second: scps_133
+  - first:
+      213: -5221002501097881779
+    second: scps_134
+  - first:
+      213: -9128654603863115591
+    second: scps_135
+  - first:
+      213: -7019979626769051454
+    second: scps_136
+  - first:
+      213: -7131235159674720175
+    second: scps_137
+  - first:
+      213: -7509052076122785551
+    second: scps_138
+  - first:
+      213: -5052324399317079263
+    second: scps_139
+  - first:
+      213: 6134520776810106555
+    second: scps_140
+  - first:
+      213: 2388141156546169955
+    second: scps_141
+  - first:
+      213: 1804294491739803502
+    second: scps_142
+  - first:
+      213: -1577123739983880090
+    second: scps_143
+  - first:
+      213: 6955997308346332784
+    second: scps_144
+  - first:
+      213: 1915647234972834047
+    second: scps_145
+  - first:
+      213: 1436838815775263223
+    second: scps_146
+  - first:
+      213: -3706117971609665974
+    second: scps_147
+  - first:
+      213: -1704415759974381214
+    second: scps_148
+  - first:
+      213: 7254523668235989063
+    second: scps_149
+  - first:
+      213: -1203105013594549325
+    second: scps_150
+  - first:
+      213: 3266291523585641573
+    second: scps_151
+  - first:
+      213: 3937391149711406794
+    second: scps_152
+  - first:
+      213: 4126324126679224327
+    second: scps_153
+  - first:
+      213: 3853850170756745449
+    second: scps_154
+  - first:
+      213: -6480425393149011799
+    second: scps_155
+  - first:
+      213: 1267931360525523065
+    second: scps_156
+  - first:
+      213: -3133555926533611069
+    second: scps_157
+  - first:
+      213: -4797789907867783770
+    second: scps_158
+  - first:
+      213: 6246245161017207953
+    second: scps_159
+  - first:
+      213: 4502436234877583241
+    second: scps_160
+  - first:
+      213: -6560139395969636467
+    second: scps_161
+  - first:
+      213: 5754457789839155927
+    second: scps_162
+  - first:
+      213: 3358357037361447433
+    second: scps_163
+  - first:
+      213: -3813018078078607454
+    second: scps_164
+  - first:
+      213: -970299392531974585
+    second: scps_165
+  - first:
+      213: 2389235989636937413
+    second: 870
+  - first:
+      213: -1422250667158339101
+    second: 876
+  - first:
+      213: 3402511553415692453
+    second: 914
+  - first:
+      213: 2114859794847689210
+    second: 939
+  - first:
+      213: 1246099203584580011
+    second: scps_170
+  - first:
+      213: 2517434870130556294
+    second: scps_171
+  - first:
+      213: -6397118801411482895
+    second: scps_172
+  - first:
+      213: 1007296233598723925
+    second: 1000
+  - first:
+      213: 473590896829078764
+    second: scps_174
+  - first:
+      213: -2867427578658949411
+    second: scps_175
+  - first:
+      213: -292510958935070560
+    second: scps_176
+  - first:
+      213: 5601504611671628512
+    second: scps_177
+  - first:
+      213: -4649505515230769547
+    second: 714
+  - first:
+      213: 6381426947334570646
+    second: scps_179
+  - first:
+      213: 276451970492566426
+    second: 999
+  - first:
+      213: 7261059124046574082
+    second: 1424
+  - first:
+      213: 2878598221467835447
+    second: 1499
+  - first:
+      213: -6635429257212658563
+    second: scps_183
+  - first:
+      213: 2566347352543788885
+    second: scps_184
+  - first:
+      213: -5817506271279134137
+    second: scps_185
+  - first:
+      213: 3001622490790452164
+    second: scps_186
+  - first:
+      213: -3831900372842411095
+    second: scps_187
+  - first:
+      213: -543270881736640238
+    second: scps_188
+  - first:
+      213: -621374634171196210
+    second: scps_189
+  - first:
+      213: -1395967053145492460
+    second: scps_190
+  - first:
+      213: 1045217100176514767
+    second: scps_191
+  - first:
+      213: -6113396437887617310
+    second: scps_192
+  - first:
+      213: -7473580826556265778
+    second: scps_193
+  - first:
+      213: 3136370370818739089
+    second: scps_194
+  - first:
+      213: 4679308124736668506
+    second: scps_195
+  - first:
+      213: -7734510363844785526
+    second: scps_196
+  - first:
+      213: -8833324788163787725
+    second: scps_197
+  - first:
+      213: -1566067587817344442
+    second: scps_198
+  - first:
+      213: -6670400273346720915
+    second: scps_199
+  - first:
+      213: 3822515913392970199
+    second: scps_200
+  - first:
+      213: 1600008230286042015
+    second: scps_201
+  - first:
+      213: -980799296186426160
+    second: scps_202
+  - first:
+      213: 7449859108696765800
+    second: scps_203
+  - first:
+      213: -1290290825271523454
+    second: scps_204
+  - first:
+      213: 5560950562622520762
+    second: scps_205
+  - first:
+      213: 2360247585194346050
+    second: scps_206
+  - first:
+      213: 2576942021459398221
+    second: scps_207
+  - first:
+      213: -317806034888953947
+    second: scps_208
+  - first:
+      213: 4385898783662522239
+    second: scps_209
+  - first:
+      213: -6106018452296930437
+    second: scps_210
+  - first:
+      213: -7562691159657997424
+    second: scps_211
+  - first:
+      213: 1619982009992571519
+    second: scps_212
+  - first:
+      213: 3497848280577569316
+    second: scps_213
+  - first:
+      213: 7666260241560541606
+    second: scps_214
+  - first:
+      213: -3863254145353078173
+    second: scps_215
+  - first:
+      213: -500888695334411553
+    second: scps_216
+  - first:
+      213: 5494175593567580709
+    second: scps_217
+  - first:
+      213: 2900365239664506189
+    second: scps_218
+  - first:
+      213: -6709586794535885168
+    second: scps_219
+  - first:
+      213: 4090679480924503193
+    second: scps_220
+  - first:
+      213: -5639678401430485259
+    second: scps_221
+  - first:
+      213: 7224924736252816949
+    second: scps_222
+  - first:
+      213: 1923302756613315978
+    second: scps_223
+  - first:
+      213: -5652480699578525807
+    second: scps_224
+  - first:
+      213: -3804002289621848549
+    second: scps_225
+  - first:
+      213: -2264081209354553768
+    second: scps_226
+  - first:
+      213: -7784173832733371311
+    second: scps_227
+  - first:
+      213: 3735179961416034198
+    second: scps_228
+  - first:
+      213: 3656192247582354278
+    second: scps_229
+  - first:
+      213: 4116412470313179803
+    second: scps_230
+  - first:
+      213: 3847427616833104027
+    second: scps_231
+  - first:
+      213: 2839483664509920592
+    second: scps_232
+  - first:
+      213: -4354837227130887206
+    second: scps_233
+  - first:
+      213: 7955000033307015150
+    second: scps_234
+  - first:
+      213: 7577895601284379727
+    second: scps_235
+  - first:
+      213: -7500493102523114819
+    second: scps_236
+  - first:
+      213: 5343401115101689476
+    second: scps_237
+  - first:
+      213: -2666746548402958061
+    second: scps_238
+  - first:
+      213: 8489699664588120804
+    second: scps_239
+  - first:
+      213: -3009839083016175249
+    second: scps_240
+  - first:
+      213: 6682116197786238322
+    second: scps_241
+  - first:
+      213: -2549691838090956435
+    second: scps_242
+  - first:
+      213: -15001908888895299
+    second: scps_243
+  - first:
+      213: -1750033378991801214
+    second: scps_244
+  - first:
+      213: 7347865655991939273
+    second: scps_245
+  - first:
+      213: 9122775118188380759
+    second: scps_246
+  - first:
+      213: -2804349418667299315
+    second: scps_247
+  - first:
+      213: -1186605018240881430
+    second: scps_248
+  - first:
+      213: 1289777275517379775
+    second: scps_249
+  - first:
+      213: -8100898454986861217
+    second: scps_250
+  - first:
+      213: -5597392797337253248
+    second: scps_251
+  - first:
+      213: -1396666507111649497
+    second: scps_252
+  - first:
+      213: -5036409676479099982
+    second: scps_253
+  - first:
+      213: -4561039642840985537
+    second: scps_254
+  - first:
+      213: 6024595331678131916
+    second: scps_255
+  - first:
+      213: -4788802338902843338
+    second: scps_256
+  - first:
+      213: 2182962941181722145
+    second: scps_257
+  - first:
+      213: -3119480063518839047
+    second: scps_258
+  - first:
+      213: -4041934801927687540
+    second: scps_259
+  - first:
+      213: -9213085371756987275
+    second: scps_260
+  - first:
+      213: 4361760793194250047
+    second: scps_261
+  - first:
+      213: 3067109600668072871
+    second: scps_262
+  - first:
+      213: -5223581881747162879
+    second: scps_263
+  - first:
+      213: 1498148334031859128
+    second: scps_264
+  - first:
+      213: -4255560237541816824
+    second: scps_265
+  - first:
+      213: -8760332764386516008
+    second: scps_266
+  - first:
+      213: 6798776780904042966
+    second: scps_267
+  - first:
+      213: 6205720062292346714
+    second: 3001
+  - first:
+      213: -243653763557681181
+    second: 3008
+  - first:
+      213: 8755763219555008634
+    second: 3166
+  - first:
+      213: 5925401018783943627
+    second: scps_271
+  - first:
+      213: -4003647580444257990
+    second: scps_272
+  - first:
+      213: -6424252366649506449
+    second: 3999
+  - first:
+      213: 3766515488062910087
+    second: 4000
+  - first:
+      213: -4681138763439211633
+    second: scps_275
+  - first:
+      213: -5898764223207878423
+    second: 4601
+  - first:
+      213: 5566625402463771942
+    second: 4666
+  - first:
+      213: 7628734853721562238
+    second: scps_278
+  - first:
+      213: -6717701415914450265
+    second: scps_279
+  - first:
+      213: 1217332845662732394
+    second: 4999
+  - first:
+      213: 2956539778033458634
+    second: scps_281
+  - first:
+      213: -3773112483238753497
+    second: scps_282
+  - first:
+      213: -1164039680046357883
+    second: scps_283
+  - first:
+      213: -8106168957904283817
+    second: scps_284
+  - first:
+      213: -1325376971321231867
+    second: scps_285
+  - first:
+      213: -5847955193133066648
+    second: scps_286
+  - first:
+      213: 7230320515227428333
+    second: scps_287
+  - first:
+      213: 3082806837095388200
+    second: scps_288
+  - first:
+      213: -7355431400302211344
+    second: scps_289
+  - first:
+      213: -2382152429167019578
+    second: scps_290
+  - first:
+      213: 2162124274286133249
+    second: scps_291
+  - first:
+      213: 3400544816222616803
+    second: scps_292
+  - first:
+      213: -7955112064164588561
+    second: scps_293
+  - first:
+      213: -7314017732025138991
+    second: scps_294
+  - first:
+      213: 936620384340845336
+    second: scps_295
+  - first:
+      213: 1050107403493940950
+    second: scps_296
+  - first:
+      213: -8210378371645302833
+    second: scps_297
+  - first:
+      213: 7578405561375668750
+    second: scps_298
+  - first:
+      213: 9079843876622779354
+    second: scps_299
+  - first:
+      213: -5960349161178307882
+    second: scps_300
+  - first:
+      213: 2847232602611908237
+    second: scps_301
+  - first:
+      213: -3663506137959720565
+    second: scps_302
+  - first:
+      213: -240251291286391378
+    second: scps_303
+  - first:
+      213: 5121690315380246024
+    second: scps_304
+  - first:
+      213: -943826403735602582
+    second: scps_305
+  - first:
+      213: 2895590729136986275
+    second: scps_306
+  - first:
+      213: 6010325684798248162
+    second: scps_307
+  - first:
+      213: 7383242819232091668
+    second: scps_308
+  - first:
+      213: -6714077489915484775
+    second: scps_309
+  - first:
+      213: 5904981274343878794
+    second: scps_310
+  - first:
+      213: -1621432575097147570
+    second: scps_311
+  - first:
+      213: 6160017970200417243
+    second: scps_312
+  - first:
+      213: 301437545436537091
+    second: scps_313
+  - first:
+      213: -4113504158900881939
+    second: scps_314
+  - first:
+      213: 912878851511628678
+    second: scps_315
+  - first:
+      213: -6611044952349877860
+    second: scps_316
+  - first:
+      213: 5579148242680804482
+    second: scps_317
+  - first:
+      213: -5844478975819299054
+    second: scps_318
+  - first:
+      213: 8480412085290956402
+    second: scps_319
+  - first:
+      213: 1172421189491343419
+    second: scps_320
+  - first:
+      213: -2823519714530209766
+    second: scps_321
+  - first:
+      213: -854298862434623537
+    second: scps_322
+  - first:
+      213: 6657305496498199772
+    second: scps_323
+  - first:
+      213: 406394208627158019
+    second: scps_324
+  - first:
+      213: 8656235114432398866
+    second: scps_325
+  - first:
+      213: 7796624906338515204
+    second: scps_326
+  - first:
+      213: -3019324347603684911
+    second: scps_327
+  - first:
+      213: 6783141392289686542
+    second: scps_328
+  - first:
+      213: -6102715038033489465
+    second: scps_329
+  - first:
+      213: -3862908733330904655
+    second: scps_330
+  - first:
+      213: 6714617689631226524
+    second: scps_331
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guard
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 569
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edede4776da5d946953da6bf10e36ba
+      internalID: 5184663955158131182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTF
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 569
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1eb4bc32782b54fba2d48ee5a7e20d
+      internalID: 6390057043676014329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 570
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a5a7d4f877820478795b6075aa72eb
+      internalID: -5407798021453603776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 570
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2c76a95c7e8b46a00de6c02e44375
+      internalID: -5640059319420733618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 570
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31406b46f11638240a55ed080e436dc2
+      internalID: 3164929240993809794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 570
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0197bd80bd10744e809145fbd78097a
+      internalID: -8463992506566791655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 570
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7950d26e8db8b46971437230feb0ae
+      internalID: -7466074316958994898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D6
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 570
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247942a8a9ec2e248a593cedb829de16
+      internalID: -7597582777183047496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 093
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 470
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60c0142bc3ca41449a0807f62982935
+      internalID: 4348267616386873936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 555
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fb3537e98ec3847a9bba5ecbafae38
+      internalID: 9167360972612348164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 555
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7075f02fba4d6e043b122c595ef96c97
+      internalID: -6838781902151176364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 555
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8474b48d4df2641a475bef6e33c506
+      internalID: -2254923194859617449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 555
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4d4ac8befdb2449a5930ec0fd210dd
+      internalID: 6317353047824952520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 555
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeca4fc435db6a4ebdb134c438da254
+      internalID: -1195655845843731843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 555
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b90fd164bd57064eb1439f64ecca095
+      internalID: -5695999612484572217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 556
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378f7122eb7d86b4bb0bc6f69eae26c0
+      internalID: -6894121546437394914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 556
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71ee2eaf9c13ad469f446724a741163
+      internalID: -2367494843392827109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 556
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f2ad2a7ce48724ea184735c0ef12f3
+      internalID: -8598008251432056776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_18
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 556
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b78f874c914547b21d036ab3826b1
+      internalID: 1442991623831808759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 470
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76c651ecad4db34c99ea22fcd84f71a
+      internalID: 2549131101022081854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 019_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 471
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86570a98aa5fb5f44b46a983af1d25cf
+      internalID: 2041354100288400449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 470
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a235466716ca47b1012109fcdb892
+      internalID: -3287991262771906915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 035
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 470
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d297bea36840b2f41842184ba9ce0b6a
+      internalID: 5144235123128699678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 470
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00edecdffa6a129408d099298e0b068e
+      internalID: 5257364440925927491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 049
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 470
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561ec29168947424c9e615da1ac315b8
+      internalID: -9038935247153544314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_25
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 493
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec790eb9a285b4c9d2eb42368e462c
+      internalID: 4819924191483439175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_26
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 469
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58374f2c6ac80774395ab852181992a2
+      internalID: 3776228652557972667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 073
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 470
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c5a852c5e9a840a26d377412a5943
+      internalID: -3500528491645904546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 076
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 470
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484050e6b4c00994fb6f0c222b19e417
+      internalID: -4464368720603445612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_29
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 470
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80e7df0da63c344b89a54f5bfbe40bd
+      internalID: -4046980648848262662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_30
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 496
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0fa4b0be5eda943b07aa72648d918d
+      internalID: 108968057417743342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 096
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 470
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b696324f0d5bfd74b81ad80738edb978
+      internalID: 1037087365025940574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_32
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 470
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739b22beb4f9c8b40879af0f272398e1
+      internalID: -5180221533347254103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 106
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 465
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49d86a86de138c4590ea6148cee0eb8
+      internalID: 4408998506559745982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 019_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 470
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a026ad92393c4ba40a1e237e2105d2a0
+      internalID: -8854895701560177438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 480
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c609b00af56be4ba764a96aa52baba
+      internalID: -1571677465912223213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 055
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 468
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace13e118ad4c1c48b96da24eb488567
+      internalID: -6260302914306110263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 481
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2a399dfa38fcf419fff7c7344928b3
+      internalID: 632133024882697172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 066
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 470
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27397e44b8d30c48b60f540f90110ca
+      internalID: -3977779107011731239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 131
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 466
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 13, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a9288e25b44e9459add34aecb6ee23
+      internalID: 2551518094793869659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_40
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 470
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6737bba917e9a4388bd8a527c583bc
+      internalID: -5316660287183868892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5b19547c79d24d82c5291621b00ee
+      internalID: 4611724816430048866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_42
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa74db68c769d146af21103282ab68f
+      internalID: -1190897535619497370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_43
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f458280e694cf52478240b7b531a5539
+      internalID: -6679862793453931386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 456
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e55f18b098d3f14781743c3dc1645d3
+      internalID: 4110271347408640198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e16b5b76e31540ab6e9a62f1836f9
+      internalID: -4748215778197085299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_46
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f1e9023026ac44197bd2e14db71878
+      internalID: 6719232508357752249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f458b3a92bc0346bdf2525ca4ff64f
+      internalID: -7375449007497043833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_48
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1056d80e669b42bdcba33e0ea77be
+      internalID: 7789702441365207770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 456
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6778e76e88d2f4db434038c5ffe87c
+      internalID: -4319824544219654220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_50
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ed6481e99903d418bad209b5b472b6
+      internalID: 1888495444528091218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_51
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823a598c3730fd346881a26f58df54d1
+      internalID: -8224577006287824471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a420bdbf8ee9f48802d9852eb2c384
+      internalID: 7874651790786148385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124319ef92ac7404cbe2adac2ff06fde
+      internalID: 7377417952210495417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_54
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35017b0984add449b0395379fdef1a3
+      internalID: 5827691451478498752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a74462f371d3854fa994149a50b1ce1
+      internalID: -5022297324718118289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_56
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53531c0d0370444e90194f8f914d381
+      internalID: -2124333485300208747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_57
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4610a4a1a1c6748b6f8e5b053def29
+      internalID: 5746222356253791634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_58
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b48bbe65c66e5942a1bf5a9c0b69b20
+      internalID: 8679249221924043934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_59
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a745308fdd017b4bb83c67467e6ddf1
+      internalID: 534398097297445652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_60
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3918658d3b92c994fb4aa5dbe2f2a818
+      internalID: -3482467917029674670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_61
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa941d9acc5d5643b7c158993579087
+      internalID: 8660950362977097130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_62
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dfa6def6fb5a343910fb0e9f3298d8
+      internalID: 4609411992576868798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_63
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa79c3e85cd987469c685207e9310cd
+      internalID: -7043863690790349065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_64
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1538985c305fa5949994c7a9aa3d81ff
+      internalID: -4881541740929035688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_65
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04bc0b3d215ece4db7195042a699e50
+      internalID: -3931011106204477582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_66
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeb3594b358bc84fb95e15cf7be83b2
+      internalID: -6506171603385042721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_67
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 456
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d72b99dcd0ed6a46881120af50b984c
+      internalID: -929904203775779699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_68
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 456
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d735d635770bd854587572657c526d4f
+      internalID: 6806612830826651915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_69
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693d1ad07ba5e464dbc36d4aa353e513
+      internalID: 8095847199713640717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_70
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 455
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e507a43eb398346adedaab1960cdc4
+      internalID: -6295357239866149568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_71
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 455
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa87688d3e43b342972581e105a9ee8
+      internalID: -924556693527878359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_72
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1ecbe99d63d6f468769a37ac4af047
+      internalID: -5488476591167701036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_73
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 456
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa49437bb3a435a4b851c3c42343225f
+      internalID: 5209183250676368258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_74
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bf9b74041ad2f4da65eee5c55bfebb
+      internalID: 183842951038398515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_75
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb83cbc93562aa849bb986fcf21c3f27
+      internalID: 6760852901501060516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_76
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44dfb30cc8fe9c44b483fbc6b270159
+      internalID: 9118680094599628669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_77
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce72bb988eae2f4d9dd710692ec80b6
+      internalID: -2961315364422942737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_78
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9116ece739c52004d81b4bb9b35e1f47
+      internalID: -2655453928224474631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_79
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65996c9b57aadf4c8759537b8f71bde
+      internalID: -8548461055994239496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_80
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b742a1e2aa3394d89f361c296146af
+      internalID: 7725031965742513191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_81
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e25e6994a18b5143a0ac9b7f0620cbd
+      internalID: -8611107492200602807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_82
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39982fff1ec20484091ec2ca6d9d8a89
+      internalID: 6636694338573856784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_83
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 456
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e778be543ec09ee438c1a2b78967e6a4
+      internalID: 5950614522638008699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_84
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802c8a8a1bcda6499cb521c863d43fb
+      internalID: 5719100306464428831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_85
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 456
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5793fa0e9a898c4baa72714624ea2bd
+      internalID: -3800309927838401049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_86
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 456
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8c328121a42704cadf7bb317cfb4b0
+      internalID: 8411405536994564443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 166
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 371
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa75cb1634268d41844389325b8dc72
+      internalID: -6848136828857868286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 173
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 371
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760f17d4e0cdbfb419261437a159b32d
+      internalID: -1300805632072158905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 370
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaffafecf1b2aa14fa1c968e22971892
+      internalID: 5938548863021194942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_90
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 371
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2f1b7781ce2da41aee486a25c45f8a
+      internalID: -2718531019097836056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_91
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 371
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8985c7f26e6878d4282ab374695beab1
+      internalID: 4756981776676464457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 184
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 371
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0644e8e7dcd4035429ce6e2dc5d072f9
+      internalID: 5281638212969618885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc30c5aff466bc74fab16fd71df4765f
+      internalID: 6373337373769663607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_94
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 371
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9febc181c8c584f805db057f5c0de9
+      internalID: 417648039258420267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 258
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 371
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be917ad63a06a714896755db71a158b9
+      internalID: 271178689467477090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 294
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 371
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03c1f60bc0e3c34b92c0d0dc12a240a
+      internalID: -7297813835372463453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_97
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 371
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b19abd60b6cf946a9e9b183b4027ca
+      internalID: -8404687236603638454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 343
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 371
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ef0ccbff21a84988de61bdc5d21c2
+      internalID: -1960017832309878007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_99
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 371
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e83806e492e65d4ba3adf5f0c0b425f
+      internalID: -4265503605519686612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 420
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 371
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbfe0fb218a5ec43a31e0390a7cbc50
+      internalID: 3941397925203812741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_101
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 371
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92234f59c317fbf48abe2f8fa5813bc9
+      internalID: 851391027553638417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 500
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 371
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b90e78ad3a8f047add067c32e6cccc
+      internalID: 5341915492894051597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_103
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 371
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46dbbaba16a42f4a901c60fc157a109
+      internalID: 2380104059911481725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 529
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 371
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f2743fff5bdf4cbd4d04fb74b2619
+      internalID: 7541321262530775948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_105
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 369
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0c3ca7c69e6264d9d54a8b12d33e19
+      internalID: 5444873617880627255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_106
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 364
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b482e13f425cf22418738a1c9e94be93
+      internalID: 3640322016989128640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 662_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 369
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5206d9d46ad7f234a8545f7b7e2a41fa
+      internalID: -3889326957576019597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 662_2
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 369
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f9221546f5eaa4981e9df46e707287
+      internalID: 3231585765091703911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 682
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 370
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e539a4a2c13bc34f8257785e2ca4f99
+      internalID: -2314672243943286610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 701
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 268
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958e6748c2f83fb4aa189e88d1adccdb
+      internalID: 4934624501295253724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_111
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d03f65543bc2c48af95cb52f032d07
+      internalID: -4105631429237714829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_112
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca48b748dc07edb40a36d7bab133d124
+      internalID: 8315942950193793010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_113
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 357
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798a3bb78815fd4a96094a239648d1f
+      internalID: -4550698304401706472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_114
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 357
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adadb3ab5f80d544aea189fc79bbc08
+      internalID: -170242858725466651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_115
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 357
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f6fde0d92d7ed4da2546ce0b06e1ee
+      internalID: 2772116033082066419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_116
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f18547b30b39445bc7aa9dfdfb087b
+      internalID: -6095431909568758100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_117
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5aa7a8b7ac8e04ab3b1d7a66c9f732
+      internalID: -4926544491714551597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_118
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14fefc622b37bb4185daf7b609add97
+      internalID: -5090871039198146716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_119
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fb10a722705094ca74526c6b5e6d4b
+      internalID: 2076152879437408267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_120
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c5738b8c8c1f4481f6ac96b01a131
+      internalID: 2295578807524513276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_121
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494f8ae1ec361d14593941002134c42d
+      internalID: 4549691758835050383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_122
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9d20426985ecc40894abf5c9c84793
+      internalID: 3989848813757548430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_123
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc01ff91f52bfe248a1788703906548f
+      internalID: -3865531357379099999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_124
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0705186e591b01b4fab03d811780e002
+      internalID: 7721635582695160165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_125
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faf5782bf6aed040ac5e3dc8bc8cb8d
+      internalID: -8843926663814955758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_126
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9622a89b69c8c5b4ab0c67f684de6270
+      internalID: -1290795536109576319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_127
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484cd8ea5c50f0e448a410e5b240f7e2
+      internalID: 5487838988468757358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_128
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8b53673618e4a42b01ccff6a2d8702
+      internalID: 8411356928489410450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_129
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce953a808d574a8448264d77aa575b98
+      internalID: -1965505851350500090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_130
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 357
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef699704dc42247bf328cc220f80c9
+      internalID: 3871097248609354785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_131
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357049215ad98924495eea206e5df361
+      internalID: -5639773850514904802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_132
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e752c253fc892459fd4aba1c130be4
+      internalID: 8559536704342520240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_133
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f16a28c126c574b95086012615488d
+      internalID: 5899419114419026698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_134
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9ba5076956f34d86e3f2c0ce8ac23
+      internalID: -5221002501097881779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_135
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aec3512b6c3d4e479d14f12b0e13477
+      internalID: -9128654603863115591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_136
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af335692561afc04d87ff22c24d56dd4
+      internalID: -7019979626769051454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_137
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb93b3af95677ce4abaa7470db7c03b9
+      internalID: -7131235159674720175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_138
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848fec8625d0a074492c65deea384248
+      internalID: -7509052076122785551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_139
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 357
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c857a56d1115b41b836102b25ab3e9
+      internalID: -5052324399317079263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_140
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f900224b5938649a9905e90ff8a51b
+      internalID: 6134520776810106555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_141
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 357
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cc6dfe59904bc4f9119660f086aa9f
+      internalID: 2388141156546169955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_142
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d3e6811ef5ede4ba7edc91e92fd88f
+      internalID: 1804294491739803502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_143
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 357
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369d30b7ffc45bb4ea753c3e6cae8aea
+      internalID: -1577123739983880090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_144
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 357
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5187767b35db32e48a1da8c529fec9a7
+      internalID: 6955997308346332784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_145
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a24e7222ecd264d8283d9b84197cd1
+      internalID: 1915647234972834047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_146
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 357
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3451291029fcdf34b947317130fc889f
+      internalID: 1436838815775263223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_147
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0be8489bb0689946ba56397384a64bc
+      internalID: -3706117971609665974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_148
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eedc7d03d7872247925dc6ecc842a1e
+      internalID: -1704415759974381214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_149
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 343
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf665b6a3d81a3c4fb9dae96b3630178
+      internalID: 7254523668235989063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_150
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e1717a20d98a740adc91add6b5ad4f
+      internalID: -1203105013594549325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_151
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d422ee15fe4862f449b4841d52d3e59b
+      internalID: 3266291523585641573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_152
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e076dfcd646ae43ba36406bf369fa8
+      internalID: 3937391149711406794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_153
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb09732f885c6e499821a8164826f27
+      internalID: 4126324126679224327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_154
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 357
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955cce552ec8df6469aec0160fc26bea
+      internalID: 3853850170756745449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_155
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 357
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0bf38bd45c2f445aebd4a925458efb
+      internalID: -6480425393149011799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_156
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4627fa82760d98e4b90fc781b1e0970f
+      internalID: 1267931360525523065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_157
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41097b7f02b742f48a4c58611c25440f
+      internalID: -3133555926533611069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_158
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4450aa58cf52e344d962f25df56f9918
+      internalID: -4797789907867783770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_159
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7997b56cc97b243a8667635519090f
+      internalID: 6246245161017207953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_160
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60354463306624b8938c529e69b4a3
+      internalID: 4502436234877583241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_161
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 357
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0fb597b9850ec44b4c636421c035d7
+      internalID: -6560139395969636467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_162
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 268
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc15ea13b3f8f1459d570461894177c
+      internalID: 5754457789839155927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 284
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26958fbe23aa1d045953c11bc25a54c2
+      internalID: 3358357037361447433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_164
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 254
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603202416f0bf0a4d9c80eec49af3546
+      internalID: -3813018078078607454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_165
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 267
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0bc650f6ba3e74ea1dd667268435b0
+      internalID: -970299392531974585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 870
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 271
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a52de5c9be73e9448bdab7adbb6504f
+      internalID: 2389235989636937413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 876
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 268
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e329e89b042c0b14a8f689931ac7e46c
+      internalID: -1422250667158339101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 914
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 268
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c0e1dcb7c1fa4d81272dc5ddfdd62
+      internalID: 3402511553415692453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 939
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 268
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925dedf406598814e901dfea38cdafd4
+      internalID: 2114859794847689210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_170
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 268
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca15d8923059064c931657096e256fd
+      internalID: 1246099203584580011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_171
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 268
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb3b90fa8fb1f4a90a0b0bd9f09ee7
+      internalID: 2517434870130556294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_172
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 292
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df28131fb183544e8f8b782fbb55486
+      internalID: -6397118801411482895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1000
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 268
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59bde306e2fd334189f269d269d6e16
+      internalID: 1007296233598723925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_174
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 268
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9bfcaaa792f6045abd723d1e4b67e9
+      internalID: 473590896829078764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_175
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 268
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ad7c5f9e02c4448b36faa8fced5e1
+      internalID: -2867427578658949411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_176
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 265
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a56008fe5817ac47878a1f63e059524
+      internalID: -292510958935070560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_177
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 254
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c369dc3eb020b364b9501b0bb2b895ea
+      internalID: 5601504611671628512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 714
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 268
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d701e84a377b6a543b83a13834f787bc
+      internalID: -4649505515230769547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_179
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 268
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08f8b59aeded94a9105d7bd3dcdace
+      internalID: 6381426947334570646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 999
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 268
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdff6a0247739ac429798b4223e26400
+      internalID: 276451970492566426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1424
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 268
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8873be07dd7ed44bbdf10e90639dbd
+      internalID: 7261059124046574082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1499
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 268
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc58ac618fe01e43af091a87c3512ec
+      internalID: 2878598221467835447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_183
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 254
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef94a3117b54d04db694fb48a9b7c0c
+      internalID: -6635429257212658563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_184
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 254
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc57b124ef2b134fbe20ffe6161003a
+      internalID: 2566347352543788885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_185
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab1c06e8e7e0e742ad1973a7cfc9e90
+      internalID: -5817506271279134137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_186
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62a9f5b4e8548640a46bbfc8c42a3bb
+      internalID: 3001622490790452164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_187
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace0bac14d6355a428d1381ff3ab3f44
+      internalID: -3831900372842411095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_188
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927dc1c70fa271e4ba3813255c09a7e3
+      internalID: -543270881736640238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_189
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a613129c322311b438d15cd707633669
+      internalID: -621374634171196210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_190
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fe395a20bf2274c99e64f1186d0a5c
+      internalID: -1395967053145492460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_191
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9e935b355515b4190564bf0ba9fa2d
+      internalID: 1045217100176514767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_192
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9380e5910dd5e4aa299adb07d958a8
+      internalID: -6113396437887617310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_193
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecb07a2d9508cd45bcec2c94f4568f5
+      internalID: -7473580826556265778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_194
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59d420f04116cf41a6c898fcd1dce23
+      internalID: 3136370370818739089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_195
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d261c66a09720d04bb25364d9256eb2e
+      internalID: 4679308124736668506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_196
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8c931cc7ce98d46b15c645d519c027
+      internalID: -7734510363844785526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_197
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88f64d2f0b1c34abe2d729ef167448
+      internalID: -8833324788163787725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_198
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3bea8ec7d8ec4a8a40891901837b4
+      internalID: -1566067587817344442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_199
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebab3365219d3e418b4f19b8622a1fe
+      internalID: -6670400273346720915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_200
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31540adfa5825440965ee7448f9522b
+      internalID: 3822515913392970199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_201
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7698e4d331893754a80c46921bd138ab
+      internalID: 1600008230286042015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_202
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078cf50b1ea041b42aabb6885c6dc1b8
+      internalID: -980799296186426160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_203
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a6e200bea6894db7da23ce25a0733
+      internalID: 7449859108696765800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_204
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0794884bede78dd428d3e0a441d1f547
+      internalID: -1290290825271523454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_205
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e10d49fb9b3bbe49949bf049ce0e0f2
+      internalID: 5560950562622520762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_206
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 254
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8532186c5486fda4093554472889ef5f
+      internalID: 2360247585194346050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_207
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdae4b999c63ba44a7dc1ad857b58ea
+      internalID: 2576942021459398221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_208
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b6f6b8ff6b8a5408459621fced651f
+      internalID: -317806034888953947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_209
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 254
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c885aaa7997af9140831c37420cd763a
+      internalID: 4385898783662522239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_210
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dc32bf8c36726428e98c3f60216828
+      internalID: -6106018452296930437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_211
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba06afea5035c94e9644c0a6518e885
+      internalID: -7562691159657997424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_212
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73da93252d1887d41bcfb8d8f38240c8
+      internalID: 1619982009992571519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_213
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 254
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206eb8136a46f8740a3bd959f6e51409
+      internalID: 3497848280577569316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_214
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb3a97a690889a42984934d3df35aad
+      internalID: 7666260241560541606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_215
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b95e82dd68c35446a4cb25a766420ab
+      internalID: -3863254145353078173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_216
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 254
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1bf8794a13c464097ea8948dbcbf30
+      internalID: -500888695334411553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_217
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf34a490e89d8044adacfb074c906cc
+      internalID: 5494175593567580709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_218
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 254
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807bb68a8692f2d459a6c26852ddc93b
+      internalID: 2900365239664506189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_219
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 730
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cce9e37c6ff3334db981f40fa4f64e4
+      internalID: -6709586794535885168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_220
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efad28d80547adf4099ce3322e57aabd
+      internalID: 4090679480924503193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_221
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce7442c3dd16e849b484793b2599635
+      internalID: -5639678401430485259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_222
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c66d229970ad8941ad45fb9d5a84989
+      internalID: 7224924736252816949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_223
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb94206a0c90b742a6557fd925ddc91
+      internalID: 1923302756613315978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_224
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd52810e2e31e44d86f7b986f8bbbb1
+      internalID: -5652480699578525807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_225
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb99e49f3cc84b479de14e2494d70e8
+      internalID: -3804002289621848549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_226
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4951a58282dc1cb4caf409d9b429f5e4
+      internalID: -2264081209354553768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_227
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161ba8833ea98eb45a4351283f2cd9b6
+      internalID: -7784173832733371311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_228
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26887c92fbd73474bad5b4820e9d5cbd
+      internalID: 3735179961416034198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_229
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5339178decf2ef2498c4d4bcbcef132f
+      internalID: 3656192247582354278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_230
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a30be89e45db14b9ef38e3b74de5fb
+      internalID: 4116412470313179803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_231
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c0dec71d5766841955cdb97109e16c
+      internalID: 3847427616833104027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_232
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acd3662a90aa3e43a3eacec4d05fd5a
+      internalID: 2839483664509920592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_233
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a5e5bfe9d9b4c43b89d05500fe95ab
+      internalID: -4354837227130887206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_234
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729ec27ea103c4f46b66150864ae69c3
+      internalID: 7955000033307015150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_235
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b96450267ee0484dbd928db43440adf
+      internalID: 7577895601284379727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_236
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 131
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d86b3e43e629443afd0f868f223b65
+      internalID: -7500493102523114819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_237
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c63d15f85763445bde7498bed5e27e
+      internalID: 5343401115101689476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_238
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 131
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb877fbff32c77429e92e52e07d15f0
+      internalID: -2666746548402958061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_239
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac64fd3894d7a18468b4e380a91e6293
+      internalID: 8489699664588120804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_240
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 131
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb1e262af66be946b7aaf34d5631a96
+      internalID: -3009839083016175249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_241
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11adfdef72239df45aa26641a02c1975
+      internalID: 6682116197786238322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_242
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 131
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594aebde411f8ec468f9efbeb63a99ec
+      internalID: -2549691838090956435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_243
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e5c243a9de8641b59d3a5ba633070
+      internalID: -15001908888895299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_244
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 131
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e519be51d1d48934daf75c2edfaaa045
+      internalID: -1750033378991801214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_245
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882f054e7843a7a4aa387ca9d0d634a6
+      internalID: 7347865655991939273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_246
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592e29dff917fdb4685d61c499005862
+      internalID: 9122775118188380759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_247
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e035bfb0bf371854d8f4f822bb129b6c
+      internalID: -2804349418667299315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_248
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 131
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768c51b77fa75d64ea8f16a4547bdc75
+      internalID: -1186605018240881430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_249
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802157b0ed0ea6648913eaa026e4587d
+      internalID: 1289777275517379775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_250
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9934b589820eaa3419592eef21aa5a8d
+      internalID: -8100898454986861217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_251
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398395d937819d54296108948d357f7c
+      internalID: -5597392797337253248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_252
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b15cbc53ff198d43b473405e6039bf5
+      internalID: -1396666507111649497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_253
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297cfd44151e104aa8d930f5251bf6f
+      internalID: -5036409676479099982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_254
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d150b671c43cbb438c0382d9df65ea9
+      internalID: -4561039642840985537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_255
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4a07a759ccd8b4fa219dfffbb82739
+      internalID: 6024595331678131916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_256
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d98632d539bf1e458a128a09dd25693
+      internalID: -4788802338902843338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_257
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8b529380662642bd3ee42357d7d65
+      internalID: 2182962941181722145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_258
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906f7c43eec2c564188143759b81ed7b
+      internalID: -3119480063518839047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_259
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d1d47073969344ea2d5ea7d32486cc
+      internalID: -4041934801927687540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_260
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e7e83f7a46204c9df7d63a52c5202
+      internalID: -9213085371756987275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_261
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184da2317e71df2419d19ca590f6e2bd
+      internalID: 4361760793194250047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_262
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 131
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb754644a556599458df52755f3d69bf
+      internalID: 3067109600668072871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_263
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 133
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b36a6d13f3c49449764bd09106e700
+      internalID: -5223581881747162879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_264
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 133
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1dec94045f6d8448ef566205ab1292
+      internalID: 1498148334031859128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_265
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 133
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799927dd881bc854c85efdc3a2e6a1fc
+      internalID: -4255560237541816824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_266
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 133
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d783bdee8de2b994bad9299d245969bd
+      internalID: -8760332764386516008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_267
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b70faf9a34e18c47802b76421311571
+      internalID: 6798776780904042966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3001
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 23
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e5342b9ffd753478d238b9577a5e67
+      internalID: 6205720062292346714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3008
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 23
+        width: 127
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdba08bb198d3e4595e3d9c84362c82
+      internalID: -243653763557681181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3166
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 23
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7be58d3e8ca446a0288cdf1b453e2
+      internalID: 8755763219555008634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_271
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 23
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51ca28bf5ac00042b5110ce6dba4ae7
+      internalID: 5925401018783943627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_272
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 23
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb615cde6dee714f942eedb4330ad9f
+      internalID: -4003647580444257990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3999
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 23
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543493b592b2b704ba81e09775d9f4da
+      internalID: -6424252366649506449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4000
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 23
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec71609f7d35f7f4099ffd10a88143ab
+      internalID: 3766515488062910087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_275
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 23
+        width: 96
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecca26224882df499ff5875200dd686
+      internalID: -4681138763439211633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4601
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 23
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9114b9df0519548bfd19be7a381fc1
+      internalID: -5898764223207878423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4666
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 23
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318fa875b39b71143b7640313e9ed097
+      internalID: 5566625402463771942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_278
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 21
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a92d502f9dc9d48a20f7b7e689ed15
+      internalID: 7628734853721562238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_279
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 22
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f036eefefd131b4e9d14ff63b689622
+      internalID: -6717701415914450265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4999
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 23
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be58804b8e5c6eb448375e3a1b8602b7
+      internalID: 1217332845662732394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_281
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa02a6354ec9b546adf2f937e6c6a25
+      internalID: 2956539778033458634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_282
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 10
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fce4dfcc118c4408228e0ff38343b7
+      internalID: -3773112483238753497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_283
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 10
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176ef0e4a00b2eb41bb9efabee2f0e9b
+      internalID: -1164039680046357883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_284
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 10
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e962613cd3e6358409507f8c728d8dc7
+      internalID: -8106168957904283817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_285
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef754da9f5ef914d8cdf4880ab31f8c
+      internalID: -1325376971321231867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_286
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 10
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84d6d59e39a6454ca0233324c07e0d1
+      internalID: -5847955193133066648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_287
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 10
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4c25a865eaef4fbdc1fb16d80ff8b
+      internalID: 7230320515227428333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_288
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17355f96d355cd40a2ed3f36e3b93b4
+      internalID: 3082806837095388200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_289
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 10
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ded9c6b82063542a1cf47d0c8db114
+      internalID: -7355431400302211344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_290
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 10
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3acbbb9b0b446a49831f4de35a6c5d0
+      internalID: -2382152429167019578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_291
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132dd7f64d8b07b4f8f76e3ac50f46ea
+      internalID: 2162124274286133249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_292
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 10
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047d5fbe5e4d9b94e8ea53e7c2b1862e
+      internalID: 3400544816222616803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_293
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fba419ffb41f949b746071e494c06d
+      internalID: -7955112064164588561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_294
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabec65df91e0c34f93dc18dcac32d52
+      internalID: -7314017732025138991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_295
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 10
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91491b94337413349a8beea16e8fb057
+      internalID: 936620384340845336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_296
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe999dd1acad0b14db30808ee07e0b34
+      internalID: 1050107403493940950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_297
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca47a4aabd0e146b58e90c666c74b1
+      internalID: -8210378371645302833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_298
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1563e0ba69114489e48cf944b7948e
+      internalID: 7578405561375668750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_299
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 10
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5225162d5059a4d990550dad016294
+      internalID: 9079843876622779354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_300
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e86f17ab28d15c4ca652198bf0785b1
+      internalID: -5960349161178307882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_301
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34af95cf322a13e48913d710b765f3a4
+      internalID: 2847232602611908237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_302
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83fbfa80437dab41ad3f9019502766e
+      internalID: -3663506137959720565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_303
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec64ceb4457e5a4b832698f819f5ceb
+      internalID: -240251291286391378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_304
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54b0b51c5f996541b09986512a80202
+      internalID: 5121690315380246024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_305
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 11
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe9bfb9fdfae641a8ad218ea6e6f78
+      internalID: -943826403735602582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_306
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 11
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3033e4e7bbb23d4396aec207746d63a
+      internalID: 2895590729136986275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_307
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 11
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802c0d1b1cac6374b8eed6aed77bcc63
+      internalID: 6010325684798248162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_308
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 11
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c7575d0f32161448dfbd337c8d8135
+      internalID: 7383242819232091668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_309
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7acf18c07272e4caeaaa8868377ff6
+      internalID: -6714077489915484775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_310
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c451af88530b34080326c486c34f0e
+      internalID: 5904981274343878794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_311
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519cb410fd4d06b4ca98e9d7b2cee76c
+      internalID: -1621432575097147570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_312
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af2cf0cc36c44c42ab2f07c59050f5e
+      internalID: 6160017970200417243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_313
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9607add09ec9a2b4fbddf94eaa4c9365
+      internalID: 301437545436537091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_314
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98bbcbc0e317ea47b540e09fef9419d
+      internalID: -4113504158900881939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_315
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 10
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a660e9ee5dcc2cd4e9dea5e2a6d2d196
+      internalID: 912878851511628678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_316
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d6407226aac548a65fcb63f53afcb
+      internalID: -6611044952349877860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_317
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c861516e535a5c94192e7425b8e199d8
+      internalID: 5579148242680804482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_318
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d45754e5e63644e837357e9a288d18
+      internalID: -5844478975819299054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_319
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592601d44fddead4b948c824ac32ba74
+      internalID: 8480412085290956402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_320
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 9
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4c1c367e0f784c84bfdd054c17c1b
+      internalID: 1172421189491343419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_321
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63556f5957bad784f8403e40416a851d
+      internalID: -2823519714530209766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_322
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 10
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077b33eaaaf4e3b4dbec3150a533e07a
+      internalID: -854298862434623537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_323
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00dffed49f4674591f799bbc43f57c
+      internalID: 6657305496498199772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_324
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20a340cb162f6f4890f5c2b795f6828
+      internalID: 406394208627158019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_325
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc91d00a0dad24788bddfcb5d326ea
+      internalID: 8656235114432398866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_326
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7acc76ad99e81d4989e880a6e59605b
+      internalID: 7796624906338515204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_327
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f69816563231644aac6135566933ae
+      internalID: -3019324347603684911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_328
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 0
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9f439aca58cee4b9f3497863efdb63
+      internalID: 6783141392289686542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_329
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ec9317b18029547bc6dfca34906975
+      internalID: -6102715038033489465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_330
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7903ea3cd531ec949b15662dec000964
+      internalID: -3862908733330904655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scps_331
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c147017a7f15948975299c3d4a68d2
+      internalID: 6714617689631226524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
