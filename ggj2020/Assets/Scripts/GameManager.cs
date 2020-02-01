@@ -5,7 +5,7 @@ namespace Assets.Scripts
     /// <summary>
     /// The types of staff that exist
     /// </summary>
-    public enum Staff
+    public enum StaffType
     {
         research,
         security
@@ -46,7 +46,7 @@ namespace Assets.Scripts
         /// <summary>
         /// The staff that exist in the given room
         /// </summary>
-        private Dictionary<Staff, int> staff;
+        private Dictionary<StaffType, int> staff;
 
         /// <summary>
         /// The scps that are active in the given room
@@ -70,10 +70,10 @@ namespace Assets.Scripts
         public GameManager()
         {
             // Create the defaults for the staff
-            staff = new Dictionary<Staff, int>()
+            staff = new Dictionary<StaffType, int>()
             {
-                { Staff.research, 0 },
-                { Staff.security, 0 }
+                { StaffType.research, 0 },
+                { StaffType.security, 0 }
             };
 
             // Create the defaults for the SCPs
@@ -101,7 +101,7 @@ namespace Assets.Scripts
         /// Used to increment the number of a given type plus one
         /// </summary>
         /// <param name="staffType">The type to increment</param>
-        public void AddStaff( Staff staffType ) 
+        public void AddStaff( StaffType staffType ) 
             => staff[staffType]++;
 
         /// <summary>
@@ -200,7 +200,7 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="staffType">The type to return</param>
         /// <returns>The number of staff of that type in the room</returns>
-        public int GetStaff(Staff staffType)
+        public int GetStaff(StaffType staffType)
             => staff[staffType];
 
         /// <summary>
