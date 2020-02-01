@@ -147,7 +147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 504678839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a580d8d26eee1b04aa2e8c1ea4b30608, type: 3}
+  m_Script: {fileID: 11500000, guid: 4178b1e6778887e44800c14ad9551565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 1047097088}
@@ -190,7 +190,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 12b0195c12a2b564887a5f612b4e564e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71b30901130bee64985e136ba27dbaf4, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -338,7 +338,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: f3587bdfe3a91584aab090964df0ce05, type: 3}
+  m_Font: {fileID: 12800000, guid: 78aa9b027bf38874f928f121fc9a2842, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4281597696
@@ -359,7 +359,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f3587bdfe3a91584aab090964df0ce05, type: 3}
+  - {fileID: 2100000, guid: 78aa9b027bf38874f928f121fc9a2842, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -430,7 +430,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: f3587bdfe3a91584aab090964df0ce05, type: 3}
+  m_Font: {fileID: 12800000, guid: 78aa9b027bf38874f928f121fc9a2842, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4282384128
@@ -451,7 +451,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f3587bdfe3a91584aab090964df0ce05, type: 3}
+  - {fileID: 2100000, guid: 78aa9b027bf38874f928f121fc9a2842, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

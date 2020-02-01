@@ -26,6 +26,8 @@ namespace Assets.Scripts
 
     class GameManager : Singleton<GameManager>
     {
+        public string playerName, siteName;
+
         /// <summary>
         /// The money that the player will have
         /// </summary>

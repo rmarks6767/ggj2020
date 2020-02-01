@@ -2,76 +2,85 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public delegate void RunCommand(List<string> parameters);
 
 public class Terminal : MonoBehaviour
 {
-    public GameObject display, input;
+    // Varibles that hold the display and input text
+    public TextMeshPro displayText, inputText;
 
-    private TextMesh displayText, inputText;
+    // Variables that control the cycling of previous commands
     private List<string> previousCommands;
     private int prevCmdIndex;
+
+    // Varibles that control the input
     private Event e;
+
+    private bool isInputLocked;
 
     void Start()
     {
-        displayText = display.GetComponent<TextMesh>();
-        inputText = input.GetComponent<TextMesh>();
         previousCommands = new List<string>();
         e = new Event();
+        isInputLocked = false;
+        WriteToDisplay("Hello &#^$%@%! Welcome to Site %#!");
     }
 
     void OnGUI()
     {
-        if (Input.anyKeyDown)
+        if (!isInputLocked)
         {
-            e = Event.current;
-
-            if(e.isKey && e.keyCode != KeyCode.None)
+            if (Input.anyKeyDown)
             {
-                if (Input.inputString != "")
-                {
-                    inputText.text += Input.inputString;
-                }
+                e = Event.current;
 
-                if(e.keyCode == KeyCode.Return)
+                if (e.isKey && e.keyCode != KeyCode.None && e.keyCode != KeyCode.Backspace)
                 {
-                    EnterCommand();
-                }
-
-                if(e.keyCode == KeyCode.UpArrow)
-                {
-                    prevCmdIndex++;
-                    if(prevCmdIndex > previousCommands.Count)
+                    if (Input.inputString != "")
                     {
-                        prevCmdIndex = previousCommands.Count;
+                        inputText.text += Input.inputString;
                     }
 
-                    CycleCommands(prevCmdIndex);
-                }
-                else if(e.keyCode == KeyCode.DownArrow)
-                {
-                    prevCmdIndex--;
-                    if(prevCmdIndex < 0)
+                    if (e.keyCode == KeyCode.Return)
                     {
-                        prevCmdIndex = 0;
+                        EnterCommand();
                     }
 
-                    CycleCommands(prevCmdIndex);
+                    if (e.keyCode == KeyCode.UpArrow)
+                    {
+                        prevCmdIndex++;
+                        if (prevCmdIndex > previousCommands.Count)
+                        {
+                            prevCmdIndex = previousCommands.Count;
+                        }
+
+                        CycleCommands(prevCmdIndex);
+                    }
+                    else if (e.keyCode == KeyCode.DownArrow)
+                    {
+                        prevCmdIndex--;
+                        if (prevCmdIndex < 0)
+                        {
+                            prevCmdIndex = 0;
+                        }
+
+                        CycleCommands(prevCmdIndex);
+                    }
                 }
             }
-        }
 
-        if (Input.anyKey)
-        {
-            e = Event.current;
-
-            if(e.isKey && e.keyCode != KeyCode.None)
+            if (Input.anyKey)
             {
-                if (e.keyCode == KeyCode.Backspace)
+                e = Event.current;
+
+                if (e.isKey && e.keyCode != KeyCode.None)
                 {
-                    Backspace();
+                    if (e.keyCode == KeyCode.Backspace)
+                    {
+                        Backspace();
+                    }
                 }
             }
         }
@@ -109,5 +118,31 @@ public class Terminal : MonoBehaviour
         {
             inputText.text = "> " + previousCommands[previousCommands.Count - cmdIndex];
         }
+    }
+
+    public void RunCommand(string command)
+    {
+        inputText.text = "> " + command;
+        EnterCommand();
+    }
+
+    public void WriteToDisplay(string text)
+    {
+        StartCoroutine(WriteCoroutine(text));
+    }
+
+    private IEnumerator WriteCoroutine(string text)
+    {
+        isInputLocked = true;
+
+        displayText.text += "\n";
+
+        for (int i = 0; i < text.Length; i++)
+        {
+            displayText.text += text[i];
+            yield return new WaitForSeconds(.1f);
+        }
+
+        isInputLocked = false;
     }
 }
