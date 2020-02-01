@@ -5,18 +5,13 @@ using UnityEngine;
 namespace Assets.Scripts
 {
 
-    public class NewBehaviourScript : Room
+    public class ResearchRoom : Room
     {
-        // Start is called before the first frame update
-        void Start()
+        private BuildingType building;
+
+        public ResearchRoom(BuildingType building) : base(building)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            this.building = building;
         }
     }
 }

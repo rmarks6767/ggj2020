@@ -6,18 +6,32 @@ using UnityEngine;
 namespace Assets.Scripts
 {
 
-    public class Security : MonoBehaviour
+    public class Security : Buildings
     {
-        // Start is called before the first frame update
-        void Start()
+        // Max ammount of floors possible in the building 
+        private int maxFloors;
+        private int numberOfFloors;
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="maxFloors">Max floors per building</param>
+        /// <param name="maxCells">Max cells per floor</param>
+        public Security(int maxFloors = 5)
         {
+            this.maxFloors = maxFloors;
 
         }
 
-        // Update is called once per frame
-        void Update()
+        public override void Destroy()
         {
+            throw new System.NotImplementedException();
+        }
 
+        public override void Upgrade()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
