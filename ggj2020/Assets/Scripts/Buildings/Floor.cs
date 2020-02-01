@@ -2,9 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Floor : MonoBehaviour
+namespace Assets.Scripts
 {
-    
+    public class Floor : MonoBehaviour
+    {
+        public BuildingType building;
 
-    
+        public Floor(BuildingType buildingType)
+        {
+            building = buildingType;
+
+            switch building
+            {
+                
+            }
+        }
+
+
+    }
 }
