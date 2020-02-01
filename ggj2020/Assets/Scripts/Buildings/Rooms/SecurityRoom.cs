@@ -62,6 +62,48 @@ namespace Assets.Scripts
             return true;
         }
 
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name="removeName"></param>
+        /// <returns></returns>
+        public SecurityGuard RemoveStaff(string removeName)
+        {
+            SecurityGuard staffStorage;
+
+            for (int i = 0; i < residentGuards.Count; i++)
+            {
+                if (removeName == residentGuards[i].name)
+                {
+                    staffStorage = residentGuards[i];
+                    residentGuards.RemoveAt(i);
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name="removeName"></param>
+        /// <returns></returns>
+        public SecurityGuard FindStaff(string removeName)
+        {
+            SecurityGuard staffStorage;
+
+            for (int i = 0; i < residentGuards.Count; i++)
+            {
+                if (removeName == residentGuards[i].name)
+                {
+                    staffStorage = residentGuards[i];
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
 
         /// <summary>
         /// If the upgrade is invalid will return false
