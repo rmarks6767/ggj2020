@@ -22,7 +22,7 @@ namespace Assets.Scripts
         keter
     }
 
-    public delegate void RunCommand(List<string> parameters);
+    public delegate string RunCommand(List<string> parameters);
 
     class GameManager : Singleton<GameManager>
     {
@@ -74,8 +74,8 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.CaptureSCP},
                 {"list", RunCommands.List},
-                {"change-room", RunCommands.ChangeRoom}
-            }
+                {"change room", RunCommands.ChangeRoom}
+            };
         }
 
         /// <summary>
@@ -106,8 +106,23 @@ namespace Assets.Scripts
         /// <param name="dangerLevel">The type that the SCP is</param>
         /// <param name="name">The name of the given SCP</param>
         /// <returns>Returns a given SCP object</returns>
-        public SCP GetScp(DangerLevel dangerLevel, string name) 
+        public SCP GetSCP(DangerLevel dangerLevel, string name) 
             => scps[dangerLevel].Find(scp => scp.Name == name);
+
+        public SCP GetSCP(string name)
+        {
+            SCP targetSCP = null;
+            for(int i = 0; i < scps.Values.Count; i++)
+            {
+                if(targetSCP != null)
+                {
+                    break;
+                }
+
+                targetSCP = scps[(DangerLevel)i].Find(scp => scp.Name == name);
+            }
+            return targetSCP;
+        }
 
         /// <summary>
         /// Used to get a given staff member
