@@ -34,8 +34,9 @@ namespace Assets.Scripts
             this.maxFloors = maxFloors;
             this.maxCells = maxCells;
             floors = new Floor[maxFloors];
-
+            
             floors[0] = new Floor(BuildingType.containment);
+            floorCount = 1;
         }
 
         /// <summary>
@@ -57,9 +58,21 @@ namespace Assets.Scripts
             throw new System.NotImplementedException();
         }
 
-        public override void Upgrade()
+        /// <summary>
+        /// Returns False if floor cannot be added.
+        /// </summary>
+        /// <returns></returns>
+        public override bool AddFloor()
         {
-            throw new System.NotImplementedException();
+            if (floorCount == maxFloors)
+            {
+                return false;
+            }
+
+            floors[floorCount - 1] = new Floor(BuildingType.containment);
+            floorCount++;
+            return true;
+           
         }
     }
 }

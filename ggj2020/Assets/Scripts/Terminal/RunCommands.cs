@@ -41,18 +41,31 @@ namespace Assets.Scripts
 
         public static string Move(List<string> parameters)
         {
-            if (parameters != null && parameters[0] != null)
+            string command, name;
+
+            if (parameters != null && parameters.Count >= 1)
             {
-                string command = parameters[0].Trim().ToLower();
-                string name = parameters[1].Trim().ToLower();
+                command = parameters[0];
+
+                Debug.Log(parameters.Count);
 
                 switch (command)
                 {
                     // move building <name>
                     case "building":
+                        if (parameters.Count == 2)
+                            name = parameters[1];
+                        else
+                            break;
+
                         return $"Moving to building {name}";
                     // move floor <number>
                     case "floor":
+                        if (parameters.Count == 2)
+                            name = parameters[1];
+                        else
+                            break;
+
                         // Must be able to see if person is in the building
                         return $"Moving to floor {name}";
                     // move out

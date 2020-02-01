@@ -7,7 +7,6 @@ namespace Assets.Scripts
     /// </summary>
     public enum Staff
     {
-        maintenance,
         research,
         security
     }
@@ -36,6 +35,8 @@ namespace Assets.Scripts
 
     class GameManager : Singleton<GameManager>
     {
+        public string playerName, siteName, location;
+
         /// <summary>
         /// The money that the player will have
         /// </summary>
@@ -57,6 +58,11 @@ namespace Assets.Scripts
         /// </summary>
         private Dictionary<string, RunCommand> commands;
 
+        public Dictionary<string, RunCommand> Commands
+        {
+            get { return commands; }
+        }
+
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
         /// and people in a given room
@@ -66,7 +72,6 @@ namespace Assets.Scripts
             // Create the defaults for the staff
             staff = new Dictionary<Staff, int>()
             {
-                { Staff.maintenance, 0 },
                 { Staff.research, 0 },
                 { Staff.security, 0 }
             };
@@ -84,8 +89,12 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"change room", RunCommands.Move}
+                {"move", RunCommands.Move}
             };
+
+            playerName = "#%^$%&$&@";
+            siteName = "%$^";
+            location = "~/building/floor";
         }
 
         /// <summary>
@@ -133,6 +142,59 @@ namespace Assets.Scripts
             return targetSCP;
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list of every cell in the containment building</returns>
+        public List<Cell> FindCells(Containment building)
+        {
+            List<Cell> tempList = new List<Cell>();
+            CellBlock tempCellBlock;
+            foreach (Floor block in building.Floors)
+            {
+                if (block.FloorRoom is CellBlock)
+                {
+                    tempCellBlock = (CellBlock)block.FloorRoom;
+                    foreach (Cell cell in tempCellBlock.Cells)
+                    {
+                            tempList.Add(cell);
+                    }
+                }
+            }
+            return tempList;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list of every empty cell in the containment building</returns>
+        public List<Cell> FindOpenCells(Containment building)
+        {
+            List<Cell> tempList = new List<Cell>();
+            foreach(Cell cell in FindCells(building))
+            {
+                if (cell.CellInhabitant == null)
+                    tempList.Add(cell);
+            }
+            return tempList;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list of every full cell in the containment building</returns>
+        public List<Cell> FindFilledCells(Containment building)
+        {
+            List<Cell> tempList = new List<Cell>();
+            foreach (Cell cell in FindCells(building))
+            {
+                if (cell.CellInhabitant != null)
+                    tempList.Add(cell);
+            }
+            return tempList;
+        }
+
         /// <summary>
         /// Used to get a given staff member
         /// </summary>
@@ -144,9 +206,15 @@ namespace Assets.Scripts
         /// <summary>
         /// Used to get a command by name
         /// </summary>
-        /// <param name="command"></param>
-        /// <returns></returns>
+        /// <param name="command">The command to get</param>
+        /// <returns>Returns the command if it is found</returns>
         public RunCommand GetCommand(string command)
-            => commands[command];
+        {
+            if (commands.ContainsKey(command))
+                return commands[command];
+            return null;
+        }
     }
+
+
 }
