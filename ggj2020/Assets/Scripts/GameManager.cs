@@ -22,6 +22,8 @@ namespace Assets.Scripts
         keter
     }
 
+    public delegate void RunCommand(List<string> parameters);
+
     class GameManager : Singleton<GameManager>
     {
         /// <summary>
@@ -39,6 +41,11 @@ namespace Assets.Scripts
         /// The scps that are active in the given room
         /// </summary>
         private Dictionary<DangerLevel, List<SCP>> scps;
+
+        /// <summary>
+        /// List of all valid commands and the functions that correlate to the command
+        /// </summary>
+        private Dictionary<string, RunCommand> commands;
 
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
@@ -61,6 +68,14 @@ namespace Assets.Scripts
                 { DangerLevel.euclid, new List<SCP>() },
                 { DangerLevel.keter, new List<SCP>() },
             };
+
+            // Creates the commands to be used in the terminal
+            commands = new Dictionary<string, RunCommand>()
+            {
+                {"capture", RunCommands.CaptureSCP},
+                {"list", RunCommands.List},
+                {"change-room", RunCommands.ChangeRoom}
+            }
         }
 
         /// <summary>
@@ -101,5 +116,13 @@ namespace Assets.Scripts
         /// <returns>The number of staff of that type in the room</returns>
         public int GetStaff(Staff staffType)
             => staff[staffType];
+
+        /// <summary>
+        /// Used to get a command by name
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        public RunCommand GetCommand(string command)
+            => commands[command];
     }
 }
