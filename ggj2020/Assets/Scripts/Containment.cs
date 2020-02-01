@@ -8,9 +8,13 @@ namespace Assets.Scripts
 
     public class Containment : Buildings
     {
-
+        // Max ammount of floors and cells possible in the building 
         private int maxFloors;
         private int maxCells;
+        private int numberOfFloors;
+
+        // number of cells (value) per floor (index)
+        private int[] occupiedCellsPerFloor;
 
         /// <summary>
         /// [Floor #, Cell #]
@@ -27,17 +31,32 @@ namespace Assets.Scripts
         {
             this.maxFloors = maxFloors;
             this.maxCells = maxCells;
+
+            // Sets up counter for cells that are occupied on each floor
+            occupiedCellsPerFloor = new int[maxFloors];
+            for (int i = 0; i < maxFloors; i++)
+            {
+                occupiedCellsPerFloor[i] = 0;
+            }
+
+
             containmentFloors = new Cell[maxFloors, maxCells];
+            for(
         }
 
         /// <summary>
-        /// Adds an SCP to an aviliable 
+        /// Method return false if cell is invalid, returns true if succeeded
         /// </summary>
-        public void AddSCP()
+        /// <param name="floorNumber"></param>
+        /// <param name="roomNumber"></param>
+        /// <param name="newSCP"></param>
+        /// <returns></returns>
+        public bool AddSCP(int floorNumber, int roomNumber, SCP newSCP)
         {
-
+            if(
         }
 
+        public string Export
 
         public override void Destroy()
         {
