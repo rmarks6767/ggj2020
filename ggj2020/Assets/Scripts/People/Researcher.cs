@@ -35,5 +35,12 @@ namespace Assets.Scripts
             this.staffName = staffName;
             this.description = description;
         }
+
+        public override string ToString()
+        {
+            return staffName + ", " + " Level: " + tier + ", " + description;
+        }
+
     }
+
 }

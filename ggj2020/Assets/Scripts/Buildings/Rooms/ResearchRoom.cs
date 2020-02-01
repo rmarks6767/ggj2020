@@ -12,6 +12,25 @@ namespace Assets.Scripts
         private int maxRoomTier;
         private int incrementingValue;
 
+        /// <summary>
+        /// Current level of the room
+        /// </summary>
+        public int RoomTier
+        {
+            get { return roomTier; }
+        }
+
+
+        /// <summary>
+        /// Current count of the staff
+        /// </summary>
+        public int StaffCount
+        {
+            get { return residentResearchers.Count; }
+        }
+
+        private List<Researcher> residentResearchers;
+
         private BuildingType building;
 
         public ResearchRoom(BuildingType building) : base(building)
@@ -21,24 +40,42 @@ namespace Assets.Scripts
             maxRoomTier = 3;
             incrementingValue = 2;
 
+            residentResearchers = new List<Researcher>();
+
             maxStaff = 2;
             roomTier = 0;
+        }
+
+        /// <summary>
+        /// If the staff adding is invalid will return false
+        /// </summary>
+        /// <returns></returns>
+        public bool AddStaff(Researcher newStaff)
+        {
+            if (maxStaff == (residentResearchers.Count))
+            {
+                return false;
+            }
+
+            residentResearchers.Add(newStaff);
+            return true;
         }
 
         /// <summary>
         /// If the upgrade is invalid will return false
         /// </summary>
         /// <returns></returns>
-      // public bool RoomUpgrade()
-      // {
-      //     if (roomTier == maxRoomTier)
-      //     {
-      //         return false;
-      //     }
-      //     roomTier++;
-      //     maxStaff += incrementingValue;
-      //
-      // }
+        public bool RoomUpgrade()
+        {   
+            if (roomTier == maxRoomTier)
+            {
+                return false;
+            }
+
+            roomTier++;
+            maxStaff += incrementingValue;
+            return true;
+        }
 
 
     }
