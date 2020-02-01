@@ -45,6 +45,14 @@ namespace Assets.Scripts
             this.cellInhabitant = cellInhabitant;
         }
 
+        /// <summary>
+        /// Adds an SCP to the Cell
+        /// </summary>
+        /// <param name="scip">the SCP to be placed in the Cell</param>
+        public void ContainSCP(SCP scip)
+        {
+            cellInhabitant = scip;
+        }
     }
 
 }
