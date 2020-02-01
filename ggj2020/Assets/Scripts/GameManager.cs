@@ -172,7 +172,7 @@ namespace Assets.Scripts
         /// <summary>
         /// 
         /// </summary>
-        /// <returns>a list of every empty cell in the containment building</returns>
+        /// <returns>a list of every full cell in the containment building</returns>
         public List<Cell> FindFilledCells(Containment building)
         {
             List<Cell> tempList = new List<Cell>();
