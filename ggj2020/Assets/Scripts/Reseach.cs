@@ -29,8 +29,6 @@ public class Reseach : Buildings
         
     }
 
-<<<<<<< HEAD
-=======
 	#region Methods
 	public override void Upgrade()
 	{
@@ -42,7 +40,6 @@ public class Reseach : Buildings
 
 	}
 
->>>>>>> 2f07ecc8158a3cbc49d121f0a30ccec29778ad44
 	public void Research(ResearchStaff researcher, SCP scp)
 	{
 
