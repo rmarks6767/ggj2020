@@ -26,7 +26,7 @@ namespace Assets.Scripts
 
     class GameManager : Singleton<GameManager>
     {
-        public string playerName, siteName;
+        public string playerName, siteName, location;
 
         /// <summary>
         /// The money that the player will have
@@ -48,6 +48,11 @@ namespace Assets.Scripts
         /// List of all valid commands and the functions that correlate to the command
         /// </summary>
         private Dictionary<string, RunCommand> commands;
+
+        public Dictionary<string, RunCommand> Commands
+        {
+            get { return commands; }
+        }
 
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
@@ -78,6 +83,10 @@ namespace Assets.Scripts
                 {"list", RunCommands.List},
                 {"move", RunCommands.Move}
             };
+
+            playerName = "#%^$%&$&@";
+            siteName = "%$^";
+            location = "~/building/floor";
         }
 
         /// <summary>

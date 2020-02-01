@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
 
 public delegate void RunCommand(List<string> parameters);
 
@@ -25,7 +26,16 @@ public class Terminal : MonoBehaviour
         previousCommands = new List<string>();
         e = new Event();
         isInputLocked = false;
-        WriteToDisplay("Hello &#^$%@%! Welcome to Site %#!");
+        WriteToDisplay(string.Format("Hello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
+        inputText.text = string.Format("[{0}]\n> ", GameManager.Instance.location);
+    }
+
+    void Update()
+    {
+        if (displayText.isTextOverflowing)
+        {
+            displayText.text = RemoveFirstLine(displayText.text);
+        }
     }
 
     void OnGUI()
@@ -46,6 +56,11 @@ public class Terminal : MonoBehaviour
                     if (e.keyCode == KeyCode.Return)
                     {
                         EnterCommand();
+                    }
+
+                    if(e.keyCode == KeyCode.Tab)
+                    {
+                        AutocompleteCommand(inputText.text.Substring(5 + GameManager.Instance.location.Length));
                     }
 
                     if (e.keyCode == KeyCode.UpArrow)
@@ -89,22 +104,22 @@ public class Terminal : MonoBehaviour
     void EnterCommand()
     {
         prevCmdIndex = 0;
-        string command = inputText.text.Substring(2);
+        string command = inputText.text.Substring(5 + GameManager.Instance.location.Length);
         previousCommands.Add(command);
         if(previousCommands.Count > 20)
         {
             previousCommands.RemoveAt(0);
         }
         string output = Parser.ProcessCommand(command);
-        displayText.text += '\n' + command + "\n\t" + output;
-        inputText.text = "> ";
+        displayText.text += string.Format("\n[{0}]\n{1}\n\t{2}", GameManager.Instance.location, command, output);
+        inputText.text = string.Format("[{0}]\n> ", GameManager.Instance.location);
     }
 
     void Backspace()
     {
-        if(inputText.text.Length > 3)
+        if(inputText.text.Length > 5 + GameManager.Instance.location.Length)
         {
-            inputText.text = inputText.text.Substring(0, inputText.text.Length - 2);
+            inputText.text = inputText.text.Substring(0, inputText.text.Length - 1);
         }
     }
 
@@ -112,17 +127,40 @@ public class Terminal : MonoBehaviour
     {
         if(cmdIndex == 0)
         {
-            inputText.text = "> ";
+            inputText.text = string.Format("[{0}]\n> ", GameManager.Instance.location);
         }
         else
         {
-            inputText.text = "> " + previousCommands[previousCommands.Count - cmdIndex];
+            inputText.text = string.Format("[{0}]\n> {1}", GameManager.Instance.location, previousCommands[previousCommands.Count - cmdIndex]);
+        }
+    }
+
+    void AutocompleteCommand(string partialCmd)
+    {
+        if(partialCmd.Length < 1)
+        {
+            return;
+        }
+
+        List<string> suggestions = GameManager.Instance.Commands.Keys.ToList().FindAll(key => key.Length >= partialCmd.Length && key.Substring(0, partialCmd.Length) == partialCmd);
+
+        if(suggestions.Count == 1)
+        {
+            inputText.text = string.Format("[{0}]\n> {1}", GameManager.Instance.location, suggestions[0]);
+        }
+        else if(suggestions.Count > 1)
+        {
+            displayText.text += string.Format("\n[{0}]\n> {1}\n\t", GameManager.Instance.location, partialCmd);
+            for(int i = 0; i < suggestions.Count; i++)
+            {
+                displayText.text += string.Format("{0}\t", suggestions[i]);
+            }
         }
     }
 
     public void RunCommand(string command)
     {
-        inputText.text = "> " + command;
+        inputText.text = string.Format("[{0}]\n> {1}", GameManager.Instance.location, command);
         EnterCommand();
     }
 
@@ -131,7 +169,7 @@ public class Terminal : MonoBehaviour
         StartCoroutine(WriteCoroutine(text));
     }
 
-    private IEnumerator WriteCoroutine(string text)
+    IEnumerator WriteCoroutine(string text)
     {
         isInputLocked = true;
 
@@ -144,5 +182,10 @@ public class Terminal : MonoBehaviour
         }
 
         isInputLocked = false;
+    }
+
+    string RemoveFirstLine(string input)
+    {
+        return string.Join("\n", input.Split('\n').Skip(1).ToArray());
     }
 }
