@@ -11,6 +11,16 @@ namespace Assets.Scripts
 
         private Room floorRoom;
 
+
+        /// <summary>
+        /// The room that is held in the floor
+        /// </summary>
+        public Room FloorRoom
+        {
+            get { return floorRoom; }
+            set { floorRoom = value; }
+        }
+
         /// <summary>
         /// Type of this floor's building
         /// </summary>

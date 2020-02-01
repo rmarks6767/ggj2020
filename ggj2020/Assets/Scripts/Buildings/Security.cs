@@ -10,8 +10,18 @@ namespace Assets.Scripts
     {
         // Max ammount of floors possible in the building 
         private int maxFloors;
-        private int numberOfFloors;
+        private int floorCount;
 
+        private Floor[] floors;
+
+        /// <summary>
+        /// Array of all the floors in the building
+        /// </summary>
+        public Floor[] Floors
+        {
+            get { return floors; }
+            set { floors = value; }
+        }
 
         /// <summary>
         /// 
@@ -21,7 +31,10 @@ namespace Assets.Scripts
         public Security(int maxFloors = 5)
         {
             this.maxFloors = maxFloors;
+            floors = new Floor[maxFloors];
 
+            floors[0] = new Floor(BuildingType.security);
+            floorCount = 1;
         }
 
         public override void Destroy()
@@ -29,9 +42,20 @@ namespace Assets.Scripts
             throw new System.NotImplementedException();
         }
 
-        public override void Upgrade()
+        /// <summary>
+        /// Returns False if floor cannot be added.
+        /// </summary>
+        /// <returns></returns>
+        public override bool AddFloor()
         {
-            throw new System.NotImplementedException();
+            if (floorCount == maxFloors)
+            {
+                return false;
+            }
+
+            floors[floorCount - 1] = new Floor(BuildingType.security);
+            return true;
+
         }
     }
 }

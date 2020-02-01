@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Scripts;
 
 public class SCPManager : MonoBehaviour
 {
     List<SCP> scips;
     int rCount; //researcher count in the entire facility
     int sCount; //security count in the entire facility
+    public Containment building;
 
     public int ResearcherCount
     {
@@ -41,7 +43,7 @@ public class SCPManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void AddScip()
@@ -60,23 +62,50 @@ public class SCPManager : MonoBehaviour
          */
     }
 
-    public void CaptureSCP(string name)
+    public void CaptureSCP(string name, Cell cell)
     {
-        foreach (SCP scip in scips)
+        for (int i = 0; i < scips.Count; i++)
         {
-            if (scip.Name == name)
+            if (scips[i].Name == name)
             {
-                if(scip.AttemptCapture((int)Random.Range(0, 21)))
+                if (scips[i].AttemptCapture((int)Random.Range(0, 21)))
                 {
+                    cell.ContainSCP(scips[i]);
+                    scips.RemoveAt(i);
                     //remove the SCP from the list and add it to an empty cell
                 }
                 else
                 {
-                    scip.CaptureDifficulty += 10;
+                    scips[i].CaptureDifficulty += 10;
                     //remove some security
                 }
                 return;
             }
         }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns>a list of every empty cell in the containment building</returns>
+    public List<Cell> FindOpenCells()
+    {
+        List<Cell> tempList = new List<Cell>();
+        CellBlock tempCellBlock;
+        foreach (Floor block in building.Floors)
+        {
+            if (block.FloorRoom is CellBlock)
+            {
+                tempCellBlock = (CellBlock)block.FloorRoom;
+                foreach (Cell cell in tempCellBlock.Cells)
+                {
+                    if (cell.CellInhabitant == null)
+                    {
+                        tempList.Add(cell);
+                    }
+                }
+            }
+        }
+        return tempList;
     }
 }
