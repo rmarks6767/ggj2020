@@ -9,7 +9,7 @@ namespace Assets.Scripts
     {
         private BuildingType building;
 
-        public SecurityRoom(BuildingType building) : base(building)
+        public SecurityRoom(BuildingType building)
         {
             this.building = building;
         }

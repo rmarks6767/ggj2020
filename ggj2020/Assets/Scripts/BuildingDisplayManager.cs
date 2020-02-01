@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -12,12 +13,17 @@ namespace Assets.Scripts
         public GameObject[] staffBuildings = new GameObject[3];
         public GameObject[] containmentBuildings = new GameObject[3];
         public GameObject[] researchBuildings = new GameObject[3];
+        public Button[] UpgradeButtons = new Button[3];
+
+
 
         private GameObject m_currentBuilding;
 
         private int m_currentStaffLevel = 0;
         private int m_currentResearchLevel = 0;
         private int m_currentContainmentLevel = 0;
+
+
 
         // Start is called before the first frame update
         void Start()

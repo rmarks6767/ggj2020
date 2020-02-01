@@ -9,7 +9,7 @@ namespace Assets.Scripts
     {
         private BuildingType building;
 
-        public CellBlock(BuildingType building) : base(building)
+        public CellBlock(BuildingType building)
         {
             this.building = building;
         }
