@@ -39,6 +39,7 @@ namespace Assets.Scripts
 
         private void SetUpBuildingPreview()
         {
+            
             foreach (GameObject building in researchBuildings)
             {
                 building.SetActive(false);
@@ -64,7 +65,12 @@ namespace Assets.Scripts
                 {
                     m_currentStaffLevel += 1;
                     staffBuildings[m_currentStaffLevel].SetActive(true);
+                    if (m_currentStaffLevel == staffBuildings.Length-1)
+                    {
+                        UpgradeButtons[0].gameObject.SetActive(false);
+                    }
                 }
+                
 
             }
             else if (building == (int)BuildingType.research)
@@ -73,6 +79,10 @@ namespace Assets.Scripts
                 {
                     m_currentResearchLevel += 1;
                     researchBuildings[m_currentResearchLevel].SetActive(true);
+                    if (m_currentResearchLevel == researchBuildings.Length-1)
+                    {
+                        UpgradeButtons[2].gameObject.SetActive(false);
+                    }
                 }
 
             }
@@ -82,6 +92,10 @@ namespace Assets.Scripts
                 {
                     m_currentContainmentLevel += 1;
                     containmentBuildings[m_currentContainmentLevel].SetActive(true);
+                    if (m_currentContainmentLevel == containmentBuildings.Length-1)
+                    {
+                        UpgradeButtons[1].gameObject.SetActive(false);
+                    }
                 }
 
             }
