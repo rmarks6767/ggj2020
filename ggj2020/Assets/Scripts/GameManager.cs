@@ -22,6 +22,16 @@ namespace Assets.Scripts
         keter
     }
 
+    /// <summary>
+    /// Type of building
+    /// </summary>
+    public enum BuildingType
+    {
+        research,
+        security,
+        containment
+    }
+
     public delegate string RunCommand(List<string> parameters);
 
     class GameManager : Singleton<GameManager>
