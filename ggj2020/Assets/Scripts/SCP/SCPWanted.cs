@@ -58,6 +58,10 @@ public class SCPWanted
         {
             return captureDifficulty;
         }
+        set
+        {
+            captureDifficulty = value;
+        }
     }
 
     public SCPWanted(SCP scip)
@@ -93,7 +97,7 @@ public class SCPWanted
         }
     }
 
-    public bool attemptCapture(int environmentDanger)
+    public bool AttemptCapture(int environmentDanger)
     {
         int tempRand = (int)Random.Range(0, 101);
         if (tempRand>captureDifficulty)
