@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Scripts;
+
 
 public class Reseach : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+	public int level;
+	public List<ResearchStaff> researchers;
+
+	// Start is called before the first frame update
+	void Start()
     {
-		int level;
+		researchers = new List<ResearchStaff>();
     }
 
     // Update is called once per frame
@@ -16,12 +21,12 @@ public class Reseach : MonoBehaviour
         
     }
 
-	public void Research(ReseachStaff researcher, SCP scp)
+	public void Research(ResearchStaff researcher, SCP scp)
 	{
 
 	}
 
-	public void Research(ReseachStaff researcher, SCP scp, SecurityStaff security)
+	public void Research(ResearchStaff researcher, SCP scp, SecurityStaff security)
 	{
 
 	}
