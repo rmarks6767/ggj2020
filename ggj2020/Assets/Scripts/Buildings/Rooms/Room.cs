@@ -4,14 +4,16 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
+
+
     /// <summary>
     /// Room Class to be polymorphed into other rooms
     /// </summary>
     public class Room : MonoBehaviour
     {
-        private BuildingType building;
+        private BuildingType;
 
-        public Room(BuildingType building)
+        public Room()
         {
 
         }

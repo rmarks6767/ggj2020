@@ -8,10 +8,19 @@ public abstract class StaffAbstract : MonoBehaviour
     public int level;
     public Staff type;
     public int health;
+
+    public enum Behavior
+    {
+        Wandering,
+        Standing,
+        Traveling
+    }
+
+    public Behavior currentState;
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentState = Behavior.Standing;
     }
 
     // Update is called once per frame
