@@ -2,9 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Room : MonoBehaviour
+namespace Assets.Scripts
 {
-    
 
 
+    /// <summary>
+    /// Room Class to be polymorphed into other rooms
+    /// </summary>
+    public class Room : MonoBehaviour
+    {
+        private BuildingType;
+
+        public Room()
+        {
+
+        }
+
+    }
 }
