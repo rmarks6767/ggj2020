@@ -4,8 +4,6 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-
-
     /// <summary>
     /// Room Class to be polymorphed into other rooms
     /// </summary>
