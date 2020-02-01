@@ -5,40 +5,71 @@ using UnityEngine;
 public class CoreAI : MonoBehaviour
 {
     // Start is called before the first frame update
-    private bool moveRight;
-    private bool moveLeft;
-    private bool stop;
+    public bool moveRight;
+    public bool moveLeft;
+    public bool stop;
     public int speed;
-    private GameObject roomCenter;
+    public bool hasExited;
+    public GameObject roomCenter;
     public int wanderRange;
+    public Component spriteFlipper;
+    public bool flipDirection;
+    public Transform exitSpot;
+    public GameObject moveToRoom;
+   private enum State
+    {
+        Wandering,
+        Stopped,
+        Leaving
+    };
+
+    private State current;
 
     void Start()
     {
-        stop = true;
-        moveRight = false;
+        stop = false;
+        moveRight = true;
         speed = 1;
+        flipDirection = true;
+        gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        current = State.Wandering;
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            flipDirection = !flipDirection;
+        }
+        if (flipDirection)
+        {
+            Wander();
+        }
+        else
+        {
+            LeaveRoom(moveToRoom);
+        }
         
+        Movement();
     }
 
     public void Movement()
     {
         if (stop)
         {
-            speed = 0;
+            
         }
         else if (moveRight)
         {
             gameObject.transform.Translate(2 * Time.deltaTime * speed, 0, 0);
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (moveLeft)
         {
             gameObject.transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
     } 
     public void Stop()
@@ -84,6 +115,7 @@ public class CoreAI : MonoBehaviour
 
     public void Wander()
     {
+        current = State.Wandering;
         if((transform.position.x - roomCenter.transform.position.x) > wanderRange)
         {
             MoveLeft();
@@ -93,4 +125,29 @@ public class CoreAI : MonoBehaviour
             MoveRight();
         }
     }
+
+    public void LeaveRoom(GameObject targetRoom)
+    {
+        current = State.Leaving;
+        if(hasExited == false)
+        {
+            MoveTo(exitSpot.position);
+            if (stop == true)
+            {
+                gameObject.transform.SetParent(targetRoom.transform);
+                hasExited = true;
+                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 2);
+
+            }
+        }
+        else if(hasExited == true)
+        {
+            Wander();
+
+        }
+        
+    }
+
+    
+
 }
