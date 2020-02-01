@@ -15,15 +15,20 @@ namespace Assets.Scripts
 
             if (commands != null && commands[0] != null)
             {
+                // Get the first command
                 string commandStr = commands[0].ToLower().Trim();
 
+                // Get rid of the command
+                commands[0].Remove(0);
                 Debug.Log(commandStr);
 
+                // First command analysis
                 switch (commandStr)
                 {
                     // list <This one is going to be a lot>
                     case "list":
-                        return "list called";
+                        RunCommands.List(commands);
+                        return "Done!";
                     // capture <name>
                     case "capture":
                         return "capture called";
@@ -42,6 +47,6 @@ namespace Assets.Scripts
         }
 
         private string SyntaxError(string command)
-            => $"Could not find the command '{command}'";
+            => $"bash: {command}: command not found";
     }
 }

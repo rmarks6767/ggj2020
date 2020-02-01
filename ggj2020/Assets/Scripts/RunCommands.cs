@@ -13,21 +13,18 @@ namespace Assets.Scripts
 
         }
 
-        /*public static void List(List<string> parameters)
+        public static void List(List<string> parameters)
         {
             string command = parameters[0];  
-            if ()
-                switch (parameters[i])
-                {
-                    case "list":
-                    case "List":
-                    case "-l":
-                        
-                        break;
-                }
-            }
+            /*if ()
+            {
+
+            }*/
         }
 
-        public static void */ 
+        public static void ChangeRoom(List<string> parameters)
+        {
+
+        }  
     }
 }
