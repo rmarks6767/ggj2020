@@ -12,6 +12,23 @@ namespace Assets.Scripts
         private int maxRoomTier;
         private int incrementingValue;
 
+        /// <summary>
+        /// Current level of the room
+        /// </summary>
+        public int RoomTier
+        {
+            get { return roomTier; }
+        }
+
+
+        /// <summary>
+        /// Current count of the staff
+        /// </summary>
+        public int StaffCount
+        {
+            get { return residentResearchers.Count; }
+        }
+
         private List<Researcher> residentResearchers;
 
         private BuildingType building;
@@ -54,9 +71,10 @@ namespace Assets.Scripts
             {
                 return false;
             }
+
             roomTier++;
             maxStaff += incrementingValue;
-   
+            return true;
         }
 
 

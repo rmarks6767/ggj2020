@@ -10,6 +10,25 @@ namespace Assets.Scripts
         private int maxStaff;
         private int roomTier;
         private int maxRoomTier;
+        private int incrementingValue;
+
+        /// <summary>
+        /// Current level of the room
+        /// </summary>
+        public int RoomTier
+        {
+            get { return roomTier; }
+        }
+
+
+        /// <summary>
+        /// Current count of the staff
+        /// </summary>
+        public int StaffCount
+        {
+            get { return residentGuards.Count; }
+        }
+
 
         private List<SecurityGuard> residentGuards;
 
@@ -20,6 +39,7 @@ namespace Assets.Scripts
             this.building = building;
 
             maxRoomTier = 3;
+            incrementingValue = 2;
 
             residentGuards = new List<SecurityGuard>();
 
@@ -42,6 +62,22 @@ namespace Assets.Scripts
             return true;
         }
 
+
+        /// <summary>
+        /// If the upgrade is invalid will return false
+        /// </summary>
+        /// <returns></returns>
+        public bool RoomUpgrade()
+        {
+            if (roomTier == maxRoomTier)
+            {
+                return false;
+            }
+
+            roomTier++;
+            maxStaff += incrementingValue;
+            return true;
+        }
     }
 
 }
