@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 namespace Assets.Scripts
 {
 
-    public class Security : MonoBehaviour
+    public class NewBehaviourScript : Room
     {
         // Start is called before the first frame update
         void Start()
