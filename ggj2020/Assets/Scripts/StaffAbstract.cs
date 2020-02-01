@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,4 +21,5 @@ public abstract class StaffAbstract : MonoBehaviour
     }
 
     public abstract void Fire();
+    public abstract void LevelUp();
 }
