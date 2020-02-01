@@ -10,14 +10,15 @@ public class Terminal : MonoBehaviour
     public GameObject display, input;
 
     private TextMesh displayText, inputText;
-    private List<string> preivousCommands;
+    private List<string> previousCommands;
+    private int prevCmdIndex;
     private Event e;
 
     void Start()
     {
         displayText = display.GetComponent<TextMesh>();
         inputText = input.GetComponent<TextMesh>();
-        preivousCommands = new List<string>();
+        previousCommands = new List<string>();
         e = new Event();
     }
 
@@ -29,7 +30,7 @@ public class Terminal : MonoBehaviour
 
             if(e.isKey && e.keyCode != KeyCode.None)
             {
-                if(Input.inputString != "")
+                if (Input.inputString != "")
                 {
                     inputText.text += Input.inputString;
                 }
@@ -39,7 +40,36 @@ public class Terminal : MonoBehaviour
                     EnterCommand();
                 }
 
-                if(e.keyCode == KeyCode.Backspace)
+                if(e.keyCode == KeyCode.UpArrow)
+                {
+                    prevCmdIndex++;
+                    if(prevCmdIndex > previousCommands.Count)
+                    {
+                        prevCmdIndex = previousCommands.Count;
+                    }
+
+                    CycleCommands(prevCmdIndex);
+                }
+                else if(e.keyCode == KeyCode.DownArrow)
+                {
+                    prevCmdIndex--;
+                    if(prevCmdIndex < 0)
+                    {
+                        prevCmdIndex = 0;
+                    }
+
+                    CycleCommands(prevCmdIndex);
+                }
+            }
+        }
+
+        if (Input.anyKey)
+        {
+            e = Event.current;
+
+            if(e.isKey && e.keyCode != KeyCode.None)
+            {
+                if (e.keyCode == KeyCode.Backspace)
                 {
                     Backspace();
                 }
@@ -49,8 +79,14 @@ public class Terminal : MonoBehaviour
 
     void EnterCommand()
     {
+        prevCmdIndex = 0;
         string command = inputText.text.Substring(2);
-        string output = Parser.ProcessCommand(command);
+        previousCommands.Add(command);
+        if(previousCommands.Count > 20)
+        {
+            previousCommands.RemoveAt(0);
+        }
+        string output = parser.ProcessCommand(command);
         displayText.text += '\n' + command + "\n\t" + output;
         inputText.text = "> ";
     }
@@ -60,6 +96,18 @@ public class Terminal : MonoBehaviour
         if(inputText.text.Length > 3)
         {
             inputText.text = inputText.text.Substring(0, inputText.text.Length - 2);
+        }
+    }
+
+    void CycleCommands(int cmdIndex)
+    {
+        if(cmdIndex == 0)
+        {
+            inputText.text = "> ";
+        }
+        else
+        {
+            inputText.text = "> " + previousCommands[previousCommands.Count - cmdIndex];
         }
     }
 }
