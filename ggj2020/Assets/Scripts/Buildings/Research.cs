@@ -6,51 +6,33 @@ using Assets.Scripts;
 namespace Assets.Scripts
 {
 
-    public class Reseach : Buildings
+    public class Research : Buildings
     {
-        #region Fields
-        private int level;
-        private List<ResearchStaff> researchers;
-        #endregion
+        // Max ammount of floors and cells possible in the building 
+        private int maxFloors;
+        private int maxCells;
+        private int numberOfFloors;
 
-        #region Properties
-        public int Level { get { return level; } }
-        public List<ResearchStaff> Researchers { get { return researchers; } }
-        #endregion
-
-        // Start is called before the first frame update
-        void Start()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="maxFloors">Max floors per building</param>
+        /// <param name="maxCells">Max cells per floor</param>
+        public Research(int maxFloors = 5, int maxCells = 3)
         {
-            level = 1;
-            researchers = new List<ResearchStaff>();
-        }
+            this.maxFloors = maxFloors;
+            this.maxCells = maxCells;
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
-        #region Methods
-        public override void Upgrade()
-        {
-            level++;
         }
 
         public override void Destroy()
         {
-
+            throw new System.NotImplementedException();
         }
 
-        public void Research(ResearchStaff researcher, SCP scp)
+        public override void Upgrade()
         {
-
+            throw new System.NotImplementedException();
         }
-
-        public void Research(ResearchStaff researcher, SCP scp, SecurityStaff security)
-        {
-
-        }
-        #endregion
     }
 }

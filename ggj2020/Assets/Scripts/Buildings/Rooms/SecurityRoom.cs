@@ -7,16 +7,11 @@ namespace Assets.Scripts
 
     public class SecurityRoom : Room
     {
-        // Start is called before the first frame update
-        void Start()
+        private BuildingType building;
+
+        public SecurityRoom(BuildingType building) : base(building)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            this.building = building;
         }
     }
 

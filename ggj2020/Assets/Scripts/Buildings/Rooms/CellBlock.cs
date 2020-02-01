@@ -7,16 +7,11 @@ namespace Assets.Scripts
 
     public class CellBlock : Room
     {
-        // Start is called before the first frame update
-        void Start()
+        private BuildingType building;
+
+        public CellBlock(BuildingType building) : base(building)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            this.building = building;
         }
     }
 }

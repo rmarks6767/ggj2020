@@ -15,12 +15,6 @@ namespace Assets.Scripts
 
 
         /// <summary>
-        /// [Floor #, Cell #]
-        /// </summary>
-        private Cell[,] containmentFloors;
-
-
-        /// <summary>
         /// 
         /// </summary>
         /// <param name="maxFloors">Max floors per building</param>
@@ -30,11 +24,6 @@ namespace Assets.Scripts
             this.maxFloors = maxFloors;
             this.maxCells = maxCells;
 
-            
-
-
-            containmentFloors = new Cell[maxFloors, maxCells];
-            //for(
         }
 
         /// <summary>
@@ -50,8 +39,6 @@ namespace Assets.Scripts
             //Placeholder return
             return false;
         }
-
-        public string Export = "";
 
         public override void Destroy()
         {
