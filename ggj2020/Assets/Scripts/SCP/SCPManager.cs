@@ -84,16 +84,28 @@ public class SCPManager : MonoBehaviour
         }
     }
 
-   // public List<Cell> FindOpenCells()
-   // {
-   //     List<Cell> tempList = new List<Cell>();
-   //     foreach (CellBlock block in building.Floors)
-   //     {
-   //         foreach (Cell cell in block)
-   //         {
-   //             tempList.Add(cell);
-   //         }
-   //     }
-   //     return tempList;
-   // }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns>a list of every empty cell in the containment building</returns>
+    public List<Cell> FindOpenCells()
+    {
+        List<Cell> tempList = new List<Cell>();
+        CellBlock tempCellBlock;
+        foreach (Floor block in building.Floors)
+        {
+            if (block.FloorRoom is CellBlock)
+            {
+                tempCellBlock = (CellBlock)block.FloorRoom;
+                foreach (Cell cell in tempCellBlock.Cells)
+                {
+                    if (cell.CellInhabitant == null)
+                    {
+                        tempList.Add(cell);
+                    }
+                }
+            }
+        }
+        return tempList;
+    }
 }
