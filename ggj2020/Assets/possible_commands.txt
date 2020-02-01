@@ -1,0 +1,6 @@
+﻿// Implemented
+capture <name> (TM)
+
+// Need more info
+list
+move

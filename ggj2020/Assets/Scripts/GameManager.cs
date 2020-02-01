@@ -22,6 +22,8 @@ namespace Assets.Scripts
         keter
     }
 
+    public delegate string RunCommand(List<string> parameters);
+
     class GameManager : Singleton<GameManager>
     {
         /// <summary>
@@ -39,6 +41,11 @@ namespace Assets.Scripts
         /// The scps that are active in the given room
         /// </summary>
         private Dictionary<DangerLevel, List<SCP>> scps;
+
+        /// <summary>
+        /// List of all valid commands and the functions that correlate to the command
+        /// </summary>
+        private Dictionary<string, RunCommand> commands;
 
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
@@ -60,6 +67,14 @@ namespace Assets.Scripts
                 { DangerLevel.safe, new List<SCP>() },
                 { DangerLevel.euclid, new List<SCP>() },
                 { DangerLevel.keter, new List<SCP>() },
+            };
+
+            // Creates the commands to be used in the terminal
+            commands = new Dictionary<string, RunCommand>()
+            {
+                {"capture", RunCommands.Capture},
+                {"list", RunCommands.List},
+                {"change room", RunCommands.Move}
             };
         }
 
@@ -90,8 +105,23 @@ namespace Assets.Scripts
         /// <param name="dangerLevel">The type that the SCP is</param>
         /// <param name="name">The name of the given SCP</param>
         /// <returns>Returns a given SCP object</returns>
-        public SCP GetScp(DangerLevel dangerLevel, string name) 
+        public SCP GetSCP(DangerLevel dangerLevel, string name) 
             => scps[dangerLevel].Find(scp => scp.Name == name);
+
+        public SCP GetSCP(string name)
+        {
+            SCP targetSCP = null;
+            for(int i = 0; i < scps.Values.Count; i++)
+            {
+                if(targetSCP != null)
+                {
+                    break;
+                }
+
+                targetSCP = scps[(DangerLevel)i].Find(scp => scp.Name == name);
+            }
+            return targetSCP;
+        }
 
         /// <summary>
         /// Used to get a given staff member
@@ -100,5 +130,13 @@ namespace Assets.Scripts
         /// <returns>The number of staff of that type in the room</returns>
         public int GetStaff(Staff staffType)
             => staff[staffType];
+
+        /// <summary>
+        /// Used to get a command by name
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        public RunCommand GetCommand(string command)
+            => commands[command];
     }
 }
