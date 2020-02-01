@@ -12,6 +12,17 @@ namespace Assets.Scripts
         private int maxFloors;
         private int numberOfFloors;
 
+        private Floor[] floors;
+
+        /// <summary>
+        /// Array of all the floors in the building
+        /// </summary>
+        public Floor[] Floors
+        {
+            get { return floors; }
+            set { floors = value; }
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -20,7 +31,7 @@ namespace Assets.Scripts
         public Research(int maxFloors = 5)
         {
             this.maxFloors = maxFloors;
-
+            floors = new Floor[maxFloors];
         }
 
         public override void Destroy()
