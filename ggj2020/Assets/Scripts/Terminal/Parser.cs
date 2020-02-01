@@ -9,7 +9,7 @@ namespace Assets.Scripts
         public static string ProcessCommand(string command)
         {
             // Split the commands to get all the info
-            List<string> commands = command.Split(' ').ToList();
+            List<string> commands = RemoveEmpty(command.Split(' ').ToList());
                 
             // Get the first element to see what the command is 
 
@@ -20,36 +20,33 @@ namespace Assets.Scripts
 
                 // Get rid of the command we just processed
                 commands.RemoveAt(0);
-                Debug.Log(commandStr);
+
+                Debug.Log($"Processing Command: {commandStr}");
 
                 // First command analysis
-                switch (commandStr)
-                {
-                    // list <This one is going to be a lot>
-                    case "list":
-                        return RunCommands.List(commands);
-                    // capture <name>
-                    case "capture":
-                        return RunCommands.Capture(commands);
-                    // change room
-                    case "move":
-                        return RunCommands.Move(commands);
-                    case "help":
-                        return
-                            "usage: \n" +
-                            "\tlist <room, scp, staff>\n" +
-                            "\tcapture <name>\n" +
-                            "\tchange room\n";
-                    default:
-                        return $"bash: {commandStr}: command not found...";
-                }
+
+                RunCommand runCommand = GameManager.Instance.GetCommand(commandStr);
+
+                if (runCommand != null)
+                    return runCommand.Invoke(commands);
+                else
+                    return $"bash: {commandStr}: command not found...";
             }
             else
             {
                 // Maybe fix this later
                 return "";
             }
-           
+        }
+
+        public static List<string> RemoveEmpty(List<string> strings)
+        {
+            List<string> newStrings = new List<string>();
+            foreach (string c in strings)
+                if (c != "" && c != " ")
+                    newStrings.Add(c.Trim().ToLower());
+            Debug.Log(newStrings.Count);
+            return newStrings;
         }
     }
 }

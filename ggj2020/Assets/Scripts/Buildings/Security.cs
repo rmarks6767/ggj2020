@@ -54,6 +54,7 @@ namespace Assets.Scripts
             }
 
             floors[floorCount - 1] = new Floor(BuildingType.security);
+            floorCount++;
             return true;
 
         }

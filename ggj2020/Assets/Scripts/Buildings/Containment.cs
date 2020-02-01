@@ -70,6 +70,7 @@ namespace Assets.Scripts
             }
 
             floors[floorCount - 1] = new Floor(BuildingType.containment);
+            floorCount++;
             return true;
            
         }
