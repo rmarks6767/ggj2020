@@ -120,6 +120,11 @@ public class SCP
         return "SCP: " + number + " - '" + name + "'";
     }
 
+    /// <summary>
+    /// Attempts to capture an SCP
+    /// </summary>
+    /// <param name="environmentDanger">added difficulty to capturing the SCP</param>
+    /// <returns></returns>
     public bool AttemptCapture(int environmentDanger)
     {
         int tempRand = (int)Random.Range(0, 101);
