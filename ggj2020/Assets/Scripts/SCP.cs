@@ -5,11 +5,11 @@ using Assets.Scripts;
 
 public class SCP
 {
-    int researchLevel;
-    string name;
-    string number;
-    string containmentProcedures;
-    string description;
+    private int researchLevel;
+    private string name;
+    private string number;
+    private string containmentProcedures;
+    private string description;
     DangerLevel DL;
 
     public int ResearchLevel
