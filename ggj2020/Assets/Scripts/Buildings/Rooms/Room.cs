@@ -11,7 +11,7 @@ namespace Assets.Scripts
     /// </summary>
     public class Room : MonoBehaviour
     {
-        private BuildingType;
+        private BuildingType memes;
 
         public Room()
         {
