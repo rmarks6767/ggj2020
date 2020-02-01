@@ -10,6 +10,7 @@ public class CoreAI : MonoBehaviour
     private bool stop;
     public int speed;
     private GameObject roomCenter;
+    public int wanderRange;
 
     void Start()
     {
@@ -83,6 +84,13 @@ public class CoreAI : MonoBehaviour
 
     public void Wander()
     {
-        
+        if((transform.position.x - roomCenter.transform.position.x) > wanderRange)
+        {
+            MoveLeft();
+        }
+        if ((transform.position.x) < -wanderRange)
+        {
+            MoveRight();
+        }
     }
 }
