@@ -16,12 +16,6 @@ public abstract class Buildings : MonoBehaviour
         
     }
 
-    /// <summary>
-    /// Current level Of building upgrade
-    /// </summary>
-    public int BuildingLevel;
-
-
     public abstract void Upgrade();
 
     public abstract void Destroy();
