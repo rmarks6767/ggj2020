@@ -16,12 +16,12 @@ public class Reseach : MonoBehaviour
         
     }
 
-	public void Research(ReseachStaff researcher, SCP scp)
+	public void Research(ResearchStaff researcher, SCP scp)
 	{
 
 	}
 
-	public void Research(ReseachStaff researcher, SCP scp, SecurityStaff security)
+	public void Research(ResearchStaff researcher, SCP scp, SecurityStaff security)
 	{
 
 	}
