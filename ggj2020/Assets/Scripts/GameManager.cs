@@ -41,7 +41,5 @@ namespace Assets.Scripts
 
         public void AddStaff( Staff staffType ) => staff[staffType]++;
 
-        public void AddScp( SCP scpType ) => 
-
     }
 }

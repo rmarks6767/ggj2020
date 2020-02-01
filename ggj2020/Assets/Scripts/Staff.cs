@@ -18,5 +18,4 @@ public abstract class Staff : MonoBehaviour
         
     }
 
-    public abstract void 
 }
