@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: b19353bd58a34774e8b46e3355e40391
+<<<<<<< HEAD:ggj2020/Assets/Animations.meta
+guid: e7809677ae1db0142a9d2528b14773e4
+=======
+guid: 87cebdd394d51b64cb3d99f4ca039204
+>>>>>>> master:ggj2020/Assets/Scripts/People.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
