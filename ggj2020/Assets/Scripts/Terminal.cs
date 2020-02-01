@@ -13,7 +13,6 @@ public class Terminal : MonoBehaviour
     private List<string> previousCommands;
     private int prevCmdIndex;
     private Event e;
-    private Parser parser;
 
     void Start()
     {
@@ -21,7 +20,6 @@ public class Terminal : MonoBehaviour
         inputText = input.GetComponent<TextMesh>();
         previousCommands = new List<string>();
         e = new Event();
-        parser = new Parser();
     }
 
     void OnGUI()
