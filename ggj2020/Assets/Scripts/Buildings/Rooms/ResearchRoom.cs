@@ -33,7 +33,7 @@ namespace Assets.Scripts
 
         private BuildingType building;
 
-        public ResearchRoom(BuildingType building) : base(building)
+        public ResearchRoom(BuildingType building)
         {
             this.building = building;
 

@@ -23,7 +23,7 @@
             }
         }
 
-        public CellBlock(BuildingType building) : base(building)
+        public CellBlock(BuildingType building)
         {
             this.building = building;
             maxCells = 3;
