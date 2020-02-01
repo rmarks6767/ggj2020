@@ -35,6 +35,8 @@ namespace Assets.Scripts
 
     class GameManager : Singleton<GameManager>
     {
+        public string playerName, siteName, location;
+
         /// <summary>
         /// The money that the player will have
         /// </summary>
@@ -55,6 +57,11 @@ namespace Assets.Scripts
         /// List of all valid commands and the functions that correlate to the command
         /// </summary>
         private Dictionary<string, RunCommand> commands;
+
+        public Dictionary<string, RunCommand> Commands
+        {
+            get { return commands; }
+        }
 
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
@@ -82,8 +89,12 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"change room", RunCommands.Move}
+                {"move", RunCommands.Move}
             };
+
+            playerName = "#%^$%&$&@";
+            siteName = "%$^";
+            location = "~/building/floor";
         }
 
         /// <summary>
@@ -195,10 +206,14 @@ namespace Assets.Scripts
         /// <summary>
         /// Used to get a command by name
         /// </summary>
-        /// <param name="command"></param>
-        /// <returns></returns>
+        /// <param name="command">The command to get</param>
+        /// <returns>Returns the command if it is found</returns>
         public RunCommand GetCommand(string command)
-            => commands[command];
+        {
+            if (commands.ContainsKey(command))
+                return commands[command];
+            return null;
+        }
     }
 
 
