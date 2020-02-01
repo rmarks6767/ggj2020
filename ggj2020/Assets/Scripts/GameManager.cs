@@ -74,7 +74,7 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"change room", RunCommands.Move}
+                {"move", RunCommands.Move}
             };
         }
 
@@ -134,9 +134,13 @@ namespace Assets.Scripts
         /// <summary>
         /// Used to get a command by name
         /// </summary>
-        /// <param name="command"></param>
-        /// <returns></returns>
+        /// <param name="command">The command to get</param>
+        /// <returns>Returns the command if it is found</returns>
         public RunCommand GetCommand(string command)
-            => commands[command];
+        {
+            if (commands.ContainsKey(command))
+                return commands[command];
+            return null;
+        }
     }
 }
