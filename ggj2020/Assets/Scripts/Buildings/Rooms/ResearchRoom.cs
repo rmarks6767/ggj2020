@@ -12,6 +12,8 @@ namespace Assets.Scripts
         private int maxRoomTier;
         private int incrementingValue;
 
+        private List<Researcher> residentResearchers;
+
         private BuildingType building;
 
         public ResearchRoom(BuildingType building) : base(building)
@@ -29,16 +31,16 @@ namespace Assets.Scripts
         /// If the upgrade is invalid will return false
         /// </summary>
         /// <returns></returns>
-      // public bool RoomUpgrade()
-      // {
-      //     if (roomTier == maxRoomTier)
-      //     {
-      //         return false;
-      //     }
-      //     roomTier++;
-      //     maxStaff += incrementingValue;
-      //
-      // }
+        public bool RoomUpgrade()
+        {   
+            if (roomTier == maxRoomTier)
+            {
+                return false;
+            }
+            roomTier++;
+            maxStaff += incrementingValue;
+   
+        }
 
 
     }

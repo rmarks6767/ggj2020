@@ -35,5 +35,9 @@ namespace Assets.Scripts
             this.description = description;
         }
 
+        public override string ToString()
+        {
+            return staffName + ", " + " Level: " + tier + ", " + description;
+        }
     }
 }
