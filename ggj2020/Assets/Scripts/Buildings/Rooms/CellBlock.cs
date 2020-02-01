@@ -6,6 +6,8 @@
         private BuildingType building;
         private Cell[] cells;
         private int maxCells;
+        private int maxStaff;
+        private int incrementingValue;
 
         public int MaxCells
         {
