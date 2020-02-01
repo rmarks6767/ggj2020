@@ -23,8 +23,25 @@ namespace Assets.Scripts
             maxRoomTier = 3;
             incrementingValue = 2;
 
+            residentResearchers = new List<Researcher>();
+
             maxStaff = 2;
             roomTier = 0;
+        }
+
+        /// <summary>
+        /// If the staff adding is invalid will return false
+        /// </summary>
+        /// <returns></returns>
+        public bool AddStaff(Researcher newStaff)
+        {
+            if (maxStaff == (residentResearchers.Count))
+            {
+                return false;
+            }
+
+            residentResearchers.Add(newStaff);
+            return true;
         }
 
         /// <summary>

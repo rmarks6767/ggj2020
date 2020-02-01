@@ -11,6 +11,8 @@ namespace Assets.Scripts
         private int roomTier;
         private int maxRoomTier;
 
+        private List<SecurityGuard> residentGuards;
+
         private BuildingType building;
 
         public SecurityRoom(BuildingType building) : base(building)
@@ -19,11 +21,27 @@ namespace Assets.Scripts
 
             maxRoomTier = 3;
 
+            residentGuards = new List<SecurityGuard>();
+
             maxStaff = 2;
             roomTier = 0;
         }
 
-        
+        /// <summary>
+        /// If the staff adding is invalid will return false
+        /// </summary>
+        /// <returns></returns>
+        public bool AddStaff(SecurityGuard newStaff)
+        {
+            if (maxStaff == (residentGuards.Count))
+            {
+                return false;
+            }
+
+            residentGuards.Add(newStaff);
+            return true;
+        }
+
     }
 
 }
