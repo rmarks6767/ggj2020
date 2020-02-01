@@ -7,11 +7,13 @@ public class ResearchStaff : StaffAbstract
 {
     Staff type;
     int level;
+    int cost;
     // Start is called before the first frame update
     void Start()
     {
         type = Staff.research;
         level = 1;
+        cost = 600;
     }
 
     // Update is called once per frame
