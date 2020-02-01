@@ -11,11 +11,11 @@ namespace Assets.Scripts
     /// </summary>
     public class Room : MonoBehaviour
     {
-        private BuildingType building;
+        private BuildingType memes;
 
-        public Room(BuildingType building)
+        public Room()
         {
-            this.building = building;
+
         }
 
     }
