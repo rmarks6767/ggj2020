@@ -10,7 +10,7 @@ namespace Assets.Scripts
     {
         // Max ammount of floors possible in the building 
         private int maxFloors;
-        private int numberOfFloors;
+        private int floorCount;
 
         private Floor[] floors;
 
@@ -32,6 +32,7 @@ namespace Assets.Scripts
         {
             this.maxFloors = maxFloors;
             floors = new Floor[maxFloors];
+
         }
 
         public override void Destroy()
