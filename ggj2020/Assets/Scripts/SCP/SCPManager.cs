@@ -4,12 +4,38 @@ using UnityEngine;
 
 public class SCPManager : MonoBehaviour
 {
-    List<SCPWanted> scips;
+    List<SCP> scips;
+    int rCount; //researcher count in the entire facility
+    int sCount; //security count in the entire facility
+
+    public int ResearcherCount
+    {
+        get
+        {
+            return rCount;
+        }
+        set
+        {
+            rCount = value;
+        }
+    }
+
+    public int SecurityCount
+    {
+        get
+        {
+            return sCount;
+        }
+        set
+        {
+            sCount = value;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        scips = new List<SCPWanted>();
+        scips = new List<SCP>();
     }
 
     // Update is called once per frame
@@ -36,9 +62,9 @@ public class SCPManager : MonoBehaviour
 
     public void CaptureSCP(string name)
     {
-        foreach (SCPWanted scip in scips)
+        foreach (SCP scip in scips)
         {
-            if (scip.Scip.Name == name)
+            if (scip.Name == name)
             {
                 if(scip.AttemptCapture((int)Random.Range(0, 21)))
                 {
