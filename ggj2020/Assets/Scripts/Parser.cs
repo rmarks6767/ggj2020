@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class Parser
+    public static class Parser
     {
-        public string ProcessCommand(string command)
+        public static string ProcessCommand(string command)
         {
             // Split the commands to get all the info
             List<string> commands = command.Split(' ').ToList();
@@ -18,8 +18,8 @@ namespace Assets.Scripts
                 // Get the first command
                 string commandStr = commands[0].ToLower().Trim();
 
-                // Get rid of the command
-                commands[0].Remove(0);
+                // Get rid of the command we just processed
+                commands.RemoveAt(0);
                 Debug.Log(commandStr);
 
                 // First command analysis
@@ -27,15 +27,21 @@ namespace Assets.Scripts
                 {
                     // list <This one is going to be a lot>
                     case "list":
-                        RunCommands.List(commands);
-                        return "Done!";
+                        return RunCommands.List(commands);
                     // capture <name>
                     case "capture":
-                        return "capture called";
-                    case "change":
-                        return "change called";
+                        return RunCommands.Capture(commands);
+                    // change room
+                    case "move":
+                        return RunCommands.Move(commands);
+                    case "help":
+                        return
+                            "usage: \n" +
+                            "\tlist <room, scp, staff>\n" +
+                            "\tcapture <name>\n" +
+                            "\tchange room\n";
                     default:
-                        return SyntaxError(commands[0]);
+                        return $"bash: {commandStr}: command not found...";
                 }
             }
             else
@@ -45,8 +51,5 @@ namespace Assets.Scripts
             }
            
         }
-
-        private string SyntaxError(string command)
-            => $"bash: {command}: command not found";
     }
 }
