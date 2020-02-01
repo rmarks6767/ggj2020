@@ -7,11 +7,39 @@ namespace Assets.Scripts
 
     public class ResearchRoom : Room
     {
+        private int maxStaff;
+        private int roomTier;
+        private int maxRoomTier;
+        private int incrementingValue;
+
         private BuildingType building;
 
         public ResearchRoom(BuildingType building) : base(building)
         {
             this.building = building;
+
+            maxRoomTier = 3;
+            incrementingValue = 2;
+
+            maxStaff = 2;
+            roomTier = 0;
         }
+
+        /// <summary>
+        /// If the upgrade is invalid will return false
+        /// </summary>
+        /// <returns></returns>
+      // public bool RoomUpgrade()
+      // {
+      //     if (roomTier == maxRoomTier)
+      //     {
+      //         return false;
+      //     }
+      //     roomTier++;
+      //     maxStaff += incrementingValue;
+      //
+      // }
+
+
     }
 }
