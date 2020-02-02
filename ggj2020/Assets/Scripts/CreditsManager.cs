@@ -7,10 +7,15 @@ public class CreditsManager : MonoBehaviour
 {
     public TextMeshProUGUI title;
     public TextMeshProUGUI heading;
+    public TextMeshProUGUI pollheading;
     public TextMeshProUGUI namesList;
     public TextMeshProUGUI namesList2;
-
+    public TextMeshProUGUI polls;
     public List<string> names;
+    public List<string> pollQ;
+    public List<string> pollA;
+
+
 
 
     /// <summary>
@@ -42,8 +47,10 @@ public class CreditsManager : MonoBehaviour
         heading.text = "";
         namesList.text = "";
         namesList2.text = "";
+        pollheading.text = "";
         WriteToDisplay("Special Thanks", title);
         WriteToDisplay("Twitch Designers", heading);
+        WriteToDisplay("Poll Results", pollheading);
         string nameString1 = "";
         string nameString2 = "";
         List<string> names1 = names.GetRange(0, names.Count / 2);
@@ -57,6 +64,16 @@ public class CreditsManager : MonoBehaviour
         {
             nameString2 += name;
             nameString2 += "\n";
+        }
+
+        if (pollA.Count == pollQ.Count)
+        {
+            string results = "";
+            for (int i = 0; i < pollA.Count; i++)
+            {
+                results += "Q: " + pollQ[i] + "\n     A: " + pollA[i] + "\n";
+            }
+            WriteToDisplay(results, polls, .02f);
         }
         WriteToDisplay(nameString2, namesList2, .04f);
         WriteToDisplay(nameString1, namesList, .04f);
