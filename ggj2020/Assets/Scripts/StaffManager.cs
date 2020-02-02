@@ -14,7 +14,8 @@ namespace Assets.Scripts
         public int securityCost = 100;
 
 
-        public GameObject staffPrefab;  
+        public GameObject staffPrefab;
+        public GameObject containmentBuilding;
 
         public Dictionary<int, GameObject> securityStaff = new Dictionary<int, GameObject>();
         public Dictionary<int, GameObject> researchStaff = new Dictionary<int, GameObject>();
@@ -39,6 +40,14 @@ namespace Assets.Scripts
 
         }
 
+
+        public void GenerateResearch()
+        {
+            for (int i = 0; i < containmentBuilding.GetComponent<Containment>().Floors.Count; i++)
+            {
+                
+            }
+        }
 
         public void AddStaff(GameObject roomToMoveTo, StaffType type)
         {
