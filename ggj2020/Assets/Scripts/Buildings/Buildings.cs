@@ -112,5 +112,20 @@ namespace Assets.Scripts
             }
             return output;
         }
+
+        public override string ToString()
+        {
+            string building = $"Name: {buildingName}\n" +
+                $"\tMax Floors: {maxFloors}\n" +
+                $"\tCurrent Floors: {floorCount}\n" +
+                $"\tFloors:\n";
+
+            foreach(GameObject floor  in floors)
+            {
+                building += $"\t\t{floor.GetComponent<Floor>().ToString()}\n";
+            }
+
+            return building;
+        }
     }
 }

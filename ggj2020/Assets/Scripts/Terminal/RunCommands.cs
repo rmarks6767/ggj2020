@@ -86,7 +86,7 @@ namespace Assets.Scripts
                     else
                         return "Building not found!";
 
-                    return $"Building:\n\t{building.GetComponent<Buildings>().ToString()}\n";
+                    return $"\n{building.GetComponent<Buildings>().ToString()}\n";
                 case "cell":
                     output = "Cells:\n";
 
@@ -194,7 +194,6 @@ namespace Assets.Scripts
                             return "Moving out";
                         else
                             return "Cannot move out any further";
-                    // TODO: add command 'in'
                 }
             }
             return "usage:\n" +
@@ -202,12 +201,23 @@ namespace Assets.Scripts
                 "move staff <name> floor <room num>" +
                 "move floor <room num>\n" +
                 "move building <building name>\n" +
-                "move out\n";
+                "move out";
         }
 
-        /*public static string Buy(List<string> parameters)
+        public static string Buy(List<string> parameters)
         {
+            if (parameters.Count == 3)
+            {
+                string command = parameters[0];
+                switch (command)
+                {
+                    case "staff":
 
-        }*/
+                        break;
+                }
+            }
+            return "usage:\n" +
+                "buy staff [research/security] <room number>";
+        }
     }
 }
