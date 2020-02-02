@@ -35,15 +35,20 @@ namespace Assets.Scripts
                         "\tscp [wanted, captured, all]\n" +
                         "\tstaff [research, security, all]\n" +
                         "\tbuilding <building name>\n" +
-                        "\tcell [filled, empty, all]\n"+
+                        "\tcell [filled, empty, all]\n" +
                         "capture\n" +
                         "\t<name> <cellnumber>\n" +
                         "move\n" +
                         "\tstaff <name> building <building name>\n" +
-                        "\tstaff <name> floor <room num>\n" +
-                        "\tfloor <room num>\n" +
+                        "\tstaff <name> floor <floor number>\n" +
+                        "\tfloor <floor number>\n" +
                         "\tbuilding <building name>\n" +
-                        "\tout\n";
+                        "\tout\n" +
+                        "hire\n" +
+                        "\t[security / research] <floor number>\n" +
+                        "upgrade\n" +
+                        "\tbuilding [research / security / containment]";
+
                 else
                     return $"bash: {commandStr}: command not found...";
             }

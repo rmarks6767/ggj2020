@@ -12,6 +12,9 @@ public class Terminal : MonoBehaviour
 {
     // Varibles that hold the display and input text
     public TextMeshPro displayText, inputText;
+    private float startTime;
+    private char cursor;
+    private bool cursorLock;
 
     // Variables that control the cycling of previous commands
     private List<string> previousCommands;
@@ -19,7 +22,6 @@ public class Terminal : MonoBehaviour
 
     // Varibles that control the input
     private Event e;
-
     private bool isInputLocked;
     private bool isPrompted;
     private PromptOutput promptOutput;
@@ -30,6 +32,7 @@ public class Terminal : MonoBehaviour
         e = new Event();
         isInputLocked = false;
         isPrompted = false;
+        cursorLock = false;
 
         PromptPlayer("Please enter your name: ", ChangeName);
         //WriteToDisplay(string.Format("Hello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
@@ -46,8 +49,11 @@ public class Terminal : MonoBehaviour
 
     void OnGUI()
     {
+
         if (!isInputLocked)
         {
+            cursorLock = true;
+
             if (Input.anyKeyDown)
             {
                 e = Event.current;
@@ -56,7 +62,10 @@ public class Terminal : MonoBehaviour
                 {
                     if (Input.inputString != "")
                     {
-                        inputText.text += Input.inputString;
+                        Debug.Log(Input.inputString);
+                        Debug.Log(inputText.text);
+
+                        MoveCursorAlong(Input.inputString);
                     }
 
                     if (e.keyCode == KeyCode.Return)
@@ -94,6 +103,7 @@ public class Terminal : MonoBehaviour
 
             if (Input.anyKey)
             {
+                cursorLock = true;
                 e = Event.current;
 
                 if (e.isKey && e.keyCode != KeyCode.None)
@@ -104,6 +114,15 @@ public class Terminal : MonoBehaviour
                     }
                 }
             }
+            cursorLock = false;
+
+
+            if (Time.time - startTime >= 0.5 && !cursorLock)
+            {
+                startTime = Time.time;
+                ChangeCursor();
+            }
+
         }
     }
 
@@ -120,7 +139,7 @@ public class Terminal : MonoBehaviour
 
         if (!isPrompted)
         {
-            string output = Parser.ProcessCommand(command);
+            string output = Parser.ProcessCommand(RemoveCursor(command));
             displayText.text += string.Format("\n[{0}]\n{1}\n\t{2}", GameManager.Instance.location, command, output);
         }
         else
@@ -216,8 +235,36 @@ public class Terminal : MonoBehaviour
 
     void ChangeName(string[] output)
     {
-        GameManager.Instance.playerName = output[0];
+        GameManager.Instance.playerName = RemoveCursor(output[0]);
 
         WriteToDisplay(string.Format("\tHello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
+    }
+
+    void ChangeCursor()
+    {
+        if (cursor == '|')
+        {
+            Backspace();
+            cursor = ' ';
+        }
+        else
+        {
+            inputText.text += '|';
+            cursor = '|';
+        }
+    }
+
+    string RemoveCursor(string trim)
+        => trim.Trim(new char[] { '|' });
+
+    void MoveCursorAlong(string toAdd)
+    {
+        if (inputText.text[inputText.text.Length - 1] == '|')
+        {
+            Backspace();
+            inputText.text += toAdd + '|';
+        }
+        else
+            inputText.text += toAdd;
     }
 }
