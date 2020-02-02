@@ -29,6 +29,11 @@ namespace Assets.Scripts
             get { return isFilled; }
         }
 
+        public int Index
+        {
+            get { return index; }
+        }
+
         public Cell(DangerLevel cellLevel, int index, SCP cellInhabitant = null)
         {
             this.cellLevel = cellLevel;

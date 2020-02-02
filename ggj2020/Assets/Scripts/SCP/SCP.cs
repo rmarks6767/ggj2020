@@ -5,7 +5,7 @@ using Assets.Scripts;
 
 public class SCP
 {
-    int researchLevel; // the amount of research the player can gain from this SCP
+    int escapeChance; // the amount of research the player can gain from this SCP
     int captureDifficulty; //the percentage chance that the capture attempt succeeds
     string name;
     string number;
@@ -16,15 +16,15 @@ public class SCP
     Cell containmentCell;
 
     //defines how valuable the SCP is for researching
-    public int ResearchLevel
+    public int EscapeChance
     {
         get
         {
-            return researchLevel;
+            return escapeChance;
         }
         set
         {
-            researchLevel = value;
+            escapeChance = value;
         }
     }
 
@@ -104,9 +104,9 @@ public class SCP
     }
 
     //constructor for the SCP, defines all necessary parameters
-    public SCP(int researchLevel, string name, string number, DangerLevel dl, bool contained)
+    public SCP(int escapeChance, string name, string number, DangerLevel dl, bool contained)
     {
-        this.researchLevel = researchLevel;
+        this.escapeChance = escapeChance;
         this.name = name;
         this.number = number;
         this.dl = dl;
@@ -153,7 +153,7 @@ public class SCP
     public bool AttemptCapture(int environmentDanger)
     {
         int tempRand = (int)Random.Range(0, 101);
-        if (tempRand > captureDifficulty)
+        if (tempRand > captureDifficulty + environmentDanger)
         {
             return true;
         }
@@ -163,12 +163,4 @@ public class SCP
         }
     }
 
-    public void BreachContainment()
-    {
-        containmentCell.CellInhabitant = null;
-        containmentCell = null;
-        contained = false;
-
-        
-    }
 }
