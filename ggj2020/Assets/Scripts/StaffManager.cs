@@ -10,8 +10,8 @@ namespace Assets.Scripts
 
         public GameObject staffPrefab;  
 
-        public Dictionary<int, Staff> securityStaff = new Dictionary<int, Staff>();
-        public Dictionary<int, Staff> researchStaff = new Dictionary<int, Staff>();
+        public Dictionary<int, GameObject> securityStaff = new Dictionary<int, GameObject>();
+        public Dictionary<int, GameObject> researchStaff = new Dictionary<int, GameObject>();
         
 
         private List<string> firstNameList = new List<string>();
@@ -33,17 +33,30 @@ namespace Assets.Scripts
 
         }
 
-        public void AddStaff(StaffType type)
+        
+        public void AddStaff(GameObject roomToMoveTo, StaffType type)
         {
+            GameObject newStaff = Instantiate(staffPrefab);
+
+            newStaff.GetComponent<Staff>().AssignRole(type);
+
+            newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
+
+            StaffIdCounter++;
+
+            // IF YOU WANT TO PUT TIER DATA IN FUTURE ENTER IT HERE
 
             if (type == StaffType.research)
             {
-                
+                researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                    
             }
             else if (type == StaffType.security)
             {
+                securityStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+            }
 
-            } 
+            newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
         }
 
 
