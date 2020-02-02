@@ -17,7 +17,10 @@ public class CreditsManager : MonoBehaviour
     public List<string> pollA;
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 
     /// <summary>
     /// Aidan wrote these, ripping them from terminal.cs
@@ -49,8 +52,11 @@ public class CreditsManager : MonoBehaviour
         namesList.text = "";
         namesList2.text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
         namesList3.text = "";
         pollheading.text = "";
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 =======
 >>>>>>> parent of fef42e3... Updated credit information
         WriteToDisplay("Special Thanks", title);
@@ -71,6 +77,7 @@ public class CreditsManager : MonoBehaviour
             nameString2 += "\n";
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         foreach (string name in names3)
         {
             nameString3 += name;
@@ -87,6 +94,8 @@ public class CreditsManager : MonoBehaviour
             }
             WriteToDisplay(results, polls, .02f);
         }
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 =======
 >>>>>>> parent of fef42e3... Updated credit information
         WriteToDisplay(nameString2, namesList2, .04f);

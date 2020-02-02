@@ -670,6 +670,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 782217646}
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &915724592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,6 +1028,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1641003531
 =======
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 --- !u!1 &1043711726
 >>>>>>> parent of fef42e3... Updated credit information
 GameObject:
@@ -1335,9 +1338,12 @@ RectTransform:
   - {fileID: 782217647}
   - {fileID: 603150803}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2095516008}
   - {fileID: 256442243}
   - {fileID: 1641003532}
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 =======
 >>>>>>> parent of fef42e3... Updated credit information
   m_Father: {fileID: 0}
@@ -1540,7 +1546,10 @@ MonoBehaviour:
   namesList: {fileID: 782217648}
   namesList2: {fileID: 603150801}
 <<<<<<< HEAD
+<<<<<<< HEAD
   polls: {fileID: 2095516009}
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 =======
 >>>>>>> parent of fef42e3... Updated credit information
   names:
@@ -1571,6 +1580,7 @@ MonoBehaviour:
   - AssassinFilmz
   - C0dedSurvivor
 <<<<<<< HEAD
+<<<<<<< HEAD
   pollQ:
   - What genre of game should we make?
   - What kind of simulator?
@@ -1591,6 +1601,8 @@ MonoBehaviour:
   - Night
   - Yes, and make Chase do it
   - Fear
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 =======
 >>>>>>> parent of fef42e3... Updated credit information
 --- !u!4 &1999449559
