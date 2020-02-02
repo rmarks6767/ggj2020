@@ -44,6 +44,7 @@ namespace Assets.Scripts
             {
                 return false;
             }
+
             else
             {
                 ((CellBlock)(floors[floorNumber].GetComponent<Floor>())).Cells[cellNumber].ContainSCP(newSCP);
