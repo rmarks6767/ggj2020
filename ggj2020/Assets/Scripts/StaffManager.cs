@@ -49,6 +49,23 @@ namespace Assets.Scripts
             }
         }
 
+        public void moveStaff(GameObject staff, GameObject endDestination)
+        {
+            GameObject currentLocation = staff.GetComponent<Staff>().currentLocation;
+
+            currentLocation.GetComponent<Floor>().residentStaff.Remove(staff);
+
+
+            endDestination.GetComponent<Floor>().residentStaff.Add(staff);
+
+            staff.GetComponent<Staff>().AssignLocation(endDestination);
+
+            staff.GetComponent<Staff>().currentLocation = endDestination;
+            
+
+
+        }
+        
         public void AddStaff(GameObject roomToMoveTo, StaffType type)
         {
             GameObject newStaff = Instantiate(staffPrefab);
@@ -72,7 +89,9 @@ namespace Assets.Scripts
             }
 
             newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
-            //roomToMoveTo.GetComponent<Floor
+            newStaff.GetComponent<Staff>().currentLocation = roomToMoveTo;
+            roomToMoveTo.GetComponent<Floor>().residentStaff.Add(newStaff);
+            
         }
 
 
