@@ -40,11 +40,6 @@ namespace Assets
 
         private void Start()
         {
-
-        }
-
-        private void OnEnable()
-        {
             //just kidding i will check
             if (strings.Count == textObjects.Count)
             {
@@ -53,6 +48,11 @@ namespace Assets
                     WriteToDisplay(strings[i], textObjects[i]);
                 }
             }
+        }
+
+        private void OnEnable()
+        {
+
         }
 
     }
