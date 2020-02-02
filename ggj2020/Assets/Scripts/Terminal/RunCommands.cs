@@ -286,7 +286,7 @@ namespace Assets.Scripts
                 //List of floors at a given building
             }
             return "usage:\n" +
-                "upgrade building <building name>";
+                "upgrade building [research / security / containment]";
         }
     }
 }
