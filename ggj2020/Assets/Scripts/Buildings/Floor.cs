@@ -74,7 +74,7 @@ namespace Assets.Scripts
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (id == residentStaff[i].ID)
+                if (id == residentStaff[i].iD)
                 {
                     staffStorage = residentStaff[i];
                     residentStaff.RemoveAt(i);
@@ -91,7 +91,7 @@ namespace Assets.Scripts
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (name == residentStaff[i].StaffName)
+                if (name == residentStaff[i].staffName)
                 {
                     staffStorage = residentStaff[i];
                     residentStaff.RemoveAt(i);
@@ -113,7 +113,7 @@ namespace Assets.Scripts
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (id == residentStaff[i].ID)
+                if (id == residentStaff[i].iD)
                 {
                     staffStorage = residentStaff[i];
                     return staffStorage;
@@ -129,7 +129,7 @@ namespace Assets.Scripts
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (name == residentStaff[i].StaffName)
+                if (name == residentStaff[i].staffName)
                 {
                     staffStorage = residentStaff[i];
                     return staffStorage;

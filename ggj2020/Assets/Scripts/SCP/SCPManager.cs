@@ -47,12 +47,13 @@ public class SCPManager : MonoBehaviour
         containedScips = new List<SCP>();
         
         loadAllScips();
-        AddSCPToScene(5);
 
         foreach (SCP scip in scips)
         {
             wantedScips.Add(scip);
         }
+
+        AddSCPToScene(5);
     }
 
     // Update is called once per frame
@@ -105,7 +106,7 @@ public class SCPManager : MonoBehaviour
         newScip.GetComponent<ScipObject>().number = wantedScips[index].Number;
         Instantiate(newScip, Vector3.zero, Quaternion.identity);
     }
-    void loadAllSscips()
+    void loadAllScips()
     {
         scips.Add(new SCP(2, "Plague Doctor", "049", DangerLevel.euclid, false));
         scips.Add(new SCP(1, "[unknown]", "055", DangerLevel.safe, false));

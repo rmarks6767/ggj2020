@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -71,13 +72,13 @@ namespace Assets.Scripts
                 // list building <name>
                 case "building":
                     output = "Buildings:\n";
-                    List<Buildings> buildings = GameManager.Instance.Buildings(parameters[1]);
+                    List<GameObject> buildings = GameManager.Instance.Buildings.Values.ToList();
 
                     if (buildings.Count == 0)
                         break;
 
-                    foreach (Buildings building in buildings)
-                        output += $"\t{building.ToString()}\n";
+                    foreach (GameObject building in buildings)
+                        output += $"\t{building.GetComponent<Buildings>().ToString()}\n";
 
                     return output;
                 case "cell":

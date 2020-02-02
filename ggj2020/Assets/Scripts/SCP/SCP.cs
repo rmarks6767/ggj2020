@@ -128,9 +128,9 @@ public class SCP
                     captureDifficulty += 30;
                     break;
             }
-            if (captureDifficulty > GameManager.Instance.GetStaff(StaffType.security) * 2)
+            if (captureDifficulty > GameManager.Instance.GetStaff(StaffType.security).Count * 2)
             {
-                captureDifficulty -= GameManager.Instance.GetStaff(StaffType.security) * 2;
+                captureDifficulty -= GameManager.Instance.GetStaff(StaffType.security).Count * 2;
             }
             else
             {
@@ -165,7 +165,7 @@ public class SCP
 
     public void BreachContainment()
     {
-        ContainmentCell.CellInhabitant = null;
+        containmentCell.CellInhabitant = null;
         containmentCell = null;
         contained = false;
 
