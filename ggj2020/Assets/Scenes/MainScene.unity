@@ -120,6 +120,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &272696671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176531182829104919, guid: 1064b578e0fe3794aac3d4d89f9eed3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1303880975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &272696676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272696671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fefb196875e3f242af3f7a988a8b644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  researchPayRate: 15
+  securityPayRate: 10
+  researchCost: 150
+  securityCost: 100
+  researchValue: 0.5
+  staffPrefab: {fileID: 0}
+  cellBlockPrefab: {fileID: 0}
+  containmentBuilding: {fileID: 0}
+  gameManagerObject: {fileID: 0}
 --- !u!1001 &642908896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -356,6 +383,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1597536556632704251, guid: 2f6f5af9164a4354c8e047b4be48deb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1799730408741597953, guid: 2f6f5af9164a4354c8e047b4be48deb9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -401,10 +433,20 @@ PrefabInstance:
       propertyPath: m_TagString
       value: BuildingDisplay
       objectReference: {fileID: 0}
+    - target: {fileID: 6552883031207441747, guid: 2f6f5af9164a4354c8e047b4be48deb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7126532849154232913, guid: 2f6f5af9164a4354c8e047b4be48deb9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8470154140999976010, guid: 2f6f5af9164a4354c8e047b4be48deb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8822617246914229883, guid: 2f6f5af9164a4354c8e047b4be48deb9,
         type: 3}
