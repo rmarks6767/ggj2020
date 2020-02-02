@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8995643762620597878}
   - component: {fileID: 1755299221249215394}
+  - component: {fileID: -2542882166351627562}
+  - component: {fileID: 3785060598858468612}
   m_Layer: 0
   m_Name: FResearch1
   m_TagString: Untagged
@@ -81,3 +83,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2542882166351627562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229413718541285000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c749dc02a8ad9b408767331b65878db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tier: 0
+  staffName: 
+  description: 
+  type: 1
+  iD: 0
+  aiController: {fileID: 0}
+  currentLocation: {fileID: 0}
+--- !u!114 &3785060598858468612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229413718541285000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3525166e0032c3d4fbd88815456ed45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveRight: 0
+  moveLeft: 0
+  stop: 0
+  speed: 0
+  hasExited: 0
+  roomCenter: {fileID: 0}
+  wanderRange: 0
+  spriteFlipper: {fileID: 0}
+  flipDirection: 0
+  exitSpot: {fileID: 0}
+  moveToRoom: {fileID: 0}
