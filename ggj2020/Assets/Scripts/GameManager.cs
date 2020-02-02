@@ -18,9 +18,9 @@ namespace Assets.Scripts
     /// </summary>
     public enum DangerLevel
     {
-        safe,
-        euclid,
-        keter
+        safe = 0,
+        euclid = 1,
+        keter = 2
     }
 
     /// <summary>
