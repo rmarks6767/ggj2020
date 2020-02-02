@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -18,11 +19,11 @@ namespace Assets.Scripts
             }
         }
 
-        public Cell[] Cells
+        public List<Cell> Cells
         {
             get
             {
-                return cells;
+                return cells.ToList();
             }
         }
 
@@ -32,7 +33,12 @@ namespace Assets.Scripts
             maxRoomTier = 3;
             maxStaff = 2;
             maxCells = 3;
-            cells = new Cell[3];
+            cells = new Cell[3] 
+            {
+                new Cell(DangerLevel.safe, int.Parse(base.FloorNumber+""+0)),
+                new Cell(DangerLevel.safe, int.Parse(base.FloorNumber+""+1)),
+                new Cell(DangerLevel.safe, int.Parse(base.FloorNumber+""+2)),
+            };
             currentRoomTier = 0;
 
             base.Start();
