@@ -20,10 +20,11 @@ namespace Assets.Scripts
         public GameObject topFloor;
 
         private List<GameObject> m_currentBuilding;
+        public GameObject buildingDisplay;
 
-        private int m_currentStaffLevel = 0;
-        private int m_currentResearchLevel = 0;
-        private int m_currentContainmentLevel = 0;
+        public int m_currentStaffLevel = 0;
+        public int m_currentResearchLevel = 0;
+        public int m_currentContainmentLevel = 0;
 
 
 
@@ -31,7 +32,10 @@ namespace Assets.Scripts
         void Start()
         {
             SetUpBuildingPreview();
-            m_currentBuilding = new List<GameObject>();
+            for (int i = 0; i < 6; i++)
+            {
+                buildingDisplay.transform.GetChild(i).gameObject.SetActive(false);
+            }
         }
 
         // Update is called once per frame
@@ -107,40 +111,109 @@ namespace Assets.Scripts
 
         public void changeCurrentBuilding(int building)
         {
-            m_currentBuilding.Clear();
+            for(int i = 0; i < 6; i++)
+            {
+                buildingDisplay.transform.GetChild(i).gameObject.SetActive(false);
+            }
+            buildingDisplay.transform.GetChild(0).gameObject.SetActive(true);
             switch (building)
             {
                 case (int)BuildingType.containment:
-                    m_currentBuilding.Add(bottomFloor);
-                    for (int i = 0; i < m_currentContainmentLevel - 1; i++)
+                    if(m_currentContainmentLevel >= 1)
                     {
-                        m_currentBuilding.Add(middleFloor);
+                        buildingDisplay.transform.GetChild(1).gameObject.SetActive(true);
                     }
-                    m_currentBuilding.Add(topFloor);
+
+                    if (m_currentContainmentLevel >= 2)
+                    {
+                        buildingDisplay.transform.GetChild(2).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentContainmentLevel >= 3)
+                    {
+                        buildingDisplay.transform.GetChild(3).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentContainmentLevel >= 4)
+                    {
+                        buildingDisplay.transform.GetChild(4).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentContainmentLevel >= 5)
+                    {
+                        buildingDisplay.transform.GetChild(5).gameObject.SetActive(true);
+                    }
                     break;
                 case (int)BuildingType.research:
-                    m_currentBuilding.Add(bottomFloor);
-                    for (int i = 0; i < m_currentResearchLevel - 1; i++)
+                    if (m_currentResearchLevel >= 1)
                     {
-                        m_currentBuilding.Add(middleFloor);
+                        buildingDisplay.transform.GetChild(1).gameObject.SetActive(true);
                     }
-                    m_currentBuilding.Add(topFloor);
+
+                    if (m_currentResearchLevel >= 2)
+                    {
+                        buildingDisplay.transform.GetChild(2).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentResearchLevel >= 3)
+                    {
+                        buildingDisplay.transform.GetChild(3).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentResearchLevel >= 4)
+                    {
+                        buildingDisplay.transform.GetChild(4).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentResearchLevel >= 5)
+                    {
+                        buildingDisplay.transform.GetChild(5).gameObject.SetActive(true);
+                    }
                     break;
                 case (int)BuildingType.security:
-                    m_currentBuilding.Add(bottomFloor);
-                    for (int i = 0; i < m_currentStaffLevel - 1; i++)
+                    if (m_currentStaffLevel >= 1)
                     {
-                        m_currentBuilding.Add(middleFloor);
+                        buildingDisplay.transform.GetChild(1).gameObject.SetActive(true);
                     }
-                    m_currentBuilding.Add(topFloor);
+
+                    if (m_currentStaffLevel >= 2)
+                    {
+                        buildingDisplay.transform.GetChild(2).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentStaffLevel >= 3)
+                    {
+                        buildingDisplay.transform.GetChild(3).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentStaffLevel >= 4)
+                    {
+                        buildingDisplay.transform.GetChild(4).gameObject.SetActive(true);
+                    }
+
+                    if (m_currentStaffLevel >= 5)
+                    {
+                        buildingDisplay.transform.GetChild(5).gameObject.SetActive(true);
+                    }
+                    break;
+                default:
+                    buildingDisplay.SetActive(false);
                     break;
             }
-            renderCurrentBuilding();
         }
 
-        public void renderCurrentBuilding()
+        public void setBuildingColor(int building)
         {
-
+            switch (building)
+            {
+                case (int)BuildingType.containment:
+                    for (int i = 0; i < 2; i++)
+                    {
+                        
+                    }
+                    break;
+            }
+            
         }
     }
 }
