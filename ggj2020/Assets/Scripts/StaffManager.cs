@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Assets.Scripts
 {
     public class StaffManager : MonoBehaviour
     {
 
-     
+        public GameObject staffPrefab;  
+
+        public Dictionary<int, Staff> securityStaff = new Dictionary<int, Staff>();
+        public Dictionary<int, Staff> researchStaff = new Dictionary<int, Staff>();
+        
 
         private List<string> firstNameList = new List<string>();
         private List<string> lastNameList = new List<string>();
@@ -28,8 +33,28 @@ namespace Assets.Scripts
 
         }
 
+        public void AddStaff(StaffType type)
+        {
 
-        //public Create
+            if (type == StaffType.research)
+            {
+                
+            }
+            else if (type == StaffType.security)
+            {
+
+            } 
+        }
+
+
+        /// <summary>
+        /// Selects 
+        /// </summary>
+        /// <param name="type"></param>
+        public void SelectID(StaffType type)
+        {
+            return;
+        }
 
 
         /// <summary>
