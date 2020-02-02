@@ -6,8 +6,8 @@ namespace Assets.Scripts
 {
     public class Staff : MonoBehaviour
     {
-       
-        
+
+
         public int tier;
         public string staffName;
         public string description;
@@ -15,6 +15,12 @@ namespace Assets.Scripts
         public int iD;
         public CoreAI aiController;
         public GameObject currentLocation;
+
+        public GameObject CurrentLocation
+        {
+            get { return currentLocation; }
+            set { currentLocation = value; }
+        }
 
         private void Start()
         {
