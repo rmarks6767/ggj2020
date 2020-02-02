@@ -7,6 +7,9 @@ TagManager:
   - Terminal
   - GameManager
   - BuildingDisplay
+  - BContainment
+  - BResearch
+  - BSecurity
   layers:
   - Default
   - TransparentFX

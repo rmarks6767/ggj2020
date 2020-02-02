@@ -8,33 +8,24 @@ public class SCPManager : MonoBehaviour
     List<SCP> scips;
     List<SCP> wantedScips;
     List<SCP> containedScips;
-    int rCount; //researcher count in the entire facility
-    int sCount; //security count in the entire facility
     float timeElapsed;
     private Containment building;
-
-    public int ResearcherCount
+    private Money money;
+    private StaffManager sManager;
+    
+    public List<SCP> Scips
     {
-        get
-        {
-            return rCount;
-        }
-        set
-        {
-            rCount = value;
-        }
+        get { return scips; }
     }
 
-    public int SecurityCount
+    public List<SCP> WantedScips
     {
-        get
-        {
-            return sCount;
-        }
-        set
-        {
-            sCount = value;
-        }
+        get { return wantedScips; }
+    }
+
+    public List<SCP> ContainedScips
+    {
+        get {return containedScips; }
     }
 
     // Start is called before the first frame update
@@ -67,9 +58,10 @@ public class SCPManager : MonoBehaviour
             timeElapsed = 0;
             foreach (SCP scip in containedScips)
             {
-                if (scip.ResearchLevel > Random.Range(0, 10000))
+                if (building.GetComponent<Containment>().Floors[scip.ContainmentCell.Index / 10].GetComponent<CellBlock>().StaffCount
+                    > Random.Range(0, 5000))
                 {
-                    scip.BreachContainment();
+                    BreachContainment(scip);
                 }
             }
         }
@@ -182,5 +174,24 @@ public class SCPManager : MonoBehaviour
         scips.Add(new SCP(5, "watch-over-us", "4999", DangerLevel.keter, false));
     }
 
-    
+    void BreachContainment(SCP scip)
+    {
+        int penaltyMod = ((int)scip.DL * 20) + Random.Range(0, 40);
+
+        scip.ContainmentCell.CellInhabitant = null;
+        scip.ContainmentCell = null;
+        scip.Contained = false;
+
+        money.GainMoney(-penaltyMod);
+
+        for (int i = 0; i < penaltyMod/40; i++)
+        {
+            sManager.StaffDied(
+                building.GetComponent<Containment>().Floors[scip.ContainmentCell.Index / 10].GetComponent<CellBlock>().residentStaff[Random.Range(0,
+                building.GetComponent<Containment>().Floors[scip.ContainmentCell.Index / 10].GetComponent<CellBlock>().residentStaff.Count)].GetInstanceID()
+                );
+        }
+
+        GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().WriteToDisplay("WARNING: "+" has escaped from confinenment! This has cost the site "+penaltyMod+" dollars in damages and we lost " + " staff members.") ;
+    }
 }
