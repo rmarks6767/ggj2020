@@ -40,6 +40,7 @@ namespace Assets.Scripts
 			// Updates values of all resources and personel
 			moneyDynamic.text = GameManager.Instance.Money.ToString();
 			scpDynamic.text = GameManager.Instance.scpManager.ContainedScips.Count.ToString();
+			Debug.Log(GameManager.Instance.staffManager);
 			researcherDynamic.text = GameManager.Instance.staffManager.researchStaff.Count.ToString();
 			securityDynamic.text = GameManager.Instance.staffManager.securityStaff.Count.ToString();
 		}
