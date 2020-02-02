@@ -46,7 +46,14 @@ namespace Assets.Scripts
             isFilled = true;
         }
 
-
+        public override string ToString()
+        {
+            if (isFilled)
+            {
+                return "A " + cellLevel + " cell containing " + CellInhabitant.ToString();
+            }
+            return "An empty " + cellLevel + " cell";
+        }
     }
 
 }
