@@ -23,8 +23,10 @@ namespace Assets.Scripts
 
                     SCPManager manager = GameManager.Instance.GetComponent<SCPManager>();
 
-                    manager.CaptureSCP(scp.Name, GameManager.Instance.FindCell(index));
-                    return $"Captured {scp.Name}, moved into cell {index}";
+                    if(manager.CaptureSCP(scp.Name, GameManager.Instance.FindCell(index)))
+                        return $"Captured {scp.Name}, moved into cell {index}";
+                    else 
+                        return $"Capture of {scp.Name} unsuccessful!";
                 }
                 else
                     return $"{name} not found!";
