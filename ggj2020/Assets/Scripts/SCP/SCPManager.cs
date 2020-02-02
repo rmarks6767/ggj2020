@@ -8,7 +8,7 @@ public class SCPManager : MonoBehaviour
     List<SCP> scips;
     int rCount; //researcher count in the entire facility
     int sCount; //security count in the entire facility
-    public Containment building;
+    private Containment building;
 
     public int ResearcherCount
     {
@@ -37,6 +37,7 @@ public class SCPManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        building = GameManager.Instance.Buildings["containment"].GetComponent<Containment>();
         scips = new List<SCP>();
         loadAllSscips();
         AddSCPToScene(5);
@@ -93,31 +94,6 @@ public class SCPManager : MonoBehaviour
         newScip.AddComponent<ScipObject>();
         newScip.GetComponent<ScipObject>().number = scips[index].Number;
         Instantiate(newScip, Vector3.zero, Quaternion.identity);
-    }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns>a list of every empty cell in the containment building</returns>
-    public List<Cell> FindOpenCells()
-    {
-        List<Cell> tempList = new List<Cell>();
-        CellBlock tempCellBlock;
-        foreach (Floor block in building.Floors)
-        {
-            if (block.FloorRoom is CellBlock)
-            {
-                tempCellBlock = (CellBlock)block.FloorRoom;
-                foreach (Cell cell in tempCellBlock.Cells)
-                {
-                    if (cell.CellInhabitant == null)
-                    {
-                        tempList.Add(cell);
-                    }
-                }
-            }
-        }
-        return tempList;
     }
 
     void loadAllSscips()

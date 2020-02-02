@@ -5,14 +5,10 @@ using UnityEngine;
 namespace Assets.Scripts
 {
 
-    public class CellBlock : Room
+    public class CellBlock : Floor
     {
-        private BuildingType building;
         private Cell[] cells;
         private int maxCells;
-        private int maxStaff;
-        private int incrementingValue;
-        private List<Staff> workingStaff;
 
         public int MaxCells
         {
@@ -30,32 +26,16 @@ namespace Assets.Scripts
             }
         }
 
-        public CellBlock(BuildingType building)
+        public override void Start()
         {
-            this.building = building;
+            buildingType = BuildingType.containment;
+            maxRoomTier = 3;
+            maxStaff = 2;
             maxCells = 3;
-            cells = new Cell[maxCells];
+            cells = new Cell[3];
+            currentRoomTier = 0;
 
-            for (int i = 0; i < cells.Length; i++)
-            {
-                cells[i] = new Cell(DangerLevel.safe);
-            }
-        }
-
-        public Staff FindStaff(string removeName)
-        {
-            Staff staffStorage;
-
-            for (int i = 0; i < workingStaff.Count; i++)
-            {
-                if (removeName == workingStaff[i].name)
-                {
-                    staffStorage = workingStaff[i];
-                    return staffStorage;
-                }
-            }
-
-            return null;
+            base.Start();
         }
     }
 }
