@@ -76,7 +76,7 @@ public class SCPManager : MonoBehaviour
         
     }
 
-    public void CaptureSCP(string name, Cell cell)
+    public bool CaptureSCP(string name, Cell cell)
     {
         DangerLevel scipDL;
         for (int i = 0; i < wantedScips.Count; i++)
@@ -90,35 +90,36 @@ public class SCPManager : MonoBehaviour
                     switch (cell.CellLevel)
                     {
                         case DangerLevel.keter:
-                            CaptureSCPHelper(cell, i);
-                            return;
+                            return CaptureSCPHelper(cell, i);
                         case DangerLevel.euclid:
                             if (scipDL == DangerLevel.safe || scipDL == DangerLevel.euclid)
                             {
-                                CaptureSCPHelper(cell, i);
-                                return;
+                                return CaptureSCPHelper(cell, i);
                             }
                             break;
                         case DangerLevel.safe:
                             if (scipDL == DangerLevel.safe)
                             {
-                                CaptureSCPHelper(cell, i);
-                                return;
+                                return CaptureSCPHelper(cell, i);
                             }
                             break;
                     }
                     GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().WriteToDisplay("The cell was not equipped to house this entity/object and it escaped.");
+                    return false;
                 }
                 else
                 {
                     GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().WriteToDisplay("This cell was full, and the SCP escaped.");
+                    return false;
                 }
                 
             }
         }
+        GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().WriteToDisplay("Internal Error; Target not located");
+        return false;
     }
 
-    private void CaptureSCPHelper(Cell cell, int i)
+    private bool CaptureSCPHelper(Cell cell, int i)
     {
         if (wantedScips[i].AttemptCapture((int)Random.Range(0, 21)))
         {
@@ -127,11 +128,13 @@ public class SCPManager : MonoBehaviour
             containedScips.Add(wantedScips[i]);
             AddSCPToScene(i);
             wantedScips.RemoveAt(i);
+            return true;
             //remove the SCP from the list and add it to an empty cell
         }
         else
         {
             wantedScips[i].CaptureDifficulty += 10;
+            return false;
             //remove some security
         }
     }
