@@ -117,10 +117,10 @@ MonoBehaviour:
   moveRight: 0
   moveLeft: 0
   stop: 0
-  speed: 0
+  speed: 1
   hasExited: 0
   roomCenter: {fileID: 0}
-  wanderRange: 0
+  wanderRange: 5
   spriteFlipper: {fileID: 0}
   flipDirection: 0
   exitSpot: {fileID: 0}
