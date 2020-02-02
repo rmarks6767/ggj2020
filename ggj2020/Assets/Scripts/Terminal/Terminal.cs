@@ -6,6 +6,7 @@ using TMPro;
 using System.Linq;
 
 public delegate void RunCommand(List<string> parameters);
+public delegate void PromptOutput(string[] output);
 
 public class Terminal : MonoBehaviour
 {
@@ -20,13 +21,18 @@ public class Terminal : MonoBehaviour
     private Event e;
 
     private bool isInputLocked;
+    private bool isPrompted;
+    private PromptOutput promptOutput;
 
     void Start()
     {
         previousCommands = new List<string>();
         e = new Event();
         isInputLocked = false;
-        WriteToDisplay(string.Format("Hello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
+        isPrompted = false;
+
+        PromptPlayer("Please enter your name: ", ChangeName);
+        //WriteToDisplay(string.Format("Hello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
         inputText.text = string.Format("[{0}]\n> ", GameManager.Instance.location);
     }
 
@@ -55,7 +61,7 @@ public class Terminal : MonoBehaviour
 
                     if (e.keyCode == KeyCode.Return)
                     {
-                        EnterCommand();
+                            EnterCommand();
                     }
 
                     if(e.keyCode == KeyCode.Tab)
@@ -105,13 +111,25 @@ public class Terminal : MonoBehaviour
     {
         prevCmdIndex = 0;
         string command = inputText.text.Substring(5 + GameManager.Instance.location.Length);
+        command = command.Substring(0, command.Length - 1);
         previousCommands.Add(command);
-        if(previousCommands.Count > 20)
+        if (previousCommands.Count > 20)
         {
             previousCommands.RemoveAt(0);
         }
-        string output = Parser.ProcessCommand(command);
-        displayText.text += string.Format("\n[{0}]\n{1}\n\t{2}", GameManager.Instance.location, command, output);
+
+        if (!isPrompted)
+        {
+            string output = Parser.ProcessCommand(command);
+            displayText.text += string.Format("\n[{0}]\n{1}\n\t{2}", GameManager.Instance.location, command, output);
+        }
+        else
+        {
+            displayText.text += string.Format("\n[{0}]\n{1}", GameManager.Instance.location, command);
+            promptOutput.Invoke(command.Split(' '));
+            isPrompted = false;
+        }
+
         inputText.text = string.Format("[{0}]\n> ", GameManager.Instance.location);
     }
 
@@ -169,6 +187,13 @@ public class Terminal : MonoBehaviour
         StartCoroutine(WriteCoroutine(text));
     }
 
+    public void PromptPlayer(string prompt, PromptOutput outputF)
+    {
+        WriteToDisplay(prompt);
+        isPrompted = true;
+        promptOutput = outputF;
+    }
+
     IEnumerator WriteCoroutine(string text)
     {
         isInputLocked = true;
@@ -187,5 +212,12 @@ public class Terminal : MonoBehaviour
     string RemoveFirstLine(string input)
     {
         return string.Join("\n", input.Split('\n').Skip(1).ToArray());
+    }
+
+    void ChangeName(string[] output)
+    {
+        GameManager.Instance.playerName = output[0];
+
+        WriteToDisplay(string.Format("\tHello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
     }
 }

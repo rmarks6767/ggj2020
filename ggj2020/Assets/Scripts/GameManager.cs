@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Assets.Scripts
 {
@@ -37,7 +38,28 @@ namespace Assets.Scripts
 
     class GameManager : Singleton<GameManager>
     {
-        public string playerName, siteName, location;
+        [Header("Player Info")]
+        public string playerName;
+        public string siteName;
+        public string location;
+
+        [Header("Room Prefabs")]
+        public GameObject researchRoomPrefab;
+        public GameObject securityRoomPrefab;
+        public GameObject cellBlockPrefab;
+
+        [Header("Building Prefabs")]
+        public GameObject researchBuildingPrefab;
+        public GameObject securityBuildingPrefab;
+        public GameObject containmentBuildingPrefab;
+
+        [Header("Staff Prefabs")]
+        public GameObject researchStaffPrefab;
+        public GameObject securityStaffPrefab;
+        public GameObject dClassPrefab;
+
+        [Header("Etc")]
+        public Transform screenLocation;
 
         /// <summary>
         /// The money that the player will have
@@ -72,10 +94,20 @@ namespace Assets.Scripts
         }
 
         /// <summary>
+        /// List of all buildings
+        /// </summary>
+        private Dictionary<string, GameObject> buildings;
+
+        public Dictionary<string, GameObject> Buildings
+        {
+            get { return buildings; }
+        }
+
+        /// <summary>
         /// GameManager will be a singleton and hold all of the money 
         /// and people in a given room
         /// </summary>
-        public GameManager()
+        void Start()
         {
             // Create the defaults for the staff
             staff = new Dictionary<StaffType, List<Staff>>()
@@ -98,6 +130,13 @@ namespace Assets.Scripts
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
                 {"move", RunCommands.Move}
+            };
+
+            buildings = new Dictionary<string, GameObject>()
+            {
+                { "research", Instantiate(researchBuildingPrefab, screenLocation) },
+                { "security", Instantiate(securityBuildingPrefab, screenLocation) },
+                { "containment", Instantiate(containmentBuildingPrefab, screenLocation) }
             };
 
             playerName = "#%^$%&$&@";
@@ -241,13 +280,18 @@ namespace Assets.Scripts
         /// <returns>a list of every cell in the containment building</returns>
         public List<Cell> FindCells()
         {
-            List<Cell> tempList = new List<Cell>();
-            foreach (Floor block in building.Floors)
-                if (block.FloorRoom is CellBlock tempCellBlock)
-                    foreach (Cell cell in tempCellBlock.Cells)
-                            tempList.Add(cell);
-
-            return tempList;
+            List<Cell> output = new List<Cell>();
+            Containment containment = buildings["containment"].GetComponent<Containment>();
+            CellBlock cellBlock = null;
+            foreach (GameObject floor in containment.Floors)
+            {
+                cellBlock = floor.GetComponent<CellBlock>();
+                foreach (Cell cell in cellBlock.Cells)
+                {
+                        output.Add(cell);
+                }
+            }
+            return output;
         }
 
         /// <summary>
@@ -256,13 +300,21 @@ namespace Assets.Scripts
         /// <returns>a list of every empty cell in the containment building</returns>
         public List<Cell> FindOpenCells()
         {
-            List<Cell> tempList = new List<Cell>();
-            foreach(Cell cell in FindCells())
+            List<Cell> output = new List<Cell>();
+            Containment containment = buildings["containment"].GetComponent<Containment>();
+            CellBlock cellBlock = null;
+            foreach (GameObject floor in containment.Floors)
             {
-                if (cell.CellInhabitant == null)
-                    tempList.Add(cell);
+                cellBlock = floor.GetComponent<CellBlock>();
+                foreach (Cell cell in cellBlock.Cells)
+                {
+                    if (!cell.IsFilled)
+                    {
+                        output.Add(cell);
+                    }
+                }
             }
-            return tempList;
+            return output;
         }
 
         /// <summary>
@@ -271,13 +323,21 @@ namespace Assets.Scripts
         /// <returns>a list of every full cell in the containment building</returns>
         public List<Cell> FindFilledCells()
         {
-            List<Cell> tempList = new List<Cell>();
-            foreach (Cell cell in FindCells())
+            List<Cell> output = new List<Cell>();
+            Containment containment = buildings["containment"].GetComponent<Containment>();
+            CellBlock cellBlock = null;
+            foreach (GameObject floor in containment.Floors)
             {
-                if (cell.CellInhabitant != null)
-                    tempList.Add(cell);
+                cellBlock = floor.GetComponent<CellBlock>();
+                foreach (Cell cell in cellBlock.Cells)
+                {
+                    if (cell.IsFilled)
+                    {
+                        output.Add(cell);
+                    }
+                }
             }
-            return tempList;
+            return output;
         }
 
         /// <summary>
