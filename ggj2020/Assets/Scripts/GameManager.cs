@@ -59,6 +59,7 @@ namespace Assets.Scripts
         public GameObject dClassPrefab;
 
         [Header("Etc")]
+        public GameObject siteMapPrefab;
         public Transform screenLocation;
 
         /// <summary>
@@ -97,6 +98,17 @@ namespace Assets.Scripts
             get { return buildings; }
         }
 
+        private GameObject siteMap;
+
+        public GameObject SiteMap
+        {
+            get { return siteMap; }
+        }
+
+        public PictureSwap sceneSelect;
+        public SCPManager scpManager;
+        public StaffManager staffManager;
+
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
         /// and people in a given room
@@ -133,9 +145,14 @@ namespace Assets.Scripts
                 { "containment", Instantiate(containmentBuildingPrefab, screenLocation) }
             };
 
-            playerName = "#%^$%&$&@";
-            siteName = "%$^";
-            location = "~/building/floor";
+            siteMap = Instantiate(siteMapPrefab, screenLocation);
+
+            siteName = "69";
+            location = "~";
+
+            sceneSelect = GetComponent<PictureSwap>();
+            scpManager = GetComponent<SCPManager>();
+            staffManager = GetComponent<StaffManager>();
         }
 
         /// <summary>
