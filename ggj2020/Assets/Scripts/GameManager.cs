@@ -282,10 +282,12 @@ namespace Assets.Scripts
                 cellBlock = floor.GetComponent<CellBlock>();
                 foreach (Cell cell in cellBlock.Cells)
                 {
-                    if (cell != null)
+                    //if (cell != null)
                         output.Add(cell);
                 }
             }
+
+            Debug.Log(output.Count);
             return output;
         }
 

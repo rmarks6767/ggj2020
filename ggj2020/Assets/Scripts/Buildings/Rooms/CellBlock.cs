@@ -33,7 +33,12 @@ namespace Assets.Scripts
             maxRoomTier = 3;
             maxStaff = 2;
             maxCells = 3;
-            cells = new Cell[3];
+            cells = new Cell[3] 
+            {
+                new Cell(DangerLevel.safe),
+                new Cell(DangerLevel.safe),
+                new Cell(DangerLevel.safe),
+            };
             currentRoomTier = 0;
 
             base.Start();
