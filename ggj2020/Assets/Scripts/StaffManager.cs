@@ -15,6 +15,8 @@ namespace Assets.Scripts
 
         public float researchValue = .5f;
 
+        private float timeElapsed = 0;
+
         public GameObject staffPrefab;
         public GameObject cellBlockPrefab;
         public GameObject containmentBuilding;
@@ -40,7 +42,13 @@ namespace Assets.Scripts
         // Update is called once per frame
         void Update()
         {
-
+            timeElapsed += Time.deltaTime;
+            if (timeElapsed >= 15)
+            {
+                timeElapsed = 0;
+                GenerateResearch();
+                
+            }
         }
 
 
