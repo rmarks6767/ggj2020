@@ -67,10 +67,6 @@ namespace Assets.Scripts
         public int Money { get; }
         private int money;
 
-        private List<Buildings> buildings;
-        public List<Buildings> Buildings(string name) 
-            => buildings.Find(building => building.Name == name);
-
         /// <summary>
         /// The staff that exist in the given room
         /// </summary>
@@ -85,8 +81,6 @@ namespace Assets.Scripts
         /// List of all valid commands and the functions that correlate to the command
         /// </summary>
         private Dictionary<string, RunCommand> commands;
-
-        public Containment building;
 
         public Dictionary<string, RunCommand> Commands
         {
@@ -207,15 +201,15 @@ namespace Assets.Scripts
             }
             else if( command == "captured" )
             {
-                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => scp.Captured));
-                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => scp.Captured));
-                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => scp.Captured));
+                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => scp.Contained));
             }
             else if (command == "wanted")
             {
-                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => !scp.Captured));
-                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => !scp.Captured));
-                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => !scp.Captured));
+                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => !scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => !scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => !scp.Contained));
             }
             else
             {
@@ -231,7 +225,7 @@ namespace Assets.Scripts
         /// <param name="name">The name of the given staff</param>
         /// <returns>Returns a given staff object</returns>
         public Staff GetStaff(StaffType staffType, string name)
-            => staff[staffType].Find(staff => staff.StaffName == name);
+            => staff[staffType].Find(staff => staff.staffName == name);
 
         public Staff GetStaff(string name)
         {
@@ -243,7 +237,7 @@ namespace Assets.Scripts
                     break;
                 }
 
-                targetStaff = staff[(StaffType)i].Find(staff => staff.StaffName == name);
+                targetStaff = staff[(StaffType)i].Find(staff => staff.staffName == name);
             }
             return targetStaff;
         }
