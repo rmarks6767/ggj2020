@@ -129,18 +129,34 @@ namespace Assets.Scripts
                     // move building <name>
                     case "building":
                         if (parameters.Count == 2)
+                        {
                             name = parameters[1];
+                            if (GameManager.Instance.sceneSelect.MoveToBuilding(name))
+                            {
+                                return $"Moving to building {name}";
+                            }
+                            else
+                            {
+                                return $"Building \"{name}\" doesn't exist";
+                            }
+                        }
                         else
                             break;
 
-                        return $"Moving to building {name}";
                     // move floor <number>
                     case "floor":
                         if (parameters.Count != 2 || !int.TryParse(parameters[1], out floorNum))
                             break;
 
-                        // Must be able to see if person is in the building
-                        return $"Moving to floor {floorNum}";
+                        if(GameManager.Instance.sceneSelect.MoveToFloor(floorNum))
+                        {
+                            return $"Moving to floor {floorNum}";
+                        }
+                        else
+                        {
+                            return "Not inside building or invalid floor number";
+                        }
+                        
                     case "staff":
                         if (parameters.Count == 4)
                             name = parameters[1];
@@ -167,7 +183,10 @@ namespace Assets.Scripts
                         }
                     // move out
                     case "out":
-                        return "Moving out"; 
+                        if (GameManager.Instance.sceneSelect.MoveOut())
+                            return "Moving out";
+                        else
+                            return "Cannot move out any further";
                     // TODO: add command 'in'
                 }
             }
