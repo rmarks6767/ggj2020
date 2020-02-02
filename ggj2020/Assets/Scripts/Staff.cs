@@ -6,6 +6,7 @@ namespace Assets.Scripts
 {
     public class Staff : MonoBehaviour
     {
+        /*
         private int tier;
         private string staffName;
         private string description;
@@ -45,18 +46,18 @@ namespace Assets.Scripts
         }
 
 
-        public Staff(int tier, string staffName, StaffType type, string description)
+        public Staff(int tier, int iD, string staffName, StaffType type, string description)
         {
             this.tier = tier;
+            this.iD = iD;
             this.staffName = staffName;
             this.description = description;
-            this.type = type;
         }
 
         public override string ToString()
         {
-            return staffName + ", " + type + ", Level: " + tier + ", " + description;
+            return staffName + ", " + " Level: " + tier + ", " + description;
         }
-
+        */
     }
 }

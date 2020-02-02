@@ -1,4 +1,8 @@
-﻿namespace Assets.Scripts
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Assets.Scripts
 {
 
     public class CellBlock : Room
@@ -8,6 +12,7 @@
         private int maxCells;
         private int maxStaff;
         private int incrementingValue;
+        private List<Staff> workingStaff;
 
         public int MaxCells
         {
@@ -35,6 +40,44 @@
             {
                 cells[i] = new Cell(DangerLevel.safe);
             }
+        }
+
+        public Staff FindStaff(int id)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < workingStaff.Count; i++)
+            {
+                if (id == workingStaff[i].ID)
+                {
+                    staffStorage = workingStaff[i];
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name="removeName"></param>
+        /// <returns></returns>
+        public Staff RemoveStaff(int id)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < workingStaff.Count; i++)
+            {
+                if (id == workingStaff[i].ID)
+                {
+                    staffStorage = workingStaff[i];
+                    workingStaff.RemoveAt(i);
+                    return staffStorage;
+                }
+            }
+
+            return null;
         }
     }
 }

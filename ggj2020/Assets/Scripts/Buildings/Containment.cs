@@ -74,5 +74,27 @@ namespace Assets.Scripts
             return true;
            
         }
+
+        /// <summary>
+        /// Looks through entire building to find staff
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public Staff FindStaff(int id)
+        {
+            CellBlock roomStorage;
+            Staff securityStorage;
+            for (int i = 0; i < floorCount; i++)
+            {
+                roomStorage = (CellBlock)floors[i].FloorRoom;
+                securityStorage = roomStorage.FindStaff(id);
+                if (securityStorage != null)
+                {
+                    return securityStorage;
+                }
+            }
+
+            return null;
+        }
     }
 }

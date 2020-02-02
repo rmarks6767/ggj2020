@@ -103,9 +103,9 @@ public class SCP
                     captureDifficulty += 30;
                     break;
             }
-            if (captureDifficulty > GameManager.Instance.GetStaff(Staff.security) * 2)
+            if (captureDifficulty > GameManager.Instance.GetStaff(StaffType.security) * 2)
             {
-                captureDifficulty -= GameManager.Instance.GetStaff(Staff.security) * 2;
+                captureDifficulty -= GameManager.Instance.GetStaff(StaffType.security) * 2;
             }
             else
             {

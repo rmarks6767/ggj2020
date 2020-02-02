@@ -64,14 +64,14 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public Researcher FindStaff(string name)
+        public Staff FindStaff(int id)
         {
             ResearchRoom roomStorage;
-            Researcher researcherStorage;
+            Staff researcherStorage;
             for (int i = 0; i < floorCount; i++)
             {
                 roomStorage = (ResearchRoom)floors[i].FloorRoom;
-                researcherStorage = roomStorage.FindStaff(name);
+                researcherStorage = roomStorage.FindStaff(id);
                 if (researcherStorage != null)
                 {
                     return researcherStorage;
@@ -86,14 +86,14 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public Researcher RemoveStaff(string name)
+        public Staff RemoveStaff(int id)
         {
             ResearchRoom roomStorage;
-            Researcher researcherStorage;
+            Staff researcherStorage;
             for (int i = 0; i < floorCount; i++)
             {
                 roomStorage = (ResearchRoom)floors[i].FloorRoom;
-                researcherStorage = roomStorage.RemoveStaff(name);
+                researcherStorage = roomStorage.RemoveStaff(id);
                 if (researcherStorage != null)
                 {
                     return researcherStorage;
