@@ -161,6 +161,43 @@ namespace Assets.Scripts
             return firstName + " " + lastName;
         }
 
+		/// <summary>
+		/// Finds the dead staff member and removes them from the scene
+		/// </summary>
+		/// <param name="id">The id of the dead staff member</param>
+		public void StaffDied(int id)
+		{
+			// Finds dead member
+			GameObject deadStaffMember = null;
+
+			foreach(KeyValuePair<int, GameObject> pair in researchStaff)
+			{
+				if(pair.Key == id)
+				{
+					deadStaffMember = pair.Value;
+					break;
+				}
+			}
+
+			foreach(KeyValuePair<int, GameObject> pair in securityStaff)
+			{
+				// if the dead staff member was found, it breaks out of this loop
+				if(deadStaffMember != null)
+					break;
+
+				if(pair.Key == id)
+				{
+					deadStaffMember = pair.Value;
+					break;
+				}
+			}
+
+			// Checks if the dead staff member was found
+			if(deadStaffMember == null)
+				return;
+
+			// Removes Member from Room
+		}
 
         /// <summary>
         /// Fils the list with random Names
