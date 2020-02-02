@@ -51,12 +51,11 @@ namespace Assets.Scripts
             this.iD = iD;
             this.staffName = staffName;
             this.description = description;
-            this.type = type;
         }
 
         public override string ToString()
         {
-            return staffName + ", " + type + ", Level: " + tier + ", " + description;
+            return staffName + ", " + " Level: " + tier + ", " + description;
         }
 
     }
