@@ -33,16 +33,30 @@ public class Money : MonoBehaviour
     }
 
 	#region Methods
+	/// <summary>
+	/// A simple way to increase money of the GameManager
+	/// </summary>
+	/// <param name="moneyGained">The amount gained</param>
 	public void GainMoney(int moneyGained)
 	{
 		// Adds moneyGained to money field of GameManager
 		gm.AddMoney(moneyGained);
 	}
+
+	/// <summary>
+	/// A simple way to deduct money from the GameManager
+	/// </summary>
+	/// <param name="moneyLost">The amount lost</param>
 	public void LoseMoney(int moneyLost)
 	{
 		// Removes moneyLost to money field of GameManager
 		gm.AddMoney(-moneyLost);
 	}
+
+	/// <summary>
+	/// Charges the player an amount after so much time, 
+	/// based on the type of staff member and its tier
+	/// </summary>
 	public void Payroll()
 	{
 		int totalPayroll = 0;
@@ -71,25 +85,39 @@ public class Money : MonoBehaviour
 	{
 		if(staffMember.type == StaffType.research)
 		{
-			return staffMember.tier * 15;
+			return staffMember.tier * sm.researchPayRate;
 		}
 		else if(staffMember.type == StaffType.security)
 		{
-			return staffMember.tier * 10;
+			return staffMember.tier * sm.securityPayRate;
 		}
 
 		return 0;
 	}
 
-	public void BuyStaff(StaffType staffType)
+	/// <summary>
+	/// Checks if the user can buy a staff member and, if so, 
+	/// buys the staff member to a specific room
+	/// </summary>
+	/// <param name="roomToMoveTo">The room the staff member will go to</param>
+	/// <param name="staffType">The type of staff they are</param>
+	public void BuyStaff(GameObject roomToMoveTo, StaffType staffType)
 	{
 		if(staffType == StaffType.research)
 		{
-			
+			if(gm.Money >= sm.researchCost)
+			{
+				LoseMoney(sm.researchCost);
+				sm.AddStaff(roomToMoveTo, StaffType.research);
+			}
 		}
 		else if(staffType == StaffType.security)
 		{
-
+			if(gm.Money >= sm.securityCost)
+			{
+				LoseMoney(sm.securityCost);
+				sm.AddStaff(roomToMoveTo, StaffType.security);
+			}
 		}
 	}
 	#endregion
