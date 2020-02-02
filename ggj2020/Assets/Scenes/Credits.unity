@@ -669,6 +669,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782217646}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &915724592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1026,9 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1641003531
+=======
+--- !u!1 &1043711726
+>>>>>>> parent of fef42e3... Updated credit information
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1330,9 +1334,12 @@ RectTransform:
   - {fileID: 1043711727}
   - {fileID: 782217647}
   - {fileID: 603150803}
+<<<<<<< HEAD
   - {fileID: 2095516008}
   - {fileID: 256442243}
   - {fileID: 1641003532}
+=======
+>>>>>>> parent of fef42e3... Updated credit information
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1532,7 +1539,10 @@ MonoBehaviour:
   pollheading: {fileID: 256442244}
   namesList: {fileID: 782217648}
   namesList2: {fileID: 603150801}
+<<<<<<< HEAD
   polls: {fileID: 2095516009}
+=======
+>>>>>>> parent of fef42e3... Updated credit information
   names:
   - bloodshotunicorn
   - TheSoundFXGuy
@@ -1560,6 +1570,7 @@ MonoBehaviour:
   - msweet168
   - AssassinFilmz
   - C0dedSurvivor
+<<<<<<< HEAD
   pollQ:
   - What genre of game should we make?
   - What kind of simulator?
@@ -1580,6 +1591,8 @@ MonoBehaviour:
   - Night
   - Yes, and make Chase do it
   - Fear
+=======
+>>>>>>> parent of fef42e3... Updated credit information
 --- !u!4 &1999449559
 Transform:
   m_ObjectHideFlags: 0

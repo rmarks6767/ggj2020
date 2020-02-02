@@ -10,7 +10,6 @@ public class CreditsManager : MonoBehaviour
     public TextMeshProUGUI pollheading;
     public TextMeshProUGUI namesList;
     public TextMeshProUGUI namesList2;
-    public TextMeshProUGUI namesList3;
 
     public TextMeshProUGUI polls;
     public List<string> names;
@@ -18,8 +17,6 @@ public class CreditsManager : MonoBehaviour
     public List<string> pollA;
 
 
-
-    public List<string> nameCredits;
 
 
     /// <summary>
@@ -51,17 +48,18 @@ public class CreditsManager : MonoBehaviour
         heading.text = "";
         namesList.text = "";
         namesList2.text = "";
+<<<<<<< HEAD
         namesList3.text = "";
         pollheading.text = "";
+=======
+>>>>>>> parent of fef42e3... Updated credit information
         WriteToDisplay("Special Thanks", title);
         WriteToDisplay("Twitch Designers", heading);
         WriteToDisplay("Poll Results", pollheading);
         string nameString1 = "";
         string nameString2 = "";
-        string nameString3 = "";
         List<string> names1 = names.GetRange(0, names.Count / 2);
         List<string> names2 = names.GetRange(names.Count / 2, names.Count / 2);
-        List<string> names3 = nameCredits;
         foreach (string name in names1)
         {
             nameString1 += name;
@@ -72,6 +70,7 @@ public class CreditsManager : MonoBehaviour
             nameString2 += name;
             nameString2 += "\n";
         }
+<<<<<<< HEAD
         foreach (string name in names3)
         {
             nameString3 += name;
@@ -88,6 +87,8 @@ public class CreditsManager : MonoBehaviour
             }
             WriteToDisplay(results, polls, .02f);
         }
+=======
+>>>>>>> parent of fef42e3... Updated credit information
         WriteToDisplay(nameString2, namesList2, .04f);
         WriteToDisplay(nameString1, namesList, .04f);
         
