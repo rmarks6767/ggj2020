@@ -21,6 +21,7 @@ namespace Assets.Scripts
             if (floorCount < maxFloors)
             {
                 floors.Add(Instantiate(GameManager.Instance.securityRoomPrefab, GameManager.Instance.screenLocation));
+                GameObject.FindGameObjectWithTag("BuildingDisplay").GetComponent<BuildingDisplayManager>().UpgradeBuilding((int)BuildingType.security);
                 return true;
             }
             else

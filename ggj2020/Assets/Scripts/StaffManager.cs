@@ -15,6 +15,8 @@ namespace Assets.Scripts
 
         public float researchValue = .5f;
 
+        private float timeElapsed = 0;
+
         public GameObject staffPrefab;
         public GameObject cellBlockPrefab;
         public GameObject containmentBuilding;
@@ -34,13 +36,19 @@ namespace Assets.Scripts
         // Start is called before the first frame update
         void Start()
         {
-			
+            gameManagerObject = this.gameObject;
         }
 
         // Update is called once per frame
         void Update()
         {
-
+            timeElapsed += Time.deltaTime;
+            if (timeElapsed >= 15)
+            {
+                timeElapsed = 0;
+                GenerateResearch();
+                
+            }
         }
 
 
@@ -161,6 +169,46 @@ namespace Assets.Scripts
             return firstName + " " + lastName;
         }
 
+		/// <summary>
+		/// Finds the dead staff member and removes them from the scene
+		/// </summary>
+		/// <param name="id">The id of the dead staff member</param>
+		public void StaffDied(int id)
+		{
+			// Finds dead member
+			GameObject deadStaffMember = null;
+
+			foreach(KeyValuePair<int, GameObject> pair in researchStaff)
+			{
+				if(pair.Key == id)
+				{
+					deadStaffMember = pair.Value;
+					researchStaff.Remove(id);
+					break;
+				}
+			}
+
+			foreach(KeyValuePair<int, GameObject> pair in securityStaff)
+			{
+				// if the dead staff member was found, it breaks out of this loop
+				if(deadStaffMember != null)
+					break;
+
+				if(pair.Key == id)
+				{
+					deadStaffMember = pair.Value;
+					securityStaff.Remove(id);
+					break;
+				}
+			}
+
+			// Checks if the dead staff member was found
+			if(deadStaffMember == null)
+				return;
+
+			// Removes Member from Room
+			deadStaffMember.GetComponent<Staff>().currentLocation.GetComponent<Floor>().residentStaff.Remove(deadStaffMember);
+		}
 
         /// <summary>
         /// Fils the list with random Names

@@ -129,8 +129,6 @@ namespace Assets.Scripts
             {
                 command = parameters[0];
 
-                Debug.Log(parameters.Count);
-
                 switch (command)
                 {
                     // move building <name>
@@ -139,13 +137,9 @@ namespace Assets.Scripts
                         {
                             name = parameters[1];
                             if (GameManager.Instance.sceneSelect.MoveToBuilding(name))
-                            {
                                 return $"Moving to building {name}";
-                            }
                             else
-                            {
                                 return $"Building \"{name}\" doesn't exist";
-                            }
                         }
                         else
                             break;
@@ -156,28 +150,21 @@ namespace Assets.Scripts
                             break;
 
                         if(GameManager.Instance.sceneSelect.MoveToFloor(floorNum))
-                        {
                             return $"Moving to floor {floorNum}";
-                        }
                         else
-                        {
                             return "Not inside building or invalid floor number";
-                        }
                         
                     case "staff":
                         if (parameters.Count == 4)
                             name = parameters[1];
                         else
                             break;
+
                         string identifier = parameters[2].ToLower().Trim();
                         string blgName = parameters[3];
 
-                        Debug.Log($"[{identifier}]");
-
                         if (identifier == "building")
-                        {
                             return $"Moving {name} to building {blgName}";
-                        }
                         else if (identifier == "floor")
                         {
                             if (!int.TryParse(blgName, out floorNum))
@@ -185,9 +172,7 @@ namespace Assets.Scripts
                             return $"Moving {name} to floor {floorNum}";
                         }
                         else
-                        {
                             break;
-                        }
                     // move out
                     case "out":
                         if (GameManager.Instance.sceneSelect.MoveOut())
@@ -220,6 +205,41 @@ namespace Assets.Scripts
             }
             return "usage:\n" +
                 "buy staff [research/security] <room number>";
+        }
+
+        public static string Upgrade(List<string> parameters)
+        {
+            const int bldgPrice = 500;
+
+            if (parameters.Count == 2)
+            {
+                string command = parameters[0];
+                switch (command)
+                {
+                    case "building":
+                        string name = parameters[1];
+                        Buildings building;
+
+                        if (GameManager.Instance.Buildings.ContainsKey(name))
+                            building = GameManager.Instance.Buildings[name].GetComponent<Buildings>();
+                        else
+                            return "Building not found!";
+
+                        if (GameManager.Instance.Money >= bldgPrice)
+                            if (building.AddFloor())
+                                GameManager.Instance.AddMoney(-bldgPrice);
+                            else
+                                return "Building full, could not add room!";
+                        else
+                            return $"{bldgPrice} required to purchase a new room!";
+
+                        return "Successfully upgraded";
+
+                }
+                //List of floors at a given building
+            }
+            return "usage:\n" +
+                "upgrade building <building name>";
         }
     }
 }
