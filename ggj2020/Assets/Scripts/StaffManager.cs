@@ -13,9 +13,12 @@ namespace Assets.Scripts
         public int researchCost = 150;
         public int securityCost = 100;
 
+        public float researchValue = .5f;
 
         public GameObject staffPrefab;
+        public GameObject cellBlockPrefab;
         public GameObject containmentBuilding;
+        public GameObject gameManagerObject;
 
         public Dictionary<int, GameObject> securityStaff = new Dictionary<int, GameObject>();
         public Dictionary<int, GameObject> researchStaff = new Dictionary<int, GameObject>();
@@ -43,29 +46,57 @@ namespace Assets.Scripts
 
         public void GenerateResearch()
         {
+            int moneyTotal = 0;
+            List<GameObject> currentFloorStaff;
+            GameObject currentCellBlockHolder;
+
+            List<DangerLevel> dangerLevelOfScp = new List<DangerLevel>();
+            List<int> tiersOfResearchers = new List<int>();
+
             for (int i = 0; i < containmentBuilding.GetComponent<Containment>().Floors.Count; i++)
             {
-                List<GameObject> currentFloorStaff;
-                int researcherCount = 0;
+                dangerLevelOfScp.Clear();
+                tiersOfResearchers.Clear();
 
-                currentFloorStaff = containmentBuilding.GetComponent<Containment>().Floors[i].GetComponent<Floor>().residentStaff;
+                currentFloorStaff = containmentBuilding.GetComponent<Containment>().Floors[i].GetComponent<CellBlock>().residentStaff;
+
+                currentCellBlockHolder = containmentBuilding.GetComponent<Containment>().Floors[i];
+                for (int y = 0; y < currentCellBlockHolder.GetComponent<CellBlock>().Cells.Count; y++)
+                {
+                    if (currentCellBlockHolder.GetComponent<CellBlock>().Cells[y].IsFilled)
+                    {
+                        dangerLevelOfScp.Add(currentCellBlockHolder.GetComponent<CellBlock>().Cells[y].CellInhabitant.DL);
+                    }
+                }
 
                 for (int x = 0; x < currentFloorStaff.Count; x++)
                 {
                     if (currentFloorStaff[i].GetComponent<Staff>().type == StaffType.research)
                     {
-                        
-                        researcherCount++;
-                        // IF YOU ADD TIERS RECORD THEM HERE
-
+                        tiersOfResearchers.Add(currentFloorStaff[i].GetComponent<Staff>().tier);
                     }
-
                 }
 
-                
-            }
+                int scpValue = 0;
+                //Add SCP Values
+                for (int z = 0; z < dangerLevelOfScp.Count; z++)
+                {
+                    scpValue += (int)dangerLevelOfScp[z];
+                }
 
-            
+                int researcherTierValue = 0;
+                // Add researcher tiers
+                for (int z = 0; z < tiersOfResearchers.Count; z++)
+                {
+                    researcherTierValue += tiersOfResearchers[z];
+                }
+
+
+                // Add to money total
+                moneyTotal += (int)(scpValue + researcherTierValue * researchValue);
+
+            }
+            gameManagerObject.GetComponent<Money>().GainMoney(moneyTotal);
         }
 
         public void moveStaff(GameObject staff, GameObject endDestination)
