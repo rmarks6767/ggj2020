@@ -44,9 +44,6 @@ public class SCPManager : MonoBehaviour
             GameManager.Instance.AddScp(scip.DL, scip);
             wantedScips.Add(scip);
         }
-       
-
-     
     }
 
     // Update is called once per frame
