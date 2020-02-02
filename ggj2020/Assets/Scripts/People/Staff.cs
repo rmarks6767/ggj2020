@@ -11,6 +11,9 @@ namespace Assets.Scripts
         private string description;
         private StaffType type;
 
+        // A Unique ID for each person
+        private int iD;
+
         public int Tier
         {
             get { return tier; }
@@ -33,6 +36,12 @@ namespace Assets.Scripts
         {
             get { return type; }
             set { type = value; }
+        }
+
+        public int ID
+        {
+            get { return iD; }
+            set { iD = value; }
         }
 
         public Staff(int tier, string staffName, string description)
