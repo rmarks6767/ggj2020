@@ -6,58 +6,39 @@ namespace Assets.Scripts
 {
     public class Staff : MonoBehaviour
     {
+       
         
-        private int tier;
-        private string staffName;
-        private string description;
-        private StaffType type;
+        public int tier;
+        public string staffName;
+        public string description;
+        public StaffType type;
+        public int iD;
+        public CoreAI aiController;
+        public GameObject currentLocation;
 
-        // A Unique ID for each person
-        private int iD;
-
-        public int Tier
+        private void Start()
         {
-            get { return tier; }
-            set { tier = value; }
+            aiController = gameObject.GetComponent<CoreAI>();
+            tier = 1;
         }
-
-        public string StaffName
-        {
-            get { return StaffName; }
-            set { StaffName = value; }
-        }
-
-        public string Description
-        {
-            get { return description; }
-            set { description = value; }
-        }
-
-        public StaffType Type
-        {
-            get { return type; }
-            set { type = value; }
-        }
-
-        public int ID
-        {
-            get { return iD; }
-            set { iD = value; }
-        }
-
-
-        public Staff(int tier, int iD, string staffName, StaffType type, string description)
-        {
-            this.tier = tier;
-            this.iD = iD;
-            this.staffName = staffName;
-            this.description = description;
-        }
-
         public override string ToString()
         {
-            return staffName + ", " + " Level: " + tier + ", " + description;
+            return staffName + ", " + " Level: " + tier + ", " + description + ", " + type + ", " + iD;
         }
         
+        public void AssignData(string name, int ID)
+        {
+            staffName = name;
+            iD = ID;
+        }
+
+        public void AssignLocation(GameObject roomToMoveTo)
+        {
+            this.aiController.LeaveRoom(roomToMoveTo);
+        }
+        public void AssignRole(StaffType staffType)
+        {
+            type = staffType;
+        }
     }
 }

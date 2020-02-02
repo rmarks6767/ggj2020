@@ -2,48 +2,118 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PictureSwap : MonoBehaviour
-{
-
-    private GameObject inPicture;
-    private GameObject offScreen;
-    public List<GameObject> rooms;
-
-
-    // Start is called before the first frame update
-    void Start()
+namespace Assets.Scripts {
+    public class PictureSwap : MonoBehaviour
     {
-        inPicture = GameObject.Find("InPicture");
-        offScreen = GameObject.Find("OffScreen");
-    }
+        private GameObject currentScene, currentBuilding;
+        private int currentFloor;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
+        // Start is called before the first frame update
+        void Start()
         {
-            ChangeRoom(0);
+            currentScene = GameManager.Instance.SiteMap;
+            currentBuilding = null;
+            currentFloor = -1;
+
+            Display();
         }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            ChangeRoom(1);
-        }
-    }
 
-    public void ChangeRoom(int roomPosition)
-    {
-        for(int x = 0; x<rooms.Count; x++)
+        public bool MoveToFloor(int roomPosition)
         {
-            if(x == roomPosition)
+            if (currentBuilding != null &&
+                roomPosition < currentBuilding.GetComponent<Buildings>().Floors.Count &&
+                roomPosition >= 0)
             {
-                rooms[x].transform.position = inPicture.transform.position;
+                currentFloor = roomPosition;
+                Display();
+                return true;
             }
             else
             {
-                rooms[x].transform.position = offScreen.transform.position;
+                return false;
+            }
+        }
+
+        public bool MoveToBuilding(string buildingName)
+        {
+            if (GameManager.Instance.Buildings.ContainsKey(buildingName))
+            {
+                currentBuilding = GameManager.Instance.Buildings[buildingName];
+                currentFloor = -1;
+                Display();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void MoveToMap()
+        {
+            currentBuilding = null;
+            currentFloor = -1;
+
+            Display();
+        }
+
+        public bool MoveOut()
+        {
+            if(currentBuilding == null)
+            {
+                return false;
+            }
+            else
+            {
+                if(currentFloor == -1)
+                {
+                    MoveToMap();
+                }
+                else
+                {
+                    MoveToBuilding(currentBuilding.GetComponent<Buildings>().Name.ToLower());
+                }
+                return true;
+            }
+        }
+
+        private void Display()
+        {
+            UpdateLocation();
+            currentScene.transform.position = new Vector3(currentScene.transform.position.x, currentScene.transform.position.y, 0);
+            if(currentBuilding == null)
+            {
+                currentScene = GameManager.Instance.SiteMap;
+            }
+            else
+            {
+                if(currentFloor == -1)
+                {
+                    currentScene = currentBuilding;
+                }
+                else
+                {
+                    currentScene = currentBuilding.GetComponent<Buildings>().Floors[currentFloor];
+                }
+            }
+            currentScene.transform.position = new Vector3(currentScene.transform.position.x, currentScene.transform.position.y, -5);
+        }
+
+        private void UpdateLocation()
+        {
+            if(currentBuilding == null)
+            {
+                GameManager.Instance.location = "~";
+            }
+            else
+            {
+                GameManager.Instance.location = $"~/{currentBuilding.GetComponent<Buildings>().Name}";
+
+                if (currentFloor != -1)
+                {
+                    GameManager.Instance.location += $"/{currentFloor}";
+                }
             }
         }
     }
-
-    
 }

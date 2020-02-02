@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8366306736159391266}
   - component: {fileID: 8720545661523125363}
+  - component: {fileID: -3828229035993896828}
+  - component: {fileID: -6537187031203066353}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -46,3 +48,45 @@ MonoBehaviour:
   playerName: '#%^$%&$&@'
   siteName: '%$^'
   location: ~/building/floor
+  researchRoomPrefab: {fileID: 6936310569513809537, guid: d0550a9fae77cc945853dc1aaa8bedd6,
+    type: 3}
+  securityRoomPrefab: {fileID: 7628573161862177414, guid: 1090b811338d3dd4bb1257c60ddbbbb0,
+    type: 3}
+  cellBlockPrefab: {fileID: 1792959157731375565, guid: 09ed6f0088581484fb1ceb64ca2f0ab7,
+    type: 3}
+  researchBuildingPrefab: {fileID: 8505447299894904743, guid: 6bf96c2450d9e3e4e9b30500a3705822,
+    type: 3}
+  securityBuildingPrefab: {fileID: 6428164993545979269, guid: 0ee109ceaeea82f40a1e1f4ee1779cc6,
+    type: 3}
+  containmentBuildingPrefab: {fileID: 5919795926259229228, guid: 420ead27384b7454f87c98820d951f4c,
+    type: 3}
+  researchStaffPrefab: {fileID: 0}
+  securityStaffPrefab: {fileID: 0}
+  dClassPrefab: {fileID: 0}
+  screenLocation: {fileID: 0}
+--- !u!114 &-3828229035993896828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176531182829104919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558d214545595a54cbf37b3d84817bb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  building: {fileID: 0}
+--- !u!114 &-6537187031203066353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176531182829104919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ea24f4fdbeb71429d1b61b7176ee20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screens: []

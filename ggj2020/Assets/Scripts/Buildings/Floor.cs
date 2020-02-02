@@ -4,29 +4,27 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class Floor : MonoBehaviour
+    public abstract class Floor : MonoBehaviour
     {
-        private BuildingType building;
-        private int floorNumber;
-
-        private Room floorRoom;
-
+        protected BuildingType buildingType;
+        protected int floorNumber, maxStaff, currentRoomTier, maxRoomTier;
+        public List<GameObject> residentStaff;
 
         /// <summary>
-        /// The room that is held in the floor
+        /// Current level of the room
         /// </summary>
-        public Room FloorRoom
+        public int CurrentRoomTier
         {
-            get { return floorRoom; }
-            set { floorRoom = value; }
+            get { return currentRoomTier; }
         }
 
+
         /// <summary>
-        /// Type of this floor's building
+        /// Current count of the staff
         /// </summary>
-        public BuildingType Building
+        public int StaffCount
         {
-            get { return building; }
+            get { return residentStaff.Count; }
         }
 
         /// <summary>
@@ -37,27 +35,110 @@ namespace Assets.Scripts
             get { return floorNumber; }
         }
 
-        public Floor(BuildingType buildingType)
+        /// <summary>
+        /// Type of this floor's building
+        /// </summary>
+        public BuildingType Type
         {
-            building = buildingType;
+            get { return buildingType; }
+        }
 
-            switch (building)
-            {
-                case BuildingType.containment:
-                    floorRoom = new CellBlock(building);
-                    break;
-
-                case BuildingType.research:
-                    floorRoom = new ResearchRoom(building);
-                    
-                    break;
-
-                case BuildingType.security:
-                    floorRoom = new SecurityRoom(building);
-                    break;
-            }
+        public virtual void Start()
+        {
+            residentStaff = new List<GameObject>();
         }
 
 
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name = "removeName" ></ param >
+        /// < returns ></ returns >
+        public Staff RemoveStaff(int id)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < residentStaff.Count; i++)
+            {
+                if (id == residentStaff[i].GetComponent<Staff>().iD)
+                {
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
+                    residentStaff.RemoveAt(i);
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        public Staff RemoveStaff(string name)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < residentStaff.Count; i++)
+            {
+                if (name == residentStaff[i].GetComponent<Staff>().staffName)
+                {
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
+                    residentStaff.RemoveAt(i);
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name = "removeName" ></ param >
+        /// < returns ></ returns >
+        public Staff FindStaff(int id)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < residentStaff.Count; i++)
+            {
+                if (id == residentStaff[i].GetComponent<Staff>().iD)
+                {
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        public Staff FindStaff(string name)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < residentStaff.Count; i++)
+            {
+                if (name == residentStaff[i].GetComponent<Staff>().staffName)
+                {
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// If the upgrade is invalid will return false
+        /// </summary>
+        /// <returns></returns>
+        public bool RoomUpgrade()
+        {
+            if (currentRoomTier == maxRoomTier)
+            {
+                return false;
+            }
+
+            currentRoomTier++;
+            maxStaff++;
+            return true;
+        }
     }
 }

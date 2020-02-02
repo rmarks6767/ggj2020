@@ -13,6 +13,7 @@ public class SCP
     string description;
     bool contained;
     DangerLevel dl;
+    Cell containmentCell;
 
     //defines how valuable the SCP is for researching
     public int ResearchLevel
@@ -78,6 +79,30 @@ public class SCP
         }
     }
 
+    public Cell ContainmentCell
+    {
+        get
+        {
+            return containmentCell;
+        }
+        set
+        {
+            containmentCell = value;
+        }
+    }
+
+    public bool Contained
+    {
+        get
+        {
+            return contained;
+        }
+        set
+        {
+            contained = value;
+        }
+    }
+
     //constructor for the SCP, defines all necessary parameters
     public SCP(int researchLevel, string name, string number, DangerLevel dl, bool contained)
     {
@@ -103,9 +128,9 @@ public class SCP
                     captureDifficulty += 30;
                     break;
             }
-            if (captureDifficulty > GameManager.Instance.GetStaff(StaffType.security) * 2)
+            if (captureDifficulty > GameManager.Instance.GetStaff(StaffType.security).Count * 2)
             {
-                captureDifficulty -= GameManager.Instance.GetStaff(StaffType.security) * 2;
+                captureDifficulty -= GameManager.Instance.GetStaff(StaffType.security).Count * 2;
             }
             else
             {
@@ -136,5 +161,14 @@ public class SCP
         {
             return false;
         }
+    }
+
+    public void BreachContainment()
+    {
+        containmentCell.CellInhabitant = null;
+        containmentCell = null;
+        contained = false;
+
+        
     }
 }

@@ -1,18 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Assets.Scripts
 {
 
-    public class CellBlock : Room
+    public class CellBlock : Floor
     {
-        private BuildingType building;
         private Cell[] cells;
         private int maxCells;
-        private int maxStaff;
-        private int incrementingValue;
-        private List<Staff> workingStaff;
 
         public int MaxCells
         {
@@ -22,62 +19,29 @@ namespace Assets.Scripts
             }
         }
 
-        public Cell[] Cells
+        public List<Cell> Cells
         {
             get
             {
-                return cells;
+                return cells.ToList();
             }
         }
 
-        public CellBlock(BuildingType building)
+        public override void Start()
         {
-            this.building = building;
+            buildingType = BuildingType.containment;
+            maxRoomTier = 3;
+            maxStaff = 2;
             maxCells = 3;
-            cells = new Cell[maxCells];
-
-            for (int i = 0; i < cells.Length; i++)
+            cells = new Cell[3] 
             {
-                cells[i] = new Cell(DangerLevel.safe);
-            }
-        }
+                new Cell(DangerLevel.safe, int.Parse(base.FloorNumber+""+0)),
+                new Cell(DangerLevel.safe, int.Parse(base.FloorNumber+""+1)),
+                new Cell(DangerLevel.safe, int.Parse(base.FloorNumber+""+2)),
+            };
+            currentRoomTier = 0;
 
-        public Staff FindStaff(int id)
-        {
-            Staff staffStorage;
-
-            /*for (int i = 0; i < workingStaff.Count; i++)
-            {
-                if (id == workingStaff[i].ID)
-                {
-                    staffStorage = workingStaff[i];
-                    return staffStorage;
-                }
-            }*/
-
-            return null;
-        }
-
-        /// <summary>
-        /// Will return null if staff name doesnt exist on floor
-        /// </summary>
-        /// <param name="removeName"></param>
-        /// <returns></returns>
-        public Staff RemoveStaff(int id)
-        {
-            Staff staffStorage;
-
-            for (int i = 0; i < workingStaff.Count; i++)
-            {
-                if (id == workingStaff[i].ID)
-                {
-                    staffStorage = workingStaff[i];
-                    workingStaff.RemoveAt(i);
-                    return staffStorage;
-                }
-            }
-
-            return null;
+            base.Start();
         }
     }
 }
