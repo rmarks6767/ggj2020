@@ -15,6 +15,7 @@ namespace Assets.Scripts
         public SCP CellInhabitant
         {
             get { return cellInhabitant; }
+            set { cellInhabitant = value; }
         }
 
         public DangerLevel CellLevel
