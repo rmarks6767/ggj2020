@@ -8,7 +8,7 @@ namespace Assets.Scripts
     {
         protected BuildingType buildingType;
         protected int floorNumber, maxStaff, currentRoomTier, maxRoomTier;
-        protected List<GameObject> residentStaff;
+        public List<GameObject> residentStaff;
 
         /// <summary>
         /// Current level of the room

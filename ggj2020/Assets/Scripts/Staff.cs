@@ -14,6 +14,7 @@ namespace Assets.Scripts
         public StaffType type;
         public int iD;
         public CoreAI aiController;
+        public GameObject currentLocation;
 
         private void Start()
         {
