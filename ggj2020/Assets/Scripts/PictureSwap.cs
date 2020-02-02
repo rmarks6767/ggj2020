@@ -71,7 +71,7 @@ namespace Assets.Scripts {
                 }
                 else
                 {
-                    MoveToBuilding(currentBuilding.GetComponent<Buildings>().Name);
+                    MoveToBuilding(currentBuilding.GetComponent<Buildings>().Name.ToLower());
                 }
                 return true;
             }
@@ -96,7 +96,7 @@ namespace Assets.Scripts {
                     currentScene = currentBuilding.GetComponent<Buildings>().Floors[currentFloor];
                 }
             }
-            currentScene.transform.position = new Vector3(currentScene.transform.position.x, currentScene.transform.position.y, -9);
+            currentScene.transform.position = new Vector3(currentScene.transform.position.x, currentScene.transform.position.y, -5);
         }
 
         private void UpdateLocation()
