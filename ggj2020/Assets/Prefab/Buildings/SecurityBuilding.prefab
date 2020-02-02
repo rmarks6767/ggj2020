@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7598185316541073679}
   m_Layer: 0
   m_Name: SecurityBuilding
-  m_TagString: Untagged
+  m_TagString: BSecurity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
