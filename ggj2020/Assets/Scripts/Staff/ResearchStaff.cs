@@ -11,7 +11,7 @@ public class ResearchStaff : StaffAbstract
     // Start is called before the first frame update
     void Start()
     {
-        type = Staff.research;
+        //type = Staff.research;
         level = 1;
         cost = 600;
     }

@@ -11,7 +11,7 @@ public class SecurityStaff : StaffAbstract
     // Start is called before the first frame update
     void Start()
     {
-        type = Staff.security;
+        //type = Staff.security;
         level = 1;
         cost = 400;
     }
