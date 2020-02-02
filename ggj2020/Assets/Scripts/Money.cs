@@ -23,10 +23,11 @@ public class Money : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-  //      if(Time.time - startTime <= payrollRate)
-		//{
-		//	Payroll();
-		//}
+        if(Time.time - startTime >= payrollRate)
+		{
+			Payroll();
+			startTime = Time.time;
+		}
     }
 
 	#region Methods
@@ -58,15 +59,15 @@ public class Money : MonoBehaviour
 	{
 		int totalPayroll = 0;
 
-		// Loops the both Dictionaries and 
-		foreach(GameObject researchStaff in GameManager.Instance.staffManager.researchStaff.Values)
+		// Loops thr both Dictionaries and 
+		foreach(GameObject researcher in sm.researchStaff.Values)
 		{
-			totalPayroll += FindPayRate(researchStaff.GetComponent<Staff>());
+			totalPayroll += FindPayRate(researcher.GetComponent<Staff>());
 		}
 
-		foreach(KeyValuePair<int, GameObject> securityStaffPair in GameManager.Instance.staffManager.securityStaff)
+		foreach(GameObject security in sm.securityStaff.Values)
 		{
-			totalPayroll += FindPayRate(securityStaffPair.Value.GetComponent<Staff>());
+			totalPayroll += FindPayRate(security.GetComponent<Staff>());
 		}
 
 		// Call LoseMoney() for total salary amount

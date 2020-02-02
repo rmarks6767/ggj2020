@@ -18,9 +18,9 @@ namespace Assets.Scripts
     /// </summary>
     public enum DangerLevel
     {
-        safe,
-        euclid,
-        keter
+        safe = 1,
+        euclid = 2,
+        keter = 3
     }
 
     /// <summary>
@@ -64,7 +64,7 @@ namespace Assets.Scripts
         /// <summary>
         /// The money that the player will have
         /// </summary>
-        public int Money { get; }
+        public int Money { get { return money;  } }
         private int money;
 
         /// <summary>
@@ -135,8 +135,9 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"move", RunCommands.Move},
                 {"hire", RunCommands.Hire}
+                {"move", RunCommands.Move},
+                {"upgrade", RunCommands.Upgrade},
             };
 
             buildings = new Dictionary<string, GameObject>()
@@ -150,6 +151,7 @@ namespace Assets.Scripts
 
             siteName = "69";
             location = "~";
+            money = 10000;
 
             sceneSelect = GetComponent<PictureSwap>();
             scpManager = GetComponent<SCPManager>();
