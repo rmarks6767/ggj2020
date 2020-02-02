@@ -15,9 +15,11 @@ namespace Assets.Scripts
         public GameObject[] researchBuildings = new GameObject[3];
         public Button[] UpgradeButtons = new Button[3];
 
+        public GameObject bottomFloor;
+        public GameObject middleFloor;
+        public GameObject topFloor;
 
-
-        private GameObject m_currentBuilding;
+        private List<GameObject> m_currentBuilding;
 
         private int m_currentStaffLevel = 0;
         private int m_currentResearchLevel = 0;
@@ -29,6 +31,7 @@ namespace Assets.Scripts
         void Start()
         {
             SetUpBuildingPreview();
+            m_currentBuilding = new List<GameObject>();
         }
 
         // Update is called once per frame
@@ -100,6 +103,44 @@ namespace Assets.Scripts
 
             }
             
+        }
+
+        public void changeCurrentBuilding(int building)
+        {
+            m_currentBuilding.Clear();
+            switch (building)
+            {
+                case (int)BuildingType.containment:
+                    m_currentBuilding.Add(bottomFloor);
+                    for (int i = 0; i < m_currentContainmentLevel - 1; i++)
+                    {
+                        m_currentBuilding.Add(middleFloor);
+                    }
+                    m_currentBuilding.Add(topFloor);
+                    break;
+                case (int)BuildingType.research:
+                    m_currentBuilding.Add(bottomFloor);
+                    for (int i = 0; i < m_currentResearchLevel - 1; i++)
+                    {
+                        m_currentBuilding.Add(middleFloor);
+                    }
+                    m_currentBuilding.Add(topFloor);
+                    break;
+                case (int)BuildingType.security:
+                    m_currentBuilding.Add(bottomFloor);
+                    for (int i = 0; i < m_currentStaffLevel - 1; i++)
+                    {
+                        m_currentBuilding.Add(middleFloor);
+                    }
+                    m_currentBuilding.Add(topFloor);
+                    break;
+            }
+            renderCurrentBuilding();
+        }
+
+        public void renderCurrentBuilding()
+        {
+
         }
     }
 }
