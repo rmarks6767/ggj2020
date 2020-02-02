@@ -42,15 +42,37 @@ namespace Assets.Scripts
             }
         }
 
-        public Staff FindStaff(string removeName)
+        public Staff FindStaff(int id)
         {
             Staff staffStorage;
 
             for (int i = 0; i < workingStaff.Count; i++)
             {
-                if (removeName == workingStaff[i].name)
+                if (id == workingStaff[i].ID)
                 {
                     staffStorage = workingStaff[i];
+                    return staffStorage;
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name="removeName"></param>
+        /// <returns></returns>
+        public Staff RemoveStaff(int id)
+        {
+            Staff staffStorage;
+
+            for (int i = 0; i < workingStaff.Count; i++)
+            {
+                if (id == workingStaff[i].ID)
+                {
+                    staffStorage = workingStaff[i];
+                    workingStaff.RemoveAt(i);
                     return staffStorage;
                 }
             }
