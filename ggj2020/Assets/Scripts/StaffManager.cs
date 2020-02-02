@@ -68,7 +68,7 @@ namespace Assets.Scripts
             
         }
 
-        public void moveStaff(GameObject staff, GameObject endDestination)
+        public void MoveStaff(GameObject staff, GameObject endDestination)
         {
             GameObject currentLocation = staff.GetComponent<Staff>().currentLocation;
 
@@ -87,30 +87,35 @@ namespace Assets.Scripts
         
         public void AddStaff(GameObject roomToMoveTo, StaffType type)
         {
-            GameObject newStaff = Instantiate(staffPrefab);
-
-            newStaff.GetComponent<Staff>().AssignRole(type);
-
-            newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
-
-            StaffIdCounter++;
-
-            // IF YOU WANT TO PUT TIER DATA IN FUTURE ENTER IT HERE
-
-            if (type == StaffType.research)
+            GameObject newStaff = null ;
+            switch (type)
             {
-                researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                case StaffType.research:
+                    newStaff = Instantiate(GameManager.Instance.researchStaffPrefab);
+                    researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                    break;
 
-            }
-            else if (type == StaffType.security)
-            {
-                securityStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                case StaffType.security:
+                    newStaff = Instantiate(GameManager.Instance.securityStaffPrefab);
+                    securityStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                    break;
+
+                default:
+                    break;
             }
 
-            newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
-            newStaff.GetComponent<Staff>().currentLocation = roomToMoveTo;
-            roomToMoveTo.GetComponent<Floor>().residentStaff.Add(newStaff);
-            
+            if (newStaff != null && roomToMoveTo.GetComponent<Floor>())
+            {
+                newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
+
+                StaffIdCounter++;
+
+                // IF YOU WANT TO PUT TIER DATA IN FUTURE ENTER IT HERE
+
+                newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
+                newStaff.GetComponent<Staff>().currentLocation = roomToMoveTo;
+                roomToMoveTo.GetComponent<Floor>().residentStaff.Add(newStaff);
+            }
         }
 
 

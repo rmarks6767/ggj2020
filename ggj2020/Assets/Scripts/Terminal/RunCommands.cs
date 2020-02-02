@@ -127,7 +127,7 @@ namespace Assets.Scripts
 
             if (parameters != null && parameters.Count >= 1)
             {
-                command = parameters[0];
+                command = parameters[0].ToLower();
 
                 Debug.Log(parameters.Count);
 
@@ -202,6 +202,53 @@ namespace Assets.Scripts
                 "move floor <room num>\n" +
                 "move building <building name>\n" +
                 "move out";
+        }
+
+        public static string Hire(List<string> parameters)
+        {
+            if(parameters.Count == 2)
+            {
+                string building = parameters[0].ToLower();
+                string floor = parameters[1];
+                int floorNum;
+
+                switch (building)
+                {
+                    case "research":
+                        if(int.TryParse(floor, out floorNum) &&
+                            GameManager.Instance.Buildings["research"].GetComponent<Buildings>().Floors.Count > floorNum &&
+                            floorNum >= 0 &&
+                            !GameManager.Instance.Buildings["research"].GetComponent<Buildings>().Floors[floorNum].GetComponent<Floor>().IsFilled)
+                        {
+                            GameManager.Instance.moneyManager.BuyStaff(GameManager.Instance.Buildings["research"].GetComponent<Buildings>().Floors[floorNum], StaffType.research);
+                            return $"Hired research staff to floor {floorNum}";
+                        }
+                        else
+                        {
+                            return "Unable to hire research staff to that floor";
+                        }
+
+                    case "security":
+                        if (int.TryParse(floor, out floorNum) &&
+                            GameManager.Instance.Buildings["security"].GetComponent<Buildings>().Floors.Count > floorNum &&
+                            floorNum >= 0 &&
+                            !GameManager.Instance.Buildings["security"].GetComponent<Buildings>().Floors[floorNum].GetComponent<Floor>().IsFilled)
+                        {
+                            GameManager.Instance.moneyManager.BuyStaff(GameManager.Instance.Buildings["security"].GetComponent<Buildings>().Floors[floorNum], StaffType.security);
+                            return $"Hired security staff to floor {floorNum}";
+                        }
+                        else
+                        {
+                            return "Unable to hire security staff to that floor";
+                        }
+
+                    default:
+                        return $"Unknown building \"${building}\"";
+                }
+            }
+
+            return "usage:\n" +
+                "hire [research/security] <room number>";
         }
 
         public static string Buy(List<string> parameters)

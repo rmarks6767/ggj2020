@@ -107,6 +107,7 @@ namespace Assets.Scripts
         public PictureSwap sceneSelect;
         public SCPManager scpManager;
         public StaffManager staffManager;
+        public Money moneyManager;
 
         /// <summary>
         /// GameManager will be a singleton and hold all of the money 
@@ -134,7 +135,8 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"move", RunCommands.Move}
+                {"move", RunCommands.Move},
+                {"hire", RunCommands.Hire}
             };
 
             buildings = new Dictionary<string, GameObject>()
@@ -152,6 +154,7 @@ namespace Assets.Scripts
             sceneSelect = GetComponent<PictureSwap>();
             scpManager = GetComponent<SCPManager>();
             staffManager = GetComponent<StaffManager>();
+            moneyManager = GetComponent<Money>();
         }
 
         /// <summary>

@@ -6,9 +6,6 @@ using Assets.Scripts;
 public class Money : MonoBehaviour
 {
 	#region Fields
-	// Managers
-	GameManager gm;
-	StaffManager sm;
 
 	// Timer/Payroll Variables
 	float startTime;
@@ -26,10 +23,10 @@ public class Money : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time - startTime <= payrollRate)
-		{
-			Payroll();
-		}
+  //      if(Time.time - startTime <= payrollRate)
+		//{
+		//	Payroll();
+		//}
     }
 
 	#region Methods
@@ -40,7 +37,7 @@ public class Money : MonoBehaviour
 	public void GainMoney(int moneyGained)
 	{
 		// Adds moneyGained to money field of GameManager
-		gm.AddMoney(moneyGained);
+		GameManager.Instance.AddMoney(moneyGained);
 	}
 
 	/// <summary>
@@ -50,7 +47,7 @@ public class Money : MonoBehaviour
 	public void LoseMoney(int moneyLost)
 	{
 		// Removes moneyLost to money field of GameManager
-		gm.AddMoney(-moneyLost);
+		GameManager.Instance.AddMoney(-moneyLost);
 	}
 
 	/// <summary>
@@ -61,13 +58,13 @@ public class Money : MonoBehaviour
 	{
 		int totalPayroll = 0;
 
-		// Loops thr both Dictionaries and 
-		foreach(KeyValuePair<int, GameObject> researchStaffPair in sm.researchStaff)
+		// Loops the both Dictionaries and 
+		foreach(GameObject researchStaff in GameManager.Instance.staffManager.researchStaff.Values)
 		{
-			totalPayroll += FindPayRate(researchStaffPair.Value.GetComponent<Staff>());
+			totalPayroll += FindPayRate(researchStaff.GetComponent<Staff>());
 		}
 
-		foreach(KeyValuePair<int, GameObject> securityStaffPair in sm.securityStaff)
+		foreach(KeyValuePair<int, GameObject> securityStaffPair in GameManager.Instance.staffManager.securityStaff)
 		{
 			totalPayroll += FindPayRate(securityStaffPair.Value.GetComponent<Staff>());
 		}
@@ -85,11 +82,11 @@ public class Money : MonoBehaviour
 	{
 		if(staffMember.type == StaffType.research)
 		{
-			return staffMember.tier * sm.researchPayRate;
+			return staffMember.tier * GameManager.Instance.staffManager.researchPayRate;
 		}
 		else if(staffMember.type == StaffType.security)
 		{
-			return staffMember.tier * sm.securityPayRate;
+			return staffMember.tier * GameManager.Instance.staffManager.securityPayRate;
 		}
 
 		return 0;
@@ -103,20 +100,23 @@ public class Money : MonoBehaviour
 	/// <param name="staffType">The type of staff they are</param>
 	public void BuyStaff(GameObject roomToMoveTo, StaffType staffType)
 	{
+		Debug.Log(GameManager.Instance.Money);
 		if(staffType == StaffType.research)
 		{
-			if(gm.Money >= sm.researchCost)
+			if(GameManager.Instance.Money >= GameManager.Instance.staffManager.researchCost)
 			{
-				LoseMoney(sm.researchCost);
-				sm.AddStaff(roomToMoveTo, StaffType.research);
+				LoseMoney(GameManager.Instance.staffManager.researchCost);
+				GameManager.Instance.staffManager.AddStaff(roomToMoveTo, StaffType.research);
+				Debug.Log("Hire Research!");
 			}
 		}
 		else if(staffType == StaffType.security)
 		{
-			if(gm.Money >= sm.securityCost)
+			if(GameManager.Instance.Money >= GameManager.Instance.staffManager.securityCost)
 			{
-				LoseMoney(sm.securityCost);
-				sm.AddStaff(roomToMoveTo, StaffType.security);
+				LoseMoney(GameManager.Instance.staffManager.securityCost);
+				GameManager.Instance.staffManager.AddStaff(roomToMoveTo, StaffType.security);
+				Debug.Log("Hire Security!");
 			}
 		}
 	}
