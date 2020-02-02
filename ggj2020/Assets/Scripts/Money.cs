@@ -60,12 +60,12 @@ public class Money : MonoBehaviour
 		int totalPayroll = 0;
 
 		// Loops thr both Dictionaries and 
-		foreach(GameObject researcher in sm.researchStaff.Values)
+		foreach(GameObject researcher in GameManager.Instance.staffManager.researchStaff.Values)
 		{
 			totalPayroll += FindPayRate(researcher.GetComponent<Staff>());
 		}
 
-		foreach(GameObject security in sm.securityStaff.Values)
+		foreach(GameObject security in GameManager.Instance.staffManager.securityStaff.Values)
 		{
 			totalPayroll += FindPayRate(security.GetComponent<Staff>());
 		}

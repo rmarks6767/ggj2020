@@ -37,6 +37,7 @@ namespace Assets.Scripts
         void Start()
         {
             gameManagerObject = this.gameObject;
+            FillNameLists();
         }
 
         // Update is called once per frame
@@ -126,34 +127,39 @@ namespace Assets.Scripts
         
         public void AddStaff(GameObject roomToMoveTo, StaffType type)
         {
-            GameObject newStaff = null ;
-            switch (type)
+            if (!roomToMoveTo.GetComponent<Floor>().IsFilled)
             {
-                case StaffType.research:
-                    newStaff = Instantiate(GameManager.Instance.researchStaffPrefab);
-                    researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
-                    break;
+                GameObject newStaff = null;
+                switch (type)
+                {
+                    case StaffType.research:
+                        newStaff = Instantiate(GameManager.Instance.researchStaffPrefab, GameManager.Instance.screenLocation.GetChild(0).transform.position, Quaternion.identity);
+                        newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
+                        researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                        break;
 
-                case StaffType.security:
-                    newStaff = Instantiate(GameManager.Instance.securityStaffPrefab);
-                    securityStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
-                    break;
+                    case StaffType.security:
+                        newStaff = Instantiate(GameManager.Instance.securityStaffPrefab, roomToMoveTo.transform);
+                        newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
+                        securityStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+                        break;
 
-                default:
-                    break;
-            }
+                    default:
+                        break;
+                }
 
-            if (newStaff != null && roomToMoveTo.GetComponent<Floor>())
-            {
-                newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
+                if (newStaff != null)
+                {
+                    newStaff.transform.SetParent(roomToMoveTo.transform);
+                    newStaff.transform.localPosition = new Vector3(newStaff.transform.localPosition.x, newStaff.transform.localPosition.y, -2);
 
-                StaffIdCounter++;
+                    StaffIdCounter++;
 
-                // IF YOU WANT TO PUT TIER DATA IN FUTURE ENTER IT HERE
+                    // IF YOU WANT TO PUT TIER DATA IN FUTURE ENTER IT HERE
 
-                newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
-                newStaff.GetComponent<Staff>().currentLocation = roomToMoveTo;
-                roomToMoveTo.GetComponent<Floor>().residentStaff.Add(newStaff);
+                    newStaff.GetComponent<Staff>().currentLocation = roomToMoveTo;
+                    roomToMoveTo.GetComponent<Floor>().residentStaff.Add(newStaff);
+                }
             }
         }
 
@@ -218,7 +224,7 @@ namespace Assets.Scripts
         /// <summary>
         /// Fils the list with random Names
         /// </summary>
-        private void FillNameListS()
+        private void FillNameLists()
         {
             firstNameList.Add("Darragh");
             firstNameList.Add("Fay");

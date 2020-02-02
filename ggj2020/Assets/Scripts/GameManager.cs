@@ -135,7 +135,7 @@ namespace Assets.Scripts
             {
                 {"capture", RunCommands.Capture},
                 {"list", RunCommands.List},
-                {"hire", RunCommands.Hire}
+                {"hire", RunCommands.Hire},
                 {"move", RunCommands.Move},
                 {"upgrade", RunCommands.Upgrade},
             };
