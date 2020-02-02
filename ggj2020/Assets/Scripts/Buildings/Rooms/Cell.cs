@@ -10,6 +10,7 @@ namespace Assets.Scripts
     {
         private SCP cellInhabitant;
         private DangerLevel cellLevel;
+        private int index;
         private bool isFilled;
 
         public SCP CellInhabitant
@@ -28,10 +29,11 @@ namespace Assets.Scripts
             get { return IsFilled; }
         }
 
-        public Cell(DangerLevel cellLevel, SCP cellInhabitant = null)
+        public Cell(DangerLevel cellLevel, int index, SCP cellInhabitant = null)
         {
             this.cellLevel = cellLevel;
             this.cellInhabitant = cellInhabitant;
+            this.index = index;
 
             isFilled = false;
         }
@@ -46,7 +48,14 @@ namespace Assets.Scripts
             isFilled = true;
         }
 
-
+        public override string ToString()
+        {
+            if (isFilled)
+            {
+                return index + " - A " + cellLevel + " cell containing " + CellInhabitant.ToString();
+            }
+            return index + " - An empty " + cellLevel + " cell";
+        }
     }
 
 }
