@@ -8,7 +8,7 @@ namespace Assets.Scripts
     {
         protected BuildingType buildingType;
         protected int floorNumber, maxStaff, currentRoomTier, maxRoomTier;
-        protected List<Staff> residentStaff;
+        protected List<GameObject> residentStaff;
 
         /// <summary>
         /// Current level of the room
@@ -45,99 +45,99 @@ namespace Assets.Scripts
 
         public virtual void Start()
         {
-            residentStaff = new List<Staff>();
+            residentStaff = new List<GameObject>();
         }
 
-        /// <summary>
-        /// If the staff adding is invalid will return false
-        /// </summary>
-        /// <returns></returns>
-        public bool AddStaff(Staff newStaff)
-        {
-            if (maxStaff == (residentStaff.Count))
-            {
-                return false;
-            }
-
-            residentStaff.Add(newStaff);
-            return true;
-        }
-
-        /// <summary>
-        /// Will return null if staff name doesnt exist on floor
-        /// </summary>
-        /// <param name="removeName"></param>
-        /// <returns></returns>
-        public Staff RemoveStaff(int id)
-        {
-            Staff staffStorage;
-
-            for (int i = 0; i < residentStaff.Count; i++)
-            {
-                if (id == residentStaff[i].iD)
-                {
-                    staffStorage = residentStaff[i];
-                    residentStaff.RemoveAt(i);
-                    return staffStorage;
-                }
-            }
-
-            return null;
-        }
-
-        public Staff RemoveStaff(string name)
-        {
-            Staff staffStorage;
-
-            for (int i = 0; i < residentStaff.Count; i++)
-            {
-                if (name == residentStaff[i].staffName)
-                {
-                    staffStorage = residentStaff[i];
-                    residentStaff.RemoveAt(i);
-                    return staffStorage;
-                }
-            }
-
-            return null;
-        }
+     //   /// <summary>
+     //   /// If the staff adding is invalid will return false
+     //   /// </summary>
+     //   /// <returns></returns>
+     //   public bool AddStaff(Staff newStaff)
+     //   {
+     //       if (maxStaff == (residentStaff.Count))
+     //       {
+     //           return false;
+     //       }
+     //
+     //       residentStaff.Add(newStaff);
+     //       return true;
+     //   }
 
         /// <summary>
         /// Will return null if staff name doesnt exist on floor
         /// </summary>
         /// <param name="removeName"></param>
         /// <returns></returns>
-        public Staff FindStaff(int id)
-        {
-            Staff staffStorage;
+     //   public Staff RemoveStaff(int id)
+     //   {
+     //       Staff staffStorage;
+     //
+     //       for (int i = 0; i < residentStaff.Count; i++)
+     //       {
+     //           if (id == residentStaff[i].iD)
+     //           {
+     //               staffStorage = residentStaff[i];
+     //               residentStaff.RemoveAt(i);
+     //               return staffStorage;
+     //           }
+     //       }
+     //
+     //       return null;
+     //   }
 
-            for (int i = 0; i < residentStaff.Count; i++)
-            {
-                if (id == residentStaff[i].iD)
-                {
-                    staffStorage = residentStaff[i];
-                    return staffStorage;
-                }
-            }
+    //    public Staff RemoveStaff(string name)
+    //    {
+    //        Staff staffStorage;
+    //
+    //        for (int i = 0; i < residentStaff.Count; i++)
+    //        {
+    //            if (name == residentStaff[i].staffName)
+    //            {
+    //                staffStorage = residentStaff[i];
+    //                residentStaff.RemoveAt(i);
+    //                return staffStorage;
+    //            }
+    //        }
+    //
+    //        return null;
+    //    }
 
-            return null;
-        }
+        /// <summary>
+        /// Will return null if staff name doesnt exist on floor
+        /// </summary>
+        /// <param name="removeName"></param>
+        /// <returns></returns>
+    //    public Staff FindStaff(int id)
+    //    {
+    //        Staff staffStorage;
+    //
+    //        for (int i = 0; i < residentStaff.Count; i++)
+    //        {
+    //            if (id == residentStaff[i].iD)
+    //            {
+    //                staffStorage = residentStaff[i];
+    //                return staffStorage;
+    //            }
+    //        }
+    //
+    //        return null;
+    //    }
 
-        public Staff FindStaff(string name)
-        {
-            Staff staffStorage;
-
-            for (int i = 0; i < residentStaff.Count; i++)
-            {
-                if (name == residentStaff[i].staffName)
-                {
-                    staffStorage = residentStaff[i];
-                    return staffStorage;
-                }
-            }
-
-            return null;
-        }
+    //   public Staff FindStaff(string name)
+    //   {
+    //       Staff staffStorage;
+    //
+    //       for (int i = 0; i < residentStaff.Count; i++)
+    //       {
+    //           if (name == residentStaff[i].staffName)
+    //           {
+    //               staffStorage = residentStaff[i];
+    //               return staffStorage;
+    //           }
+    //       }
+    //
+    //       return null;
+    //   }
 
         /// <summary>
         /// If the upgrade is invalid will return false
