@@ -158,7 +158,7 @@ public class SCPManager : MonoBehaviour
         scips.Add(new SCP(2, "The Coffee Machine", "294", DangerLevel.euclid, false));
         scips.Add(new SCP(1, "God", "343", DangerLevel.safe, false));
         scips.Add(new SCP(1, "Aggressive Skin Condition", "420", DangerLevel.safe, false));
-        scips.Add(new SCP(1, "Panacea", "500", DangerLevel.safe, false));
+        scips.Add(new SCP(1, "panacea", "500", DangerLevel.safe, false));
         scips.Add(new SCP(1, "Josie the Half-Cat", "529", DangerLevel.safe, false));
         scips.Add(new SCP(1, "Butler's Hand Bell", "662", DangerLevel.safe, false));
         scips.Add(new SCP(4, "Hard-To-Destroy Reptile", "682", DangerLevel.keter, false));

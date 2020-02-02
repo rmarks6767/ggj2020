@@ -18,7 +18,6 @@ namespace Assets.Scripts
     /// </summary>
     public enum DangerLevel
     {
-        all,
         safe,
         euclid,
         keter
@@ -322,7 +321,7 @@ namespace Assets.Scripts
                 cellBlock = floor.GetComponent<CellBlock>();
                 foreach (Cell cell in cellBlock.Cells)
                 {
-                    if (cell != null && !cell.IsFilled)
+                    if (!cell.IsFilled)
                     {
                         output.Add(cell);
                     }
@@ -345,7 +344,7 @@ namespace Assets.Scripts
                 cellBlock = floor.GetComponent<CellBlock>();
                 foreach (Cell cell in cellBlock.Cells)
                 {
-                    if (cell != null && cell.IsFilled)
+                    if (cell.IsFilled)
                     {
                         output.Add(cell);
                     }
