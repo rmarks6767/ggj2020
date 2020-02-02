@@ -8,7 +8,7 @@ namespace Assets.Scripts
     {
         protected BuildingType buildingType;
         protected int floorNumber, maxStaff, currentRoomTier, maxRoomTier;
-        protected List<Staff> residentStaff;
+        protected List<GameObject> residentStaff;
 
         /// <summary>
         /// Current level of the room
@@ -45,38 +45,24 @@ namespace Assets.Scripts
 
         public virtual void Start()
         {
-            residentStaff = new List<Staff>();
+            residentStaff = new List<GameObject>();
         }
 
-        /// <summary>
-        /// If the staff adding is invalid will return false
-        /// </summary>
-        /// <returns></returns>
-        public bool AddStaff(Staff newStaff)
-        {
-            if (maxStaff == (residentStaff.Count))
-            {
-                return false;
-            }
-
-            residentStaff.Add(newStaff);
-            return true;
-        }
 
         /// <summary>
         /// Will return null if staff name doesnt exist on floor
         /// </summary>
-        /// <param name="removeName"></param>
-        /// <returns></returns>
+        /// <param name = "removeName" ></ param >
+        /// < returns ></ returns >
         public Staff RemoveStaff(int id)
         {
             Staff staffStorage;
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (id == residentStaff[i].iD)
+                if (id == residentStaff[i].GetComponent<Staff>().iD)
                 {
-                    staffStorage = residentStaff[i];
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
                     residentStaff.RemoveAt(i);
                     return staffStorage;
                 }
@@ -91,9 +77,9 @@ namespace Assets.Scripts
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (name == residentStaff[i].staffName)
+                if (name == residentStaff[i].GetComponent<Staff>().staffName)
                 {
-                    staffStorage = residentStaff[i];
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
                     residentStaff.RemoveAt(i);
                     return staffStorage;
                 }
@@ -105,17 +91,17 @@ namespace Assets.Scripts
         /// <summary>
         /// Will return null if staff name doesnt exist on floor
         /// </summary>
-        /// <param name="removeName"></param>
-        /// <returns></returns>
+        /// <param name = "removeName" ></ param >
+        /// < returns ></ returns >
         public Staff FindStaff(int id)
         {
             Staff staffStorage;
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (id == residentStaff[i].iD)
+                if (id == residentStaff[i].GetComponent<Staff>().iD)
                 {
-                    staffStorage = residentStaff[i];
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
                     return staffStorage;
                 }
             }
@@ -129,9 +115,9 @@ namespace Assets.Scripts
 
             for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (name == residentStaff[i].staffName)
+                if (name == residentStaff[i].GetComponent<Staff>().staffName)
                 {
-                    staffStorage = residentStaff[i];
+                    staffStorage = residentStaff[i].GetComponent<Staff>();
                     return staffStorage;
                 }
             }

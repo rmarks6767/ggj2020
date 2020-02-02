@@ -7,6 +7,8 @@ namespace Assets.Scripts
 
     public class SecurityRoom : Floor
     {
+        
+
         public override void Start()
         {
             buildingType = BuildingType.security;
