@@ -167,6 +167,9 @@ public class SCPManager : MonoBehaviour
         scip.ContainmentCell = null;
         scip.Contained = false;
 
+        wantedScips.Add(scip);
+        containedScips.Remove(scip);
+
         money.GainMoney(-penaltyMod);
 
         for (int i = 0; i < penaltyMod/40; i++)
