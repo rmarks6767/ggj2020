@@ -8,34 +8,9 @@ public class SCPManager : MonoBehaviour
     List<SCP> scips;
     List<SCP> wantedScips;
     List<SCP> containedScips;
-    int rCount; //researcher count in the entire facility
-    int sCount; //security count in the entire facility
     float timeElapsed;
     private Containment building;
-
-    public int ResearcherCount
-    {
-        get
-        {
-            return rCount;
-        }
-        set
-        {
-            rCount = value;
-        }
-    }
-
-    public int SecurityCount
-    {
-        get
-        {
-            return sCount;
-        }
-        set
-        {
-            sCount = value;
-        }
-    }
+    private Money money;
 
     // Start is called before the first frame update
     void Start()
@@ -67,9 +42,10 @@ public class SCPManager : MonoBehaviour
             timeElapsed = 0;
             foreach (SCP scip in containedScips)
             {
-                if (scip.ResearchLevel > Random.Range(0, 10000))
+                if (building.GetComponent<Containment>().Floors[scip.ContainmentCell.Index / 10].GetComponent<CellBlock>().StaffCount
+                    > Random.Range(0, 10000))
                 {
-                    scip.BreachContainment();
+                    BreachContainment(scip);
                 }
             }
         }
@@ -182,5 +158,17 @@ public class SCPManager : MonoBehaviour
         scips.Add(new SCP(5, "watch-over-us", "4999", DangerLevel.keter, false));
     }
 
-    
+    void BreachContainment(SCP scip)
+    {
+        int penaltyMod = ((int)scip.DL * 15) + Random.Range(0, 30);
+
+        scip.ContainmentCell.CellInhabitant = null;
+        scip.ContainmentCell = null;
+        scip.Contained = false;
+
+        money.GainMoney(-penaltyMod);
+        //kill staff here
+
+        GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().WriteToDisplay("WARNING: "+" has escaped from confinenment! This has cost the site "+penaltyMod+" dollars in damages and we lost " + " staff members.") ;
+    }
 }
