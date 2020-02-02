@@ -183,6 +183,7 @@ namespace Assets.Scripts
 				if(pair.Key == id)
 				{
 					deadStaffMember = pair.Value;
+					researchStaff.Remove(id);
 					break;
 				}
 			}
@@ -196,6 +197,7 @@ namespace Assets.Scripts
 				if(pair.Key == id)
 				{
 					deadStaffMember = pair.Value;
+					securityStaff.Remove(id);
 					break;
 				}
 			}
@@ -205,6 +207,7 @@ namespace Assets.Scripts
 				return;
 
 			// Removes Member from Room
+			deadStaffMember.GetComponent<Staff>().currentLocation.GetComponent<Floor>().residentStaff.Remove(deadStaffMember);
 		}
 
         /// <summary>
