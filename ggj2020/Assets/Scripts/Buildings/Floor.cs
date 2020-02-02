@@ -43,6 +43,11 @@ namespace Assets.Scripts
             get { return buildingType; }
         }
 
+        public bool IsFilled
+        {
+            get { return residentStaff.Count >= maxStaff; }
+        }
+
         public virtual void Start()
         {
             residentStaff = new List<GameObject>();

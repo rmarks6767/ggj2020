@@ -60,10 +60,18 @@ MonoBehaviour:
     type: 3}
   containmentBuildingPrefab: {fileID: 5919795926259229228, guid: 420ead27384b7454f87c98820d951f4c,
     type: 3}
-  researchStaffPrefab: {fileID: 0}
-  securityStaffPrefab: {fileID: 0}
+  researchStaffPrefab: {fileID: 6229413718541285000, guid: 6e7e8fc87eb84ab44962034e0f643b72,
+    type: 3}
+  securityStaffPrefab: {fileID: 8278159748851312279, guid: 6aedb6de73d3a2c4e89ed43bda6c2030,
+    type: 3}
   dClassPrefab: {fileID: 0}
+  siteMapPrefab: {fileID: 3954838968351235082, guid: cc37495c34dd00d4a831947cc846ffd1,
+    type: 3}
   screenLocation: {fileID: 0}
+  sceneSelect: {fileID: 0}
+  scpManager: {fileID: 0}
+  staffManager: {fileID: 0}
+  moneyManager: {fileID: 0}
 --- !u!114 &-3828229035993896828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,7 +84,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558d214545595a54cbf37b3d84817bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  building: {fileID: 0}
 --- !u!114 &-6537187031203066353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,4 +96,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ea24f4fdbeb71429d1b61b7176ee20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screens: []
