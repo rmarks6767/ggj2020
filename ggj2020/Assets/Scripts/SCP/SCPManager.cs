@@ -50,8 +50,10 @@ public class SCPManager : MonoBehaviour
 
         foreach (SCP scip in scips)
         {
+            GameManager.Instance.AddScp(scip.DL, scip);
             wantedScips.Add(scip);
         }
+       
 
         AddSCPToScene(5);
     }
