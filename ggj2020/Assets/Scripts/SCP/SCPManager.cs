@@ -12,6 +12,7 @@ public class SCPManager : MonoBehaviour
     int sCount; //security count in the entire facility
     float timeElapsed;
     private Containment building;
+    private SCP caughtScip;
 
     public int ResearcherCount
     {
@@ -74,29 +75,61 @@ public class SCPManager : MonoBehaviour
         
     }
 
-    public void CaptureSCP(string name, Cell cell)
+    public void CaptureSCP(string name)
     {
+        DangerLevel scipDL;
         for (int i = 0; i < wantedScips.Count; i++)
         {
             if (wantedScips[i].Name == name)
             {
-                if (wantedScips[i].AttemptCapture((int)Random.Range(0, 21)))
+                scipDL = wantedScips[i].DL;
+
+                if (GameManager.Instance.FindOpenCells().Count>0)
                 {
-                    cell.ContainSCP(wantedScips[i]);
-                    wantedScips[i].Contained = true;
-                    containedScips.Add(wantedScips[i]);
-                    AddSCPToScene(i);
-                    wantedScips.RemoveAt(i);
-                    //remove the SCP from the list and add it to an empty cell
+                    if (wantedScips[i].AttemptCapture((int)Random.Range(0, 21)))
+                    {
+                        caughtScip = wantedScips[i];
+                        GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().PromptPlayer("You have succefully captured "+wantedScips[i].ToString()+". Which Floor and Cell would you like to place them in?", SelectCell);
+
+                        wantedScips[i].Contained = true;
+                        containedScips.Add(wantedScips[i]);
+                        AddSCPToScene(i);
+                        wantedScips.RemoveAt(i);
+                        //remove the SCP from the list and add it to an empty cell
+                    }
+                    else
+                    {
+                        wantedScips[i].CaptureDifficulty += 10;
+                        //remove some security
+                    }
+                    return;
                 }
                 else
                 {
-                    wantedScips[i].CaptureDifficulty += 10;
-                    //remove some security
+
                 }
-                return;
+                
             }
         }
+    }
+
+    public void SelectCell(string[] input)
+    {
+        int floor;
+        int cell;
+
+        if(int.TryParse(input[0], out floor) && int.TryParse(input[1], out cell))
+        {
+            building.AddSCP(floor, cell, caughtScip);
+        }
+        else
+        {
+            GameObject.FindGameObjectWithTag("Terminal").GetComponent<Terminal>().PromptPlayer("That was not a valid input. Which Floor and Cell would you like to place them in?", SelectCell);
+        }
+        
+
+        caughtScip = null;
+        
     }
 
     public void AddSCPToScene(int index)
