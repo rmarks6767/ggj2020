@@ -6,7 +6,7 @@ using UnityEngine;
 public abstract class StaffAbstract : MonoBehaviour
 {
     public int level;
-    public Staff type;
+    public StaffType type;
     public int health;
 
     public enum Behavior

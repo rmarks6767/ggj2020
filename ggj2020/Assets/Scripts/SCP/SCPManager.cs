@@ -6,9 +6,12 @@ using Assets.Scripts;
 public class SCPManager : MonoBehaviour
 {
     List<SCP> scips;
+    List<SCP> wantedScips;
+    List<SCP> containedScips;
     int rCount; //researcher count in the entire facility
     int sCount; //security count in the entire facility
     public Containment building;
+    float timeElapsed;
 
     public int ResearcherCount
     {
@@ -37,49 +40,56 @@ public class SCPManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        timeElapsed = 0;
         scips = new List<SCP>();
-        loadAllSscips();
+        wantedScips = new List<SCP>();
+        containedScips = new List<SCP>();
+        
+        loadAllScips();
         AddSCPToScene(5);
+
+        foreach (SCP scip in scips)
+        {
+            wantedScips.Add(scip);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    public void AddScip()
-    {
-        /**
-         * Add the SCP to the list
-         * generate a random terrain difficulty
-         */
-    }
-
-    public void AddScip(SCP scip)
-    {
-        /**
-         * Add the SCP to the list
-         * generate a random terrain difficulty
-         */
+        timeElapsed += Time.deltaTime;
+        if (timeElapsed >= 20)
+        {
+            timeElapsed = 0;
+            foreach (SCP scip in containedScips)
+            {
+                if (scip.ResearchLevel > Random.Range(0, 10000))
+                {
+                    scip.BreachContainment();
+                }
+            }
+        }
+        
     }
 
     public void CaptureSCP(string name, Cell cell)
     {
-        for (int i = 0; i < scips.Count; i++)
+        for (int i = 0; i < wantedScips.Count; i++)
         {
-            if (scips[i].Name == name)
+            if (wantedScips[i].Name == name)
             {
-                if (scips[i].AttemptCapture((int)Random.Range(0, 21)))
+                if (wantedScips[i].AttemptCapture((int)Random.Range(0, 21)))
                 {
-                    cell.ContainSCP(scips[i]);
-                    scips.RemoveAt(i);
+                    cell.ContainSCP(wantedScips[i]);
+                    wantedScips[i].Contained = true;
+                    containedScips.Add(wantedScips[i]);
                     AddSCPToScene(i);
+                    wantedScips.RemoveAt(i);
                     //remove the SCP from the list and add it to an empty cell
                 }
                 else
                 {
-                    scips[i].CaptureDifficulty += 10;
+                    wantedScips[i].CaptureDifficulty += 10;
                     //remove some security
                 }
                 return;
@@ -91,7 +101,7 @@ public class SCPManager : MonoBehaviour
     {
         GameObject newScip = new GameObject();
         newScip.AddComponent<ScipObject>();
-        newScip.GetComponent<ScipObject>().number = scips[index].Number;
+        newScip.GetComponent<ScipObject>().number = wantedScips[index].Number;
         Instantiate(newScip, Vector3.zero, Quaternion.identity);
     }
 
@@ -120,7 +130,7 @@ public class SCPManager : MonoBehaviour
         return tempList;
     }
 
-    void loadAllSscips()
+    void loadAllScips()
     {
         scips.Add(new SCP(2, "Plague Doctor", "049", DangerLevel.euclid, false));
         scips.Add(new SCP(1, "[unknown]", "055", DangerLevel.safe, false));
@@ -155,4 +165,6 @@ public class SCPManager : MonoBehaviour
         scips.Add(new SCP(3, "The Yule Man", "4666", DangerLevel.keter, false));
         scips.Add(new SCP(5, "Someone to Watch Over Us", "4999", DangerLevel.keter, false));
     }
+
+    
 }

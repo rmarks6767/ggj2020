@@ -64,6 +64,8 @@ namespace Assets.Scripts
         /// </summary>
         private Dictionary<string, RunCommand> commands;
 
+        public Containment building;
+
         public Dictionary<string, RunCommand> Commands
         {
             get { return commands; }
@@ -252,10 +254,10 @@ namespace Assets.Scripts
         /// 
         /// </summary>
         /// <returns>a list of every empty cell in the containment building</returns>
-        public List<Cell> FindOpenCells(Containment building)
+        public List<Cell> FindOpenCells()
         {
             List<Cell> tempList = new List<Cell>();
-            foreach(Cell cell in FindCells(building))
+            foreach(Cell cell in FindCells())
             {
                 if (cell.CellInhabitant == null)
                     tempList.Add(cell);
@@ -267,10 +269,10 @@ namespace Assets.Scripts
         /// 
         /// </summary>
         /// <returns>a list of every full cell in the containment building</returns>
-        public List<Cell> FindFilledCells(Containment building)
+        public List<Cell> FindFilledCells()
         {
             List<Cell> tempList = new List<Cell>();
-            foreach (Cell cell in FindCells(building))
+            foreach (Cell cell in FindCells())
             {
                 if (cell.CellInhabitant != null)
                     tempList.Add(cell);
