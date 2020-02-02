@@ -1,0 +1,6739 @@
+fileFormatVersion: 2
+guid: 9161ac4399dbf7745978c9ea6638c55a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2551802339355537794
+    second: MResearch1
+  - first:
+      213: 8101907960796697974
+    second: MResearch2
+  - first:
+      213: 5364556329951679267
+    second: MResearch3
+  - first:
+      213: -5962432620617841572
+    second: FResearch1
+  - first:
+      213: -979980692911001077
+    second: FResearch2
+  - first:
+      213: -4017883282017078552
+    second: FResearch3
+  - first:
+      213: 215677969544808416
+    second: scp-research_6
+  - first:
+      213: 6865164694311050533
+    second: scp-research_7
+  - first:
+      213: -2130817989159102424
+    second: scp-research_8
+  - first:
+      213: -3846400751027439669
+    second: scp-research_9
+  - first:
+      213: 4561863266373647280
+    second: scp-research_10
+  - first:
+      213: -1169164082046455776
+    second: scp-research_11
+  - first:
+      213: 5262247930763021393
+    second: scp-research_12
+  - first:
+      213: -353824095999037232
+    second: scp-research_13
+  - first:
+      213: -8281713707255080274
+    second: scp-research_14
+  - first:
+      213: -6697906955580909030
+    second: scp-research_15
+  - first:
+      213: 8388205303418612576
+    second: scp-research_16
+  - first:
+      213: -1638609190767993700
+    second: scp-research_17
+  - first:
+      213: 4304673730557974542
+    second: scp-research_18
+  - first:
+      213: -201977120342741133
+    second: scp-research_19
+  - first:
+      213: -5117044745454756659
+    second: scp-research_20
+  - first:
+      213: -5530864555160302089
+    second: scp-research_21
+  - first:
+      213: -4193092992078767277
+    second: scp-research_22
+  - first:
+      213: 4019567871513312915
+    second: scp-research_23
+  - first:
+      213: -7021203945567613921
+    second: scp-research_24
+  - first:
+      213: 5055816136116346912
+    second: scp-research_25
+  - first:
+      213: -8911032478860303147
+    second: scp-research_26
+  - first:
+      213: -9166551485630668023
+    second: scp-research_27
+  - first:
+      213: 8660387511713169994
+    second: scp-research_28
+  - first:
+      213: -1467161010411601932
+    second: scp-research_29
+  - first:
+      213: 8431667235949684176
+    second: scp-research_30
+  - first:
+      213: 7368028911061636640
+    second: scp-research_31
+  - first:
+      213: -952744104455899039
+    second: scp-research_32
+  - first:
+      213: -1061068378978865705
+    second: scp-research_33
+  - first:
+      213: -8743004648837172658
+    second: scp-research_34
+  - first:
+      213: -1483419276413387821
+    second: scp-research_35
+  - first:
+      213: -4979905771585672357
+    second: scp-research_36
+  - first:
+      213: -891035079326283907
+    second: scp-research_37
+  - first:
+      213: 8567832282035798813
+    second: scp-research_38
+  - first:
+      213: 5523024970282773975
+    second: scp-research_39
+  - first:
+      213: 4835386925822483354
+    second: scp-research_40
+  - first:
+      213: -2882976843629901693
+    second: scp-research_41
+  - first:
+      213: -2347008082701800913
+    second: scp-research_42
+  - first:
+      213: 6775661456500819076
+    second: scp-research_43
+  - first:
+      213: -7474559300723215934
+    second: scp-research_44
+  - first:
+      213: -1540737339441093872
+    second: scp-research_45
+  - first:
+      213: -6130515163156723037
+    second: scp-research_46
+  - first:
+      213: 5572518920068271442
+    second: scp-research_47
+  - first:
+      213: -2424119794591205393
+    second: scp-research_48
+  - first:
+      213: 1921449721807058665
+    second: scp-research_49
+  - first:
+      213: 3143637973016214217
+    second: scp-research_50
+  - first:
+      213: -8026076719985541632
+    second: scp-research_51
+  - first:
+      213: -8831234513994983784
+    second: scp-research_52
+  - first:
+      213: -859329600598125627
+    second: scp-research_53
+  - first:
+      213: 2444404105216874937
+    second: scp-research_54
+  - first:
+      213: -4718669666550308438
+    second: scp-research_55
+  - first:
+      213: -4198547519012969415
+    second: scp-research_56
+  - first:
+      213: -1728117600019793527
+    second: scp-research_57
+  - first:
+      213: -7497439316111069267
+    second: scp-research_58
+  - first:
+      213: -7924883479009245723
+    second: scp-research_59
+  - first:
+      213: -3597274056687908033
+    second: scp-research_60
+  - first:
+      213: 5320512914207281392
+    second: scp-research_61
+  - first:
+      213: 1807041047996552142
+    second: scp-research_62
+  - first:
+      213: 2386608723687054110
+    second: scp-research_63
+  - first:
+      213: -4421687589755220971
+    second: scp-research_64
+  - first:
+      213: -3440835470615873138
+    second: scp-research_65
+  - first:
+      213: 9058319551969702485
+    second: scp-research_66
+  - first:
+      213: -7122313372701192917
+    second: scp-research_67
+  - first:
+      213: -5316809022365089889
+    second: scp-research_68
+  - first:
+      213: 6327415911652917634
+    second: scp-research_69
+  - first:
+      213: -4272586812849523321
+    second: scp-research_70
+  - first:
+      213: 182333527159943623
+    second: scp-research_71
+  - first:
+      213: -7990851549755767849
+    second: scp-research_72
+  - first:
+      213: -8181089333115370028
+    second: scp-research_73
+  - first:
+      213: 46371009453800825
+    second: scp-research_74
+  - first:
+      213: -1260727085058389120
+    second: scp-research_75
+  - first:
+      213: 2242821953037262042
+    second: scp-research_76
+  - first:
+      213: -6156191224831105443
+    second: scp-research_77
+  - first:
+      213: -7159933383013523721
+    second: scp-research_78
+  - first:
+      213: -189576828090330172
+    second: scp-research_79
+  - first:
+      213: 3053424486040509709
+    second: scp-research_80
+  - first:
+      213: 3927916862380294061
+    second: scp-research_81
+  - first:
+      213: 3929854717505684068
+    second: scp-research_82
+  - first:
+      213: 2147165126118009803
+    second: scp-research_83
+  - first:
+      213: 2432435040879797134
+    second: scp-research_84
+  - first:
+      213: -110738411880485111
+    second: scp-research_85
+  - first:
+      213: -8107651582555269607
+    second: scp-research_86
+  - first:
+      213: 4253019512029975947
+    second: scp-research_87
+  - first:
+      213: 5163632017809383718
+    second: scp-research_88
+  - first:
+      213: 1333696332439939350
+    second: scp-research_89
+  - first:
+      213: -2873172792490053638
+    second: scp-research_90
+  - first:
+      213: 3118240442183528369
+    second: scp-research_91
+  - first:
+      213: -6962950327415976655
+    second: scp-research_92
+  - first:
+      213: 5521999538115733730
+    second: scp-research_93
+  - first:
+      213: -5266268233104724761
+    second: scp-research_94
+  - first:
+      213: -4789488787130806416
+    second: scp-research_95
+  - first:
+      213: 5862340886040591303
+    second: scp-research_96
+  - first:
+      213: 2978005666671075271
+    second: scp-research_97
+  - first:
+      213: 345409347814287838
+    second: scp-research_98
+  - first:
+      213: -5165151976738184585
+    second: scp-research_99
+  - first:
+      213: 2036671452122099424
+    second: scp-research_100
+  - first:
+      213: -8075092605388666661
+    second: scp-research_101
+  - first:
+      213: 2693364453375135624
+    second: scp-research_102
+  - first:
+      213: 5199557418158914401
+    second: scp-research_103
+  - first:
+      213: 7367122975638410775
+    second: scp-research_104
+  - first:
+      213: 5517081146845196481
+    second: scp-research_105
+  - first:
+      213: 4416444269717578591
+    second: scp-research_106
+  - first:
+      213: -1933705138472653568
+    second: scp-research_107
+  - first:
+      213: 4456835212116023594
+    second: scp-research_108
+  - first:
+      213: -5446292477474305436
+    second: scp-research_109
+  - first:
+      213: 9037311154829612118
+    second: scp-research_110
+  - first:
+      213: -3839080931934667935
+    second: scp-research_111
+  - first:
+      213: -3500975181641372607
+    second: scp-research_112
+  - first:
+      213: -8051327516544918139
+    second: scp-research_113
+  - first:
+      213: 8318486635545973358
+    second: scp-research_114
+  - first:
+      213: 997799801935343653
+    second: scp-research_115
+  - first:
+      213: 5340005102124266785
+    second: scp-research_116
+  - first:
+      213: 4311599913453697110
+    second: scp-research_117
+  - first:
+      213: -2472006013952106437
+    second: scp-research_118
+  - first:
+      213: 848735222362740301
+    second: scp-research_119
+  - first:
+      213: -3246869710483043615
+    second: scp-research_120
+  - first:
+      213: -8446469245591483402
+    second: scp-research_121
+  - first:
+      213: 5457738034605835237
+    second: scp-research_122
+  - first:
+      213: -5905161401905344706
+    second: scp-research_123
+  - first:
+      213: -1341642324760744125
+    second: scp-research_124
+  - first:
+      213: -3687176495066770223
+    second: scp-research_125
+  - first:
+      213: -835765542740307650
+    second: scp-research_126
+  - first:
+      213: -5601347527534982184
+    second: scp-research_127
+  - first:
+      213: -1388131500887124687
+    second: scp-research_128
+  - first:
+      213: 6864403734027409411
+    second: scp-research_129
+  - first:
+      213: 6063854209788245355
+    second: scp-research_130
+  - first:
+      213: -515090376507819887
+    second: scp-research_131
+  - first:
+      213: 8466295900624798247
+    second: scp-research_132
+  - first:
+      213: -6307687776456767183
+    second: scp-research_133
+  - first:
+      213: 1345193781088559716
+    second: scp-research_134
+  - first:
+      213: 6081753063866172565
+    second: scp-research_135
+  - first:
+      213: -8803675717012046389
+    second: scp-research_136
+  - first:
+      213: 5389195470987024526
+    second: scp-research_137
+  - first:
+      213: 3702187573239776268
+    second: scp-research_138
+  - first:
+      213: -84392405910846612
+    second: scp-research_139
+  - first:
+      213: 5355834647251893862
+    second: scp-research_140
+  - first:
+      213: -6314739952684916407
+    second: scp-research_141
+  - first:
+      213: 1616554780006997354
+    second: scp-research_142
+  - first:
+      213: -5759920538949592574
+    second: scp-research_143
+  - first:
+      213: 7054955897121521080
+    second: scp-research_144
+  - first:
+      213: -8738578833064949056
+    second: scp-research_145
+  - first:
+      213: -3289095164536851888
+    second: scp-research_146
+  - first:
+      213: -2748315755093920507
+    second: scp-research_147
+  - first:
+      213: 6112425951483281982
+    second: scp-research_148
+  - first:
+      213: -6725544391646694449
+    second: scp-research_149
+  - first:
+      213: 5350624325063081805
+    second: scp-research_150
+  - first:
+      213: 645116692220213019
+    second: scp-research_151
+  - first:
+      213: 567794086071073375
+    second: scp-research_152
+  - first:
+      213: -3457294187419924553
+    second: scp-research_153
+  - first:
+      213: 7539028007431139121
+    second: scp-research_154
+  - first:
+      213: 1140683141623010219
+    second: scp-research_155
+  - first:
+      213: 7162074120410302952
+    second: scp-research_156
+  - first:
+      213: 2339985585032070305
+    second: scp-research_157
+  - first:
+      213: -6228886095294533160
+    second: scp-research_158
+  - first:
+      213: 8757933215726981509
+    second: scp-research_159
+  - first:
+      213: -593689837990561686
+    second: scp-research_160
+  - first:
+      213: 4191834272389164336
+    second: scp-research_161
+  - first:
+      213: 6617281362262680606
+    second: scp-research_162
+  - first:
+      213: 7975735548544200686
+    second: scp-research_163
+  - first:
+      213: 2098539632385981119
+    second: scp-research_164
+  - first:
+      213: -7174011318212401994
+    second: scp-research_165
+  - first:
+      213: -3035950961837790925
+    second: scp-research_166
+  - first:
+      213: 2615867033442202387
+    second: scp-research_167
+  - first:
+      213: -7542239059082123846
+    second: scp-research_168
+  - first:
+      213: -459732743043025919
+    second: scp-research_169
+  - first:
+      213: 6958730266554242367
+    second: scp-research_170
+  - first:
+      213: 1698200459065071419
+    second: scp-research_171
+  - first:
+      213: -5800153807920230433
+    second: scp-research_172
+  - first:
+      213: -2144055551626908822
+    second: scp-research_173
+  - first:
+      213: 4169536313214901561
+    second: scp-research_174
+  - first:
+      213: -2981891821064542550
+    second: scp-research_175
+  - first:
+      213: 1030165838021152719
+    second: scp-research_176
+  - first:
+      213: 1349070628301193870
+    second: scp-research_177
+  - first:
+      213: 8756906635510641152
+    second: scp-research_178
+  - first:
+      213: -3908296098188160749
+    second: scp-research_179
+  - first:
+      213: 4252283909571505178
+    second: scp-research_180
+  - first:
+      213: 61359446088790339
+    second: scp-research_181
+  - first:
+      213: -4416930356616677662
+    second: scp-research_182
+  - first:
+      213: 5352873198309755874
+    second: scp-research_183
+  - first:
+      213: 1688661050422941678
+    second: scp-research_184
+  - first:
+      213: 1123290782464707871
+    second: scp-research_185
+  - first:
+      213: 2597491492535286818
+    second: scp-research_186
+  - first:
+      213: -7723479468905803600
+    second: scp-research_187
+  - first:
+      213: 4531228693561746713
+    second: scp-research_188
+  - first:
+      213: 933657050367469391
+    second: scp-research_189
+  - first:
+      213: 2605314234766550075
+    second: scp-research_190
+  - first:
+      213: -4940560494952468051
+    second: scp-research_191
+  - first:
+      213: 1269627588295372160
+    second: scp-research_192
+  - first:
+      213: 5579469387464990501
+    second: scp-research_193
+  - first:
+      213: -1127817944128995002
+    second: scp-research_194
+  - first:
+      213: 5143059325014643522
+    second: scp-research_195
+  - first:
+      213: 6425902434177325014
+    second: scp-research_196
+  - first:
+      213: 8603377734993934199
+    second: scp-research_197
+  - first:
+      213: -1876895652576446299
+    second: scp-research_198
+  - first:
+      213: 1203484240700425314
+    second: scp-research_199
+  - first:
+      213: -4729720569635984753
+    second: scp-research_200
+  - first:
+      213: 6607483434494788176
+    second: scp-research_201
+  - first:
+      213: -6442515431512826050
+    second: scp-research_202
+  - first:
+      213: 304087611909634512
+    second: scp-research_203
+  - first:
+      213: -315069734230894037
+    second: scp-research_204
+  - first:
+      213: 3242523471979090683
+    second: scp-research_205
+  - first:
+      213: -1107458097173888816
+    second: scp-research_206
+  - first:
+      213: 1383850956924283800
+    second: scp-research_207
+  - first:
+      213: -7452805174716632236
+    second: scp-research_208
+  - first:
+      213: 6025464428913651251
+    second: scp-research_209
+  - first:
+      213: -4464038205842105104
+    second: scp-research_210
+  - first:
+      213: 6198768779443157110
+    second: scp-research_211
+  - first:
+      213: -8838883106847963172
+    second: scp-research_212
+  - first:
+      213: -4142299113463406593
+    second: scp-research_213
+  - first:
+      213: -397397871594656623
+    second: scp-research_214
+  - first:
+      213: -7776599475306810496
+    second: scp-research_215
+  - first:
+      213: 2046500927102827383
+    second: scp-research_216
+  - first:
+      213: 1367960544727909921
+    second: scp-research_217
+  - first:
+      213: -5085367135051270527
+    second: scp-research_218
+  - first:
+      213: -3536176084082715298
+    second: scp-research_219
+  - first:
+      213: -1578572835332347494
+    second: scp-research_220
+  - first:
+      213: -2401060966135515643
+    second: scp-research_221
+  - first:
+      213: -2560968756812145928
+    second: scp-research_222
+  - first:
+      213: -8907993577177319764
+    second: scp-research_223
+  - first:
+      213: -3722089597745437076
+    second: scp-research_224
+  - first:
+      213: 1452648469070615169
+    second: scp-research_225
+  - first:
+      213: 1177432684066893292
+    second: scp-research_226
+  - first:
+      213: 8055565577263708083
+    second: scp-research_227
+  - first:
+      213: 8951337813133760346
+    second: scp-research_228
+  - first:
+      213: 4529570316672853002
+    second: scp-research_229
+  - first:
+      213: 9137926385878983593
+    second: scp-research_230
+  - first:
+      213: -8683757666551793874
+    second: scp-research_231
+  - first:
+      213: -880198103733209497
+    second: scp-research_232
+  - first:
+      213: 2781267806388669768
+    second: scp-research_233
+  - first:
+      213: -812985678188749796
+    second: scp-research_234
+  - first:
+      213: 4357961098496734930
+    second: scp-research_235
+  - first:
+      213: 5147124109318066355
+    second: scp-research_236
+  - first:
+      213: 7887763134949560418
+    second: scp-research_237
+  - first:
+      213: 9067095142560780237
+    second: scp-research_238
+  - first:
+      213: -239730711566197512
+    second: scp-research_239
+  - first:
+      213: -8022684312951062857
+    second: scp-research_240
+  - first:
+      213: -8690545415355692028
+    second: scp-research_241
+  - first:
+      213: 330062140238099575
+    second: scp-research_242
+  - first:
+      213: 2231997905041341591
+    second: scp-research_243
+  - first:
+      213: 1072310474974521396
+    second: scp-research_244
+  - first:
+      213: 1238025424503144696
+    second: scp-research_245
+  - first:
+      213: 352795396581916169
+    second: scp-research_246
+  - first:
+      213: 7545545314901001725
+    second: scp-research_247
+  - first:
+      213: -4091176618454221799
+    second: scp-research_248
+  - first:
+      213: 3646568962295849246
+    second: scp-research_249
+  - first:
+      213: 9081960169646808200
+    second: scp-research_250
+  - first:
+      213: 1338795888310707563
+    second: scp-research_251
+  - first:
+      213: 4134694274281494411
+    second: scp-research_252
+  - first:
+      213: 6213632968129929558
+    second: scp-research_253
+  - first:
+      213: 4671534880047210529
+    second: scp-research_254
+  - first:
+      213: 1347983051391382088
+    second: scp-research_255
+  - first:
+      213: -3097916188732110688
+    second: scp-research_256
+  - first:
+      213: 3946580191399453602
+    second: scp-research_257
+  - first:
+      213: -2893304835549585929
+    second: scp-research_258
+  - first:
+      213: 5278421355360756992
+    second: scp-research_259
+  - first:
+      213: -6508207506510628403
+    second: scp-research_260
+  - first:
+      213: 3660840743317037040
+    second: scp-research_261
+  - first:
+      213: 6542358184317584821
+    second: scp-research_262
+  - first:
+      213: -6478094431092750664
+    second: scp-research_263
+  - first:
+      213: 841997223502066793
+    second: scp-research_264
+  - first:
+      213: -398303186787485345
+    second: scp-research_265
+  - first:
+      213: -1431094833251463198
+    second: scp-research_266
+  - first:
+      213: 5919927738719173630
+    second: scp-research_267
+  - first:
+      213: 3289719731484388520
+    second: scp-research_268
+  - first:
+      213: -3513517504529196308
+    second: scp-research_269
+  - first:
+      213: 246285147372991725
+    second: scp-research_270
+  - first:
+      213: 870975291904409254
+    second: scp-research_271
+  - first:
+      213: 4103754220922976373
+    second: scp-research_272
+  - first:
+      213: -860205875397582397
+    second: scp-research_273
+  - first:
+      213: 5346395350152909662
+    second: scp-research_274
+  - first:
+      213: 3254100183777932470
+    second: scp-research_275
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MResearch1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 541
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8f4359dafd33d4e8140ad145b67c2b
+      internalID: 2551802339355537794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MResearch2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 541
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f557d3d90aed94494eb98e55af229a
+      internalID: 8101907960796697974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MResearch3
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 541
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc505d2cbf4577c4bae76e69850f5c1b
+      internalID: 5364556329951679267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FResearch1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 541
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df8360f3c857c4babd48cb610798b3
+      internalID: -5962432620617841572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FResearch2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 541
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b536c087577bd424592a8b2b3b90bda8
+      internalID: -979980692911001077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FResearch3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 541
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097d3e6280fc9da4480ae0e09cf27712
+      internalID: -4017883282017078552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 484
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f0c5ff8cd420248a23b2af6fda8a84
+      internalID: 215677969544808416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 484
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1101bf4c9ca8d27489de0e377eddaeed
+      internalID: 6865164694311050533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 485
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818391e61bba1a4e974455ace2895ea
+      internalID: -2130817989159102424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 485
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a343118d321cb49821463e3ade52be
+      internalID: -3846400751027439669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 485
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb0a91760294f544a4a750e45e024a5
+      internalID: 4561863266373647280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 485
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1bde06b298b24db960223fe5048c6
+      internalID: -1169164082046455776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 485
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b65a7cc61f8304c909d6241036a3b0
+      internalID: 5262247930763021393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 485
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b8f78642f43e34e98206ed3952dcad
+      internalID: -353824095999037232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_14
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 385
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2ea9a34f482aa4e8983767766b8350
+      internalID: -8281713707255080274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 470
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2162bc409bd30724db734bc6b9bfd2e0
+      internalID: -6697906955580909030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 470
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040d3f8b371fd214fb56467309727c00
+      internalID: 8388205303418612576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 470
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a58ef20e4e8ab74fa9971759fc1f5f1
+      internalID: -1638609190767993700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_18
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a846fce261c6c4a954d6b37596e95c
+      internalID: 4304673730557974542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf1fa172fcd8744492308c536a37d1c
+      internalID: -201977120342741133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 470
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983db4f8bc6e4b3499ce8d6efefb07a8
+      internalID: -5117044745454756659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 471
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe184961bdb497e4aa46a9dd2ef494fe
+      internalID: -5530864555160302089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 471
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4766e5ddba4e7f44eb85351ad3562dea
+      internalID: -4193092992078767277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 471
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32c33fbd23b04245b09476ca0163267
+      internalID: 4019567871513312915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 471
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b527fe094d7f75d41aff1089c9399760
+      internalID: -7021203945567613921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 385
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f080c79b79c4ba46bd39351cb0761c0
+      internalID: 5055816136116346912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 386
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af8cec64afcdc3478a34da4e6a15866
+      internalID: -8911032478860303147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d336b8dc33485d4796acd9a4ece3783
+      internalID: -9166551485630668023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 385
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e672950788ea26440bfc3f4bf9fa9abb
+      internalID: 8660387511713169994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 385
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873d8d5fb95fa1142957923f5e3c07e1
+      internalID: -1467161010411601932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 385
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc19f637a9870a439fb98495fad2ee6
+      internalID: 8431667235949684176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 408
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2045efb3d97fbf14ea8395a1fc4b23b3
+      internalID: 7368028911061636640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 384
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d602ef595d687b14b97dbbbf949bc98a
+      internalID: -952744104455899039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_33
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 385
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451ee349fdfb7ac43bf518eada88d4a4
+      internalID: -1061068378978865705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 385
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71244cf86add0340bdce816be6721b5
+      internalID: -8743004648837172658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_35
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 385
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c1abe8520bc7e4e892ef5c290be5cc
+      internalID: -1483419276413387821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_36
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 411
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c7c1ea0712e864384b13f307efc543
+      internalID: -4979905771585672357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_37
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 385
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429a169bafe25474498d3b1c5ac852a0
+      internalID: -891035079326283907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_38
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 385
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c15940277b0c64fae6642e1540100e
+      internalID: 8567832282035798813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_39
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 380
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df8adec4cfff2c49a781facdcd7adfd
+      internalID: 5523024970282773975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_40
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 385
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616f3564c25a50a4b85effe777c7de56
+      internalID: 4835386925822483354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 395
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e017293976fb6448c2286567f6784c
+      internalID: -2882976843629901693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 383
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b713c654715eb0c45b06d5f5e2f11b32
+      internalID: -2347008082701800913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 396
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b90f1a0803d6674b98048e6525bfd89
+      internalID: 6775661456500819076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 385
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12102fa1f45f73446869d34e177ae9c5
+      internalID: -7474559300723215934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_45
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 371
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa9426191be84348846f0684c6f51bf
+      internalID: -1540737339441093872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_46
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 385
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76a60e7baff4e14394e74b8d578e6de
+      internalID: -6130515163156723037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab1e6b5f6c56f439a8e6a2eeb8c8d5
+      internalID: 5572518920068271442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389dddb50528cfb46b319f5ebd7137a9
+      internalID: -2424119794591205393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_49
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8e91054d2c25840959750fc06a0f50
+      internalID: 1921449721807058665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 371
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b570d0385ad8b9a4db5d51e8d048bae9
+      internalID: 3143637973016214217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_51
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b7559ce3684ca4ebca1e562a70b394
+      internalID: -8026076719985541632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_52
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa074eac8b21c64ea79033ab9287253
+      internalID: -8831234513994983784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_53
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a641b353a0714c95f37501805838b
+      internalID: -859329600598125627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_54
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6d46fd689592c45b9e91f7cf14b356
+      internalID: 2444404105216874937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_55
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 371
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6e07dcff68f73489b654ea04dc7296
+      internalID: -4718669666550308438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_56
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aedf75dcb808a6468d0892770a6479c
+      internalID: -4198547519012969415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_57
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139dbca3cd806fb4a9a1594d43951382
+      internalID: -1728117600019793527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c3578335f6d58409a18cb4f95dc047
+      internalID: -7497439316111069267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_59
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee13a61d127c38848bc3e4f6103ab0d0
+      internalID: -7924883479009245723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_60
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169385dadc9e76d4d96577d38bb3db76
+      internalID: -3597274056687908033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_61
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de060c05a7a5f8c4bac322acb29f4666
+      internalID: 5320512914207281392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_62
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23c6a1ba6d5d1c47ad7a91201fc100f
+      internalID: 1807041047996552142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_63
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b4b1cfb6178c04588293e6e9f8e610
+      internalID: 2386608723687054110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df53b67a3698f32489145a23da6c33c2
+      internalID: -4421687589755220971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_65
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b4c486acf4b5f42a8aecdf8b07b109
+      internalID: -3440835470615873138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_66
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc18a5fbbc0f24caa32664590e58a2
+      internalID: 9058319551969702485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10e48c6050d86a4ea3bb1b37d294931
+      internalID: -7122313372701192917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_68
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8275784f4fc27fc4db410eb931d24e6d
+      internalID: -5316809022365089889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_69
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9e2e3dd3ba7694cb5025e8b9c8256b
+      internalID: 6327415911652917634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6ae67dc4b6c9542a7c4b7c0bcffd79
+      internalID: -4272586812849523321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_71
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece35451b26923f4bb7d2aaa25fd2115
+      internalID: 182333527159943623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_72
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e523c6bfb51347479d6764fbb4f6020
+      internalID: -7990851549755767849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_73
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 371
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47be9db7a80144a4f9ebc8527ee11e7c
+      internalID: -8181089333115370028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 371
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f746a9d545bdf48ae4a3892aa0cf3b
+      internalID: 46371009453800825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_75
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3773ab96f96d145add9f0ecfaa2958
+      internalID: -1260727085058389120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_76
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 370
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927af18ba6e286499d643c14766b57b
+      internalID: 2242821953037262042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_77
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 370
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94391136bddbb6143b79899b168e02bf
+      internalID: -6156191224831105443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_78
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1296228371b0bb4991413d952f67ca0
+      internalID: -7159933383013523721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_79
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 371
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559092f40702731478be03f5d4d13c54
+      internalID: -189576828090330172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_80
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093e57a72790ebb41bc40f2237baeab0
+      internalID: 3053424486040509709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_81
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4616570693af7154baba0fd9f0fba4ea
+      internalID: 3927916862380294061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_82
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed5b18841479b147bba405cfe530c10
+      internalID: 3929854717505684068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_83
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbee781f17570c4a919802c465d0aa3
+      internalID: 2147165126118009803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_84
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef07a39d9d468ab47bc557c27ffb9210
+      internalID: 2432435040879797134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_85
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaf727fde07c4a4e903058e5deb2572
+      internalID: -110738411880485111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_86
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b347b2a346da864ea2684229d3156e1
+      internalID: -8107651582555269607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_87
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8986caee825633b459565e3e10c6b0bd
+      internalID: 4253019512029975947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_88
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517460c873a56b842909b4e594c15892
+      internalID: 5163632017809383718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_89
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 371
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94285a2b3b1b2624e8500a66416d0d78
+      internalID: 1333696332439939350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_90
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f524875944051974c9c0577f0dfd9275
+      internalID: -2873172792490053638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_91
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 371
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3c766292ffa8b4f8834418535ed8d2
+      internalID: 3118240442183528369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_92
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 371
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d1dd0cea7a55841b8d3eba29047ace
+      internalID: -6962950327415976655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_93
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 286
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276d3d835ef1e634cbe7dec1381fd4fa
+      internalID: 5521999538115733730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_94
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 286
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3620b09ef96a19a4db40e5ce0412d0ec
+      internalID: -5266268233104724761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_95
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 285
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e766b218e8f2d78459b25f14d8c1dc1e
+      internalID: -4789488787130806416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 286
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f54d4d91e709748a77faf1d00a5e97
+      internalID: 5862340886040591303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_97
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 286
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc68d0e2ee74a3946af2d7ff3e75a20b
+      internalID: 2978005666671075271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_98
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 286
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4744cbf66b01084884ff3449ac90489
+      internalID: 345409347814287838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_99
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 283
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861c9e4d96919b14584221328cfab0f2
+      internalID: -5165151976738184585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_100
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 286
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e8938319fc84848bc748934cd3468e
+      internalID: 2036671452122099424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_101
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 286
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2eae445b96a0f44bcb6dd868fcfaf9
+      internalID: -8075092605388666661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 286
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baa64d22b7de0246bb87417f93e7b6c
+      internalID: 2693364453375135624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_103
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 286
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582710e3ecada484d9eccd0aaf0d3d55
+      internalID: 5199557418158914401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_104
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 286
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0719073af025e4b9443bfa4f799735
+      internalID: 7367122975638410775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_105
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 286
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c0bc07f43d6e4196b0bbe80fa1893
+      internalID: 5517081146845196481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_106
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 286
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6e8e57993303d4283951d6d81bef51
+      internalID: 4416444269717578591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_107
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 286
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78e03cb68c9f3b428e96d1a1b3bc51b
+      internalID: -1933705138472653568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_108
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 286
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1a98a5f0220c41b83de7de17bff7a
+      internalID: 4456835212116023594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_109
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 286
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70cfb7bae2c2844291321fbd4868fa8
+      internalID: -5446292477474305436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_110
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 286
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c37c1f49bb8d4f98529ca475095bf
+      internalID: 9037311154829612118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_111
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 284
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55edc3de05f379345b0e744f3641ecea
+      internalID: -3839080931934667935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_112
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 279
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1a0a8103a69c140bf4884b1cbd69de
+      internalID: -3500975181641372607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_113
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 284
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493ba40c13608a40831ab5ad57c8979
+      internalID: -8051327516544918139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_114
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 284
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac5060b2910f64e99d0363a86825dc
+      internalID: 8318486635545973358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_115
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 284
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e438c769bff8a4292f5607aee36f78
+      internalID: 997799801935343653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_116
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 183
+        width: 42
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac042a3e53d6c8a4baaf16e2e8731066
+      internalID: 5340005102124266785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_117
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccca833f93f1004799d4c802598c604
+      internalID: 4311599913453697110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_118
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc451a89cb9e1445b68b9a20ff43c6e
+      internalID: -2472006013952106437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_119
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 272
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ff06883c2b594b93c394ee41d4cb0
+      internalID: 848735222362740301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_120
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 272
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3e392ce1b47914d84dd14ef414ffab
+      internalID: -3246869710483043615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_121
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 272
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4544e0f3ee3c549896f6a8da7774ee
+      internalID: -8446469245591483402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_122
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cb9cf6d62a4bb4db9f1803287873be
+      internalID: 5457738034605835237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_123
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fff5ab0f5926f84e90314bb729c4b74
+      internalID: -5905161401905344706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_124
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab493ba4c12f5b54d953b5d879e5b818
+      internalID: -1341642324760744125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_125
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114fb87a4be075d41bb112526263abcb
+      internalID: -3687176495066770223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_126
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde26611f4d92a04ab8c7d58ad9ba9b4
+      internalID: -835765542740307650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ebc91a298a4a944b7784e0a07e2e84
+      internalID: -5601347527534982184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_128
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758c26f810703af45b5404f6b13e2c62
+      internalID: -1388131500887124687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_129
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ceb04d41e0b7c44806b6874d3a7428
+      internalID: 6864403734027409411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_130
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea60b18262456114cacf1977ced8ee20
+      internalID: 6063854209788245355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_131
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ca938c1789834da812ae4fc801d33
+      internalID: -515090376507819887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_132
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5f73718f3ffc84bbb7c990b28f36a8
+      internalID: 8466295900624798247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_133
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d4252b5a8329b419fc34de2d0e481a
+      internalID: -6307687776456767183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_134
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a4cb3bd67204c459f82c87c76e9968
+      internalID: 1345193781088559716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_135
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f56c4472d2459641ba23cc9e3277caa
+      internalID: 6081753063866172565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_136
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 272
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e3f0846e5d2894a9b453aea18d752f
+      internalID: -8803675717012046389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_137
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b43e87d4d8945140a30d62f11092b23
+      internalID: 5389195470987024526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_138
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d60ba6aa6d288d45b8c68347dd8d4ef
+      internalID: 3702187573239776268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_139
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc72f1d8736bdb4caf98aa265644973
+      internalID: -84392405910846612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_140
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a7f5515346d942a7ca3d12149ceec
+      internalID: 5355834647251893862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_141
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e567e3f778c919647b2dfcee9d6f9198
+      internalID: -6314739952684916407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_142
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1e63f031ff1d14ba3b0436f243f24e
+      internalID: 1616554780006997354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_143
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5dc07ce0c48304f99854ef9d7dfa65
+      internalID: -5759920538949592574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_144
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47d985c69717341bf6c70d86babb6b
+      internalID: 7054955897121521080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_145
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 272
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87ca849d911a4241b905aa9f1c33a0d
+      internalID: -8738578833064949056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_146
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd9849028adbe4428cd280f0492e8b1
+      internalID: -3289095164536851888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_147
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 272
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25d00e54ff502a498f8767d29578a32
+      internalID: -2748315755093920507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_148
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbe7e5a4cb2056418062152f52ff1a2
+      internalID: 6112425951483281982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_149
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 272
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56f5a6ea1b95ce47b44eaf89ccb0acd
+      internalID: -6725544391646694449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_150
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 272
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae77ebbd4a4b664b9ded5f60bd9fd5b
+      internalID: 5350624325063081805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_151
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b90bd32b66d194fb78480f9182fcf0
+      internalID: 645116692220213019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_152
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 272
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ea8fac1ff8837478196cf053a3037c
+      internalID: 567794086071073375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_153
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1c538458fc56b42a1e08f92f412e97
+      internalID: -3457294187419924553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_154
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a24e487f3e8324d98e7e16ba140d63
+      internalID: 7539028007431139121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_155
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d313ece8dc579954597246d1d517513a
+      internalID: 1140683141623010219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_156
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d70f858c03d37409ba96036a343e94
+      internalID: 7162074120410302952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_157
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdef63738d9650a47936894f9033d739
+      internalID: 2339985585032070305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_158
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229ffcc83aeae5f44bffe41e96f04d2f
+      internalID: -6228886095294533160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_159
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b43a5175a6071f48a9e60ceba869989
+      internalID: 8757933215726981509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_160
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 272
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452d4ea42031e304cb878ddae62aa631
+      internalID: -593689837990561686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_161
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 272
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288ed0d102560fc4d97f59cadd8ca5e7
+      internalID: 4191834272389164336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_162
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f99c84fb258df4198f1226f2cbacfe
+      internalID: 6617281362262680606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_163
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6222d291cedd2864389684ca5553cfed
+      internalID: 7975735548544200686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_164
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0188f35289897bd478043261782bb8bb
+      internalID: 2098539632385981119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_165
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202b21517b68bc343b0fe35352a875d8
+      internalID: -7174011318212401994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_166
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9947ffa7f4cd306488538ea47063818e
+      internalID: -3035950961837790925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_167
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 272
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48e4e416c515fd45b5975130141848a
+      internalID: 2615867033442202387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_168
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 183
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d369913b4b4df5a4eb8af63e7430f3a9
+      internalID: -7542239059082123846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_169
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 199
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40415d6961c8c394a9fcce92bc70fa66
+      internalID: -459732743043025919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_170
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 169
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cfe1adba316cd49a16e2c8b90d69b4
+      internalID: 6958730266554242367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_171
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 182
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498b3c8d772b484bbb3b133f8e4c5c6
+      internalID: 1698200459065071419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_172
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 186
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0782df5d152724d84c746e3e568ec3
+      internalID: -5800153807920230433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_173
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 183
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e690ec049ab6f944b34318b924b4d2c
+      internalID: -2144055551626908822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_174
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 183
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c09058432eed4991e2b8bda62da32
+      internalID: 4169536313214901561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_175
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 183
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab60ae90cc12e3445af7c32d7b174992
+      internalID: -2981891821064542550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_176
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 183
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac97f5b1a63f52d4782c8367ba8e207b
+      internalID: 1030165838021152719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_177
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 183
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcadca515827a2241a0baa2fa9486a00
+      internalID: 1349070628301193870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_178
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 207
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752bc3191c14f264882c45653945d9c4
+      internalID: 8756906635510641152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_179
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 183
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9531070daa8889409cd6a9041a2fc1c
+      internalID: -3908296098188160749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_180
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 183
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2419a42744a7a468c6553dbf3ae8fd
+      internalID: 4252283909571505178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_181
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 183
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24cb21902510ae4992a2c0fb3189f6e
+      internalID: 61359446088790339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_182
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 180
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c6a90d4ab48a47aa7309517752542
+      internalID: -4416930356616677662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_183
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 169
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1440ce9cd442b2b42ba8d1850168ea1f
+      internalID: 5352873198309755874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_184
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 183
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d4ccee28bea444eb0e483e44a7e17f
+      internalID: 1688661050422941678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_185
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 183
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962b13b76675d08459afba2e0aed39bb
+      internalID: 1123290782464707871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_186
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 183
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0d3945fb253384987fccb60fa3af42
+      internalID: 2597491492535286818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_187
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 183
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882f627cf359dcd48bb8c119c7b431e5
+      internalID: -7723479468905803600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_188
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 183
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e6f3c36a4be9c428c4836d92f03c6f
+      internalID: 4531228693561746713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_189
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 169
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b90756db8ef0c4d945151c6f98bf90
+      internalID: 933657050367469391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_190
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 169
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1af0f5269c9d240aa6746ee72e2cf3
+      internalID: 2605314234766550075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_191
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ef1076b78b6e54dbff2caf09bafa61
+      internalID: -4940560494952468051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_192
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c84a70e0dbd8964eb842e4a859b2dbc
+      internalID: 1269627588295372160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_193
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39247b8aa8be26f49b29fb8637df37fe
+      internalID: 5579469387464990501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_194
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 169
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b497dfea608c3448202c63d373028a
+      internalID: -1127817944128995002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_195
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0322b6669bb43e747bd1ddb041955862
+      internalID: 5143059325014643522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_196
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 169
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b60bf82d2be7d9429284be5eaaa9d47
+      internalID: 6425902434177325014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_197
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67867a462d429240b9c1d2ca0d9b526
+      internalID: 8603377734993934199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_198
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b22cdb9979df243b263412db2ea056
+      internalID: -1876895652576446299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_199
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e372c720342845986f343caa2c5f9
+      internalID: 1203484240700425314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_200
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533757ba3e5259648be65084f45c49cb
+      internalID: -4729720569635984753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_201
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cefcbe3a5deea743bfa57b512d02d62
+      internalID: 6607483434494788176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_202
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e30bd2efcc4834197d2bed0f8c9c49
+      internalID: -6442515431512826050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_203
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af73b4d6aa17c5c4fb0c044bea5dbf4b
+      internalID: 304087611909634512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_204
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae325e8067c2ee84aab11c322e15d03a
+      internalID: -315069734230894037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_205
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc9efb10bfd7614181111e06b2f8b3e
+      internalID: 3242523471979090683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_206
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee75bf90b8baee247ac3b19717b53c30
+      internalID: -1107458097173888816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_207
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca7189ba313bf84a932fae511fda571
+      internalID: 1383850956924283800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_208
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 169
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f61b732feae1c04fa3eca9ce571743d
+      internalID: -7452805174716632236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_209
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91ddec485233554690b9695099efc91
+      internalID: 6025464428913651251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_210
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca18add97cf9ae49a378ccb74435418
+      internalID: -4464038205842105104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_211
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78424a5a7f1c70c48a33131c69a1fd1c
+      internalID: 6198768779443157110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_212
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 169
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc405afbe10782a449ee686d07a71d2a
+      internalID: -8838883106847963172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_213
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 169
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87b691bb6d32a346b966cd037628f12
+      internalID: -4142299113463406593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_214
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 169
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b70b835cfef0c54996e416e6efd15ca
+      internalID: -397397871594656623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_215
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 169
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba290af5723769489eca6dbcc0b3f27
+      internalID: -7776599475306810496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_216
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87bce0a193a8b641ac9f1a14bf5e706
+      internalID: 2046500927102827383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_217
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acb2cb93ae858b4fb7756002e5478e1
+      internalID: 1367960544727909921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_218
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d07e46e8b95b34ab34993552d75605
+      internalID: -5085367135051270527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_219
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 169
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa3012ae54109e46b82a5ee3a4cde3d
+      internalID: -3536176084082715298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_220
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f729c7c7214f5f4695a9f1a709e871d
+      internalID: -1578572835332347494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_221
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a019fcd24dd5d448d42dd9be17eead
+      internalID: -2401060966135515643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_222
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543505f03b2bf4b49b1b3591b6dd00e8
+      internalID: -2560968756812145928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_223
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454e5dc3c6b6ab6409062c677b83ad43
+      internalID: -8907993577177319764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_224
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0ea3a56a075ba4988e027ca739758e
+      internalID: -3722089597745437076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_225
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 46
+        width: 730
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cec8da288244364cb291aec5d8bf487
+      internalID: 1452648469070615169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_226
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0b09cf0c23829458ae279c2d7d824e
+      internalID: 1177432684066893292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_227
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca953cc76063fa845bcf5e9eb4235c0e
+      internalID: 8055565577263708083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_228
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843d57f2882c8744082305d771a3b8f3
+      internalID: 8951337813133760346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_229
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e176df2cdfca0f4190e9f758eff28dd
+      internalID: 4529570316672853002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_230
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a8ae86ca3f7b842b2eda5735796161
+      internalID: 9137926385878983593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_231
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ca07ca72a4ce4ab314bcfe9665c72
+      internalID: -8683757666551793874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_232
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb182f3de21dcbe44a7fa9c6aa06a4d0
+      internalID: -880198103733209497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_233
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e743d2a0f37a91f4d9e08c1da4974a5c
+      internalID: 2781267806388669768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_234
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ab63811c353cf4790a368277a5d018
+      internalID: -812985678188749796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_235
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e9ed4ba80c74418933cf17217d402
+      internalID: 4357961098496734930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_236
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8674bc4ce0a03bd42a6fc329cf04b057
+      internalID: 5147124109318066355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_237
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd22825a23536a46bafba45af9bf537
+      internalID: 7887763134949560418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_238
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2340e8340e4503642ab2ebaa147a3be8
+      internalID: 9067095142560780237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_239
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd47d4e240396a4f84f2aef80164fe0
+      internalID: -239730711566197512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_240
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a654bff8742a3244d974a46ecedd9cb3
+      internalID: -8022684312951062857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_241
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca381ac91dd23ed4382c9e0294eb1717
+      internalID: -8690545415355692028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_242
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3cb68497c44ac42bd38b216543296a
+      internalID: 330062140238099575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_243
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c3709bce6ae644784f98752efdc785
+      internalID: 2231997905041341591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_244
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14102eaec722255469d40dc587ef7963
+      internalID: 1072310474974521396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_245
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25b52e146427a04d8248c930f8fd8de
+      internalID: 1238025424503144696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_246
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eff15da905021b4c86bd75bb66e09ff
+      internalID: 352795396581916169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_247
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b8419604340f5449ef96a84b4a7937
+      internalID: 7545545314901001725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_248
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e108eb622fde5f4289d0cbb22862ae8
+      internalID: -4091176618454221799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_249
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dd7e685c2c0c041a43729ecc0a6fac
+      internalID: 3646568962295849246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_250
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8015cc50471816846871c9ea2443227a
+      internalID: 9081960169646808200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_251
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e569e6467c370a4da6c1d5bda6a9dd2
+      internalID: 1338795888310707563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_252
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322863efb0fac434ca4fcb936c8ee673
+      internalID: 4134694274281494411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_253
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512718b6b5e5fe24ba8435aa4081c5ce
+      internalID: 6213632968129929558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_254
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c291633513738e43b1c6afcf80757b4
+      internalID: 4671534880047210529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_255
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7a12f5c90429a4e856a3e0e17dd496
+      internalID: 1347983051391382088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_256
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459d2f51233459d49a9e33013c1303f1
+      internalID: -3097916188732110688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_257
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130c0a9a5b9c81d4b9fee9bdbed2ab5c
+      internalID: 3946580191399453602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_258
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaff69285b948845a577526bd079630
+      internalID: -2893304835549585929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_259
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141e8e77d93d7a5418fc40bf5ef78601
+      internalID: 5278421355360756992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_260
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fc1e36193694f45a7a9a05597f27eb
+      internalID: -6508207506510628403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_261
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac35cf5a318ba8d4d81f8c1ae34b0c53
+      internalID: 3660840743317037040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_262
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f61816619bbfd408f0b2e74e15b634
+      internalID: 6542358184317584821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_263
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7989d600208d5f44a96531551ac576e
+      internalID: -6478094431092750664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_264
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e63574a9e14ec845aceb1ac61271fab
+      internalID: 841997223502066793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_265
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524535f05d31a564083960dd48daab65
+      internalID: -398303186787485345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_266
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ed99096834fcc489b7a1ce94c49194
+      internalID: -1431094833251463198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_267
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 46
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e959cc64b33b8a54aabc3f9628c6c56c
+      internalID: 5919927738719173630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_268
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 46
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b953c6bf3204045a478e20f1229753
+      internalID: 3289719731484388520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_269
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 48
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b765a2e0d2f144cb22cee244b0ccb4
+      internalID: -3513517504529196308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_270
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 48
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a2eea86610e4e46aaaa726206b6933
+      internalID: 246285147372991725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_271
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 48
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5e70bf29821234f8d97d6672e2361d
+      internalID: 870975291904409254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_272
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 48
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a64725cfe7b5b841a2ba558f3dd0964
+      internalID: 4103754220922976373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_273
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e230c0e6eb747914d999f7ce6899cb48
+      internalID: -860205875397582397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_274
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 127
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56a810dec4109942a52b2be0c38e2e5
+      internalID: 5346395350152909662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scp-research_275
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 99
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfd52b3b93339942be59ebd95387203
+      internalID: 3254100183777932470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
