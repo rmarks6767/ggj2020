@@ -73,7 +73,7 @@ public class CreditsManager : MonoBehaviour
             {
                 results += "Q: " + pollQ[i] + "\n     A: " + pollA[i] + "\n";
             }
-            WriteToDisplay(results, polls, .04f);
+            WriteToDisplay(results, polls, .02f);
         }
         WriteToDisplay(nameString2, namesList2, .04f);
         WriteToDisplay(nameString1, namesList, .04f);

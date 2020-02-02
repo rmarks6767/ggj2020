@@ -571,7 +571,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -67.436935, w: 0}
+  m_margin: {x: 0, y: 0, z: -302.63193, w: 0}
   m_textInfo:
     textComponent: {fileID: 848524278}
     characterCount: 3
@@ -900,7 +900,7 @@ MonoBehaviour:
   - {fileID: 848524278}
   strings:
   - start game
-  - credits
+  - twitch makes a video game
 --- !u!1 &1517185688
 GameObject:
   m_ObjectHideFlags: 0
