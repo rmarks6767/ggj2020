@@ -26,7 +26,7 @@ namespace Assets.Scripts
 
         public bool IsFilled
         {
-            get { return IsFilled; }
+            get { return isFilled; }
         }
 
         public Cell(DangerLevel cellLevel, int index, SCP cellInhabitant = null)
