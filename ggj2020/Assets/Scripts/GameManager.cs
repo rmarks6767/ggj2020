@@ -8,6 +8,7 @@ namespace Assets.Scripts
     /// </summary>
     public enum StaffType
     {
+        all,
         research,
         security
     }
@@ -17,6 +18,7 @@ namespace Assets.Scripts
     /// </summary>
     public enum DangerLevel
     {
+        all,
         safe,
         euclid,
         keter
@@ -65,10 +67,14 @@ namespace Assets.Scripts
         public int Money { get; }
         private int money;
 
+        private List<Buildings> buildings;
+        public List<Buildings> Buildings(string name) 
+            => buildings.Find(building => building.Name == name);
+
         /// <summary>
         /// The staff that exist in the given room
         /// </summary>
-        private Dictionary<StaffType, int> staff;
+        private Dictionary<StaffType, List<Staff>> staff;
 
         /// <summary>
         /// The scps that are active in the given room
@@ -104,10 +110,10 @@ namespace Assets.Scripts
         void Start()
         {
             // Create the defaults for the staff
-            staff = new Dictionary<StaffType, int>()
+            staff = new Dictionary<StaffType, List<Staff>>()
             {
-                { StaffType.research, 0 },
-                { StaffType.security, 0 }
+                { StaffType.research, new List<Staff>() },
+                { StaffType.security, new List<Staff>() }
             };
 
             // Create the defaults for the SCPs
@@ -142,8 +148,8 @@ namespace Assets.Scripts
         /// Used to increment the number of a given type plus one
         /// </summary>
         /// <param name="staffType">The type to increment</param>
-        public void AddStaff( StaffType staffType ) 
-            => staff[staffType]++;
+        public void AddStaff( StaffType staffType, Staff newStaff ) 
+            => staff[staffType].Add(newStaff);
 
         /// <summary>
         /// Used to add a new SCP object to the room
@@ -159,6 +165,7 @@ namespace Assets.Scripts
         /// <param name="amount">The amount to add to the money</param>
         public void AddMoney(int amount) 
             => money += amount;
+        
         /// <summary>
         /// Used to get the SCP by the name and the DangerLevel
         /// </summary>
@@ -183,6 +190,89 @@ namespace Assets.Scripts
             return targetSCP;
         }
 
+        /// <summary>
+        /// Will return all of the scps of a given type...or all
+        /// </summary>
+        /// <param name="command">The danger level of the given scps</param>
+        /// <returns>Returns the scps of that type</returns>
+        public List<SCP> GetSCPs(string command)
+        {
+            List<SCP> allSCPs = new List<SCP>();
+
+            if (command == "all")
+            {
+                allSCPs.AddRange(scps[DangerLevel.euclid]);
+                allSCPs.AddRange(scps[DangerLevel.keter]);
+                allSCPs.AddRange(scps[DangerLevel.safe]);
+            }
+            else if( command == "captured" )
+            {
+                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => scp.Captured));
+                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => scp.Captured));
+                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => scp.Captured));
+            }
+            else if (command == "wanted")
+            {
+                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => !scp.Captured));
+                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => !scp.Captured));
+                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => !scp.Captured));
+            }
+            else
+            {
+                return null;
+            }
+            return allSCPs;
+        }
+
+        /// <summary>
+        /// Used to get the staff by the name and the staffType
+        /// </summary>
+        /// <param name="staffType">The type that the staff is</param>
+        /// <param name="name">The name of the given staff</param>
+        /// <returns>Returns a given staff object</returns>
+        public Staff GetStaff(StaffType staffType, string name)
+            => staff[staffType].Find(staff => staff.StaffName == name);
+
+        public Staff GetStaff(string name)
+        {
+            Staff targetStaff = null;
+            for (int i = 0; i < staff.Values.Count; i++)
+            {
+                if (targetStaff != null)
+                {
+                    break;
+                }
+
+                targetStaff = staff[(StaffType)i].Find(staff => staff.StaffName == name);
+            }
+            return targetStaff;
+        }
+
+        /// <summary>
+        /// Will return all of the staff of a given type...or all
+        /// </summary>
+        /// <param name="staffType">The staff type of the given staff</param>
+        /// <returns>Returns the staff of that type</returns>
+        public List<Staff> GetStaff(StaffType staffType = StaffType.all)
+        {
+            if (staffType == StaffType.all)
+            {
+                List<Staff> allStaff = new List<Staff>();
+
+                allStaff.AddRange(staff[StaffType.research]);
+                allStaff.AddRange(staff[StaffType.security]);
+
+                return allStaff;
+            }
+            return staff[staffType]; 
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>Returns a cell by name</returns>
+        public Cell FindCell(int index)
+            => FindCells()[index];
 
         /// <summary>
         /// 
@@ -251,14 +341,6 @@ namespace Assets.Scripts
         }
 
         /// <summary>
-        /// Used to get a given staff member
-        /// </summary>
-        /// <param name="staffType">The type to return</param>
-        /// <returns>The number of staff of that type in the room</returns>
-        public int GetStaff(StaffType staffType)
-            => staff[staffType];
-
-        /// <summary>
         /// Used to get a command by name
         /// </summary>
         /// <param name="command">The command to get</param>
@@ -270,6 +352,4 @@ namespace Assets.Scripts
             return null;
         }
     }
-
-
 }
