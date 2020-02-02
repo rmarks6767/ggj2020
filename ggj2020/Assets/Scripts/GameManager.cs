@@ -282,6 +282,7 @@ namespace Assets.Scripts
                 cellBlock = floor.GetComponent<CellBlock>();
                 foreach (Cell cell in cellBlock.Cells)
                 {
+                    if (cell != null)
                         output.Add(cell);
                 }
             }
@@ -302,7 +303,7 @@ namespace Assets.Scripts
                 cellBlock = floor.GetComponent<CellBlock>();
                 foreach (Cell cell in cellBlock.Cells)
                 {
-                    if (!cell.IsFilled)
+                    if (cell != null && !cell.IsFilled)
                     {
                         output.Add(cell);
                     }
@@ -325,7 +326,7 @@ namespace Assets.Scripts
                 cellBlock = floor.GetComponent<CellBlock>();
                 foreach (Cell cell in cellBlock.Cells)
                 {
-                    if (cell.IsFilled)
+                    if (cell != null && cell.IsFilled)
                     {
                         output.Add(cell);
                     }

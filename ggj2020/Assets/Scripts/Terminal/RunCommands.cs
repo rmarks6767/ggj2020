@@ -18,7 +18,8 @@ namespace Assets.Scripts
                 {
                     int index;
                     if (!int.TryParse(parameters[1], out index))
-                        return "usage: capture <name> <cellnumber>";
+                        return "usage:\n" +
+                            "capture <name> <cellnumber>";
 
                     SCPManager manager = GameManager.Instance.GetComponent<SCPManager>();
 
@@ -28,25 +29,32 @@ namespace Assets.Scripts
                 else
                     return $"{name} not found!";
             }
-            return "usage: capture <name> <cellnumber>";
+            return "usage:\n" +
+                "capture <name> <cellnumber>";
         }
 
         public static string List(List<string> parameters)
         {
-            string output, command = parameters[0];
+            string output, command;
 
-            if (parameters.Count != 3)
-                command = "NULL";
+            if (parameters.Count == 0)
+                command = "none";
+            else
+                command = parameters[0];
+
+            if (parameters.Count != 2)
+                command = "none";
 
             switch (command)
             {
                 // list scp [wanted, captured, all]
                 case "scp":
-                    output = "SCPs:\n";
+                    output = $"{parameters[1]} SCPs:\n";
                     List<SCP> scps = GameManager.Instance.GetSCPs(parameters[1]);
 
                     if (scps == null)
-                        break;
+                        return "usage: \n" +
+                          "\tlist scp [wanted, captured, all]\n";
 
                     foreach (SCP scp in scps)
                         output += $"\t{scp.ToString()}\n";
@@ -58,12 +66,10 @@ namespace Assets.Scripts
                     StaffType staffType;
 
                     if (!Enum.TryParse(parameters[1], out staffType))
-                        break;
+                        return "usage: \n" +
+                            "\tlist staff [research, security, all]\n";
 
-                    List<Staff> staff = GameManager.Instance.GetStaff(staffType);
-
-                    if (staff.Count == 0)
-                        break;
+                   List <Staff> staff = GameManager.Instance.GetStaff(staffType);
 
                     foreach (Staff member in staff)
                         output += $"\t{member.ToString()}\n";
@@ -71,16 +77,14 @@ namespace Assets.Scripts
                     return output;
                 // list building <name>
                 case "building":
-                    output = "Buildings:\n";
-                    List<GameObject> buildings = GameManager.Instance.Buildings.Values.ToList();
+                    GameObject building;
 
-                    if (buildings.Count == 0)
-                        break;
+                    if (GameManager.Instance.Buildings.ContainsKey(parameters[1]))
+                        building = GameManager.Instance.Buildings[parameters[1]];
+                    else
+                        return "Building not found!";
 
-                    foreach (GameObject building in buildings)
-                        output += $"\t{building.GetComponent<Buildings>().ToString()}\n";
-
-                    return output;
+                    return $"Building:\n\t{building.GetComponent<Buildings>().ToString()}\n";
                 case "cell":
                     output = "Cells:\n";
 
@@ -95,10 +99,11 @@ namespace Assets.Scripts
                     else if (type == "all")
                         cells = GameManager.Instance.FindCells();
                     else
-                        break;
+                        return "usage: \n" +
+                            "\tlist cell [filled, empty, all]\n";
 
                     if (cells.Count == 0)
-                        break;
+                        return "No Cells Found!";
 
                     foreach (Cell cell in cells)
                         output += $"\t{cell.ToString()}\n";
@@ -171,12 +176,17 @@ namespace Assets.Scripts
                     // TODO: add command 'in'
                 }
             }
-            return "usage: \n" +
-                "\tmove staff <name> building <building name>" +
-                "\tmove staff <name> floor <room num>" +
-                "\tmove floor <room num>\n" +
-                "\tmove building <building name>\n" +
-                "\tmove out\n";
+            return "usage:\n" +
+                "move staff <name> building <building name>" +
+                "move staff <name> floor <room num>" +
+                "move floor <room num>\n" +
+                "move building <building name>\n" +
+                "move out\n";
         }
+
+        /*public static string Buy(List<string> parameters)
+        {
+
+        }*/
     }
 }

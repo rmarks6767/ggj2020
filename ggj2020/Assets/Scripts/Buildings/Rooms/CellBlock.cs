@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -18,11 +19,11 @@ namespace Assets.Scripts
             }
         }
 
-        public Cell[] Cells
+        public List<Cell> Cells
         {
             get
             {
-                return cells;
+                return cells.ToList();
             }
         }
 
