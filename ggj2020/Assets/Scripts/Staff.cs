@@ -6,7 +6,7 @@ namespace Assets.Scripts
 {
     public class Staff : MonoBehaviour
     {
-        /*
+        
         private int tier;
         private string staffName;
         private string description;
@@ -58,6 +58,6 @@ namespace Assets.Scripts
         {
             return staffName + ", " + " Level: " + tier + ", " + description;
         }
-        */
+        
     }
 }
