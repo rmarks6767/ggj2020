@@ -215,6 +215,8 @@ namespace Assets.Scripts
 
                         break;
                 }
+                //List of floors at a given building
+               // GameManager.Instance.Buildings["research"].GetComponent<Research>().Floors;
             }
             return "usage:\n" +
                 "buy staff [research/security] <room number>";
