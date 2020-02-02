@@ -55,7 +55,7 @@ public class SCPManager : MonoBehaviour
         }
        
 
-        AddSCPToScene(5);
+     
     }
 
     // Update is called once per frame
@@ -126,7 +126,7 @@ public class SCPManager : MonoBehaviour
             cell.ContainSCP(wantedScips[i]);
             wantedScips[i].Contained = true;
             containedScips.Add(wantedScips[i]);
-            AddSCPToScene(i);
+            AddSCPToScene(i, cell);
             wantedScips.RemoveAt(i);
             return true;
             //remove the SCP from the list and add it to an empty cell
@@ -139,12 +139,14 @@ public class SCPManager : MonoBehaviour
         }
     }
 
-    public void AddSCPToScene(int index)
+    public void AddSCPToScene(int index, Cell cell)
     {
         GameObject newScip = new GameObject();
         newScip.AddComponent<ScipObject>();
         newScip.GetComponent<ScipObject>().number = wantedScips[index].Number;
-        Instantiate(newScip, Vector3.zero, Quaternion.identity);
+        Debug.Log(cell.cellBlock.GetComponent<CellBlock>().cellLocations[cell.spot].transform.localPosition);
+        Instantiate(newScip, cell.cellBlock.GetComponent<CellBlock>().cellLocations[cell.spot].transform.position, Quaternion.identity).transform.SetParent(cell.cellBlock.GetComponent<CellBlock>().cellLocations[cell.spot].transform);
+
     }
     void loadAllScips()
     {
