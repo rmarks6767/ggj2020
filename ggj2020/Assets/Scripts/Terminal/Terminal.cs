@@ -235,7 +235,7 @@ public class Terminal : MonoBehaviour
 
     void ChangeName(string[] output)
     {
-        GameManager.Instance.playerName = output[0];
+        GameManager.Instance.playerName = RemoveCursor(output[0]);
 
         WriteToDisplay(string.Format("\tHello Dr. {0}! Welcome to Site {1}!", GameManager.Instance.playerName, GameManager.Instance.siteName));
     }
