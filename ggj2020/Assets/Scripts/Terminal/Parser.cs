@@ -29,6 +29,21 @@ namespace Assets.Scripts
 
                 if (runCommand != null)
                     return runCommand.Invoke(commands);
+                else if (commandStr == "help")
+                    return "usage: \n" +
+                        "list\n" +
+                        "\tscp [wanted, captured, all]\n" +
+                        "\tstaff [research, security, all]\n" +
+                        "\tbuilding <building name>\n" +
+                        "\tcell [filled, empty, all]\n"+
+                        "capture\n" +
+                        "\t<name> <cellnumber>\n" +
+                        "move\n" +
+                        "\tstaff <name> building <building name>\n" +
+                        "\tstaff <name> floor <room num>\n" +
+                        "\tfloor <room num>\n" +
+                        "\tbuilding <building name>\n" +
+                        "\tout\n";
                 else
                     return $"bash: {commandStr}: command not found...";
             }

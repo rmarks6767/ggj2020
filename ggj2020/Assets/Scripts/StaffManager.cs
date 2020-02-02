@@ -43,9 +43,9 @@ namespace Assets.Scripts
 
         public void GenerateResearch()
         {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < containmentBuilding.GetComponent<Containment>().Floors.Count; i++)
             {
-
+                
             }
         }
 
@@ -72,6 +72,7 @@ namespace Assets.Scripts
             }
 
             newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
+            //roomToMoveTo.GetComponent<Floor
         }
 
 
