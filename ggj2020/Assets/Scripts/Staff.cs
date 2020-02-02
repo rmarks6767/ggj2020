@@ -44,9 +44,11 @@ namespace Assets.Scripts
             set { iD = value; }
         }
 
-        public Staff(int tier, string staffName, string description)
+
+        public Staff(int tier, int iD, string staffName, StaffType type, string description)
         {
             this.tier = tier;
+            this.iD = iD;
             this.staffName = staffName;
             this.description = description;
         }
