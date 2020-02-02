@@ -26,10 +26,10 @@ namespace Assets.Scripts
         /// </summary>
         public int StaffCount
         {
-            get { return residentResearchers.Count; }
+            get { return residentStaff.Count; }
         }
 
-        private List<Researcher> residentResearchers;
+        private List<Staff> residentStaff;
 
         private BuildingType building;
 
@@ -40,7 +40,7 @@ namespace Assets.Scripts
             maxRoomTier = 3;
             incrementingValue = 2;
 
-            residentResearchers = new List<Researcher>();
+            residentStaff = new List<Staff>();
 
             maxStaff = 2;
             roomTier = 0;
@@ -50,14 +50,14 @@ namespace Assets.Scripts
         /// If the staff adding is invalid will return false
         /// </summary>
         /// <returns></returns>
-        public bool AddStaff(Researcher newStaff)
+        public bool AddStaff(Staff newStaff)
         {
-            if (maxStaff == (residentResearchers.Count))
+            if (maxStaff == (residentStaff.Count))
             {
                 return false;
             }
 
-            residentResearchers.Add(newStaff);
+            residentStaff.Add(newStaff);
             return true;
         }
 
@@ -66,16 +66,16 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="removeName"></param>
         /// <returns></returns>
-        public Researcher RemoveStaff(string removeName)
+        public Staff RemoveStaff(int id)
         {
-            Researcher staffStorage;
+            Staff staffStorage;
 
-            for (int i = 0; i < residentResearchers.Count; i++)
+            for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (removeName == residentResearchers[i].name)
+                if (id == residentStaff[i].ID)
                 {
-                    staffStorage = residentResearchers[i];
-                    residentResearchers.RemoveAt(i);
+                    staffStorage = residentStaff[i];
+                    residentStaff.RemoveAt(i);
                     return staffStorage;
                 }
             }
@@ -88,15 +88,15 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="removeName"></param>
         /// <returns></returns>
-        public Researcher FindStaff(string removeName)
+        public Staff FindStaff(int id)
         {
-            Researcher staffStorage;
+            Staff staffStorage;
 
-            for (int i = 0; i < residentResearchers.Count; i++)
+            for (int i = 0; i < residentStaff.Count; i++)
             {
-                if (removeName == residentResearchers[i].name)
+                if (id == residentStaff[i].ID)
                 {
-                    staffStorage = residentResearchers[i];
+                    staffStorage = residentStaff[i];
                     return staffStorage;
                 }
             }

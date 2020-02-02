@@ -65,17 +65,17 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public SecurityGuard FindStaff(string name)
+        public Staff FindStaff(int id)
         {
             SecurityRoom roomStorage;
-            SecurityGuard securityStorage;
+            Staff staffStorage;
             for (int i = 0; i < floorCount; i++)
             {
                 roomStorage = (SecurityRoom)floors[i].FloorRoom;
-                securityStorage = roomStorage.FindStaff(name);
-                if (securityStorage != null)
+                staffStorage = roomStorage.FindStaff(id);
+                if (staffStorage != null)
                 {
-                    return securityStorage;
+                    return staffStorage;
                 }
             }
 
@@ -87,17 +87,17 @@ namespace Assets.Scripts
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public SecurityGuard RemoveStaff(string name)
+        public Staff RemoveStaff(int id)
         {
             SecurityRoom roomStorage;
-            SecurityGuard securityStorage;
+            Staff staffStorage;
             for (int i = 0; i < floorCount; i++)
             {
                 roomStorage = (SecurityRoom)floors[i].FloorRoom;
-                securityStorage = roomStorage.RemoveStaff(name);
-                if (securityStorage != null)
+                staffStorage = roomStorage.RemoveStaff(id);
+                if (staffStorage != null)
                 {
-                    return securityStorage;
+                    return staffStorage;
                 }
             }
 
