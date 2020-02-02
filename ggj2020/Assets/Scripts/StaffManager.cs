@@ -72,6 +72,7 @@ namespace Assets.Scripts
             }
 
             newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
+            //roomToMoveTo.GetComponent<Floor
         }
 
 
