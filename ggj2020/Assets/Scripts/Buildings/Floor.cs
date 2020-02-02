@@ -140,5 +140,10 @@ namespace Assets.Scripts
             maxStaff++;
             return true;
         }
+
+        public override string ToString()
+        {
+            return $"Floor number: {floorNumber}, Building Type: {buildingType}";
+        }
     }
 }

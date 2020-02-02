@@ -13,9 +13,14 @@ namespace Assets.Scripts
         public int researchCost = 150;
         public int securityCost = 100;
 
+        public float researchValue = .5f;
+
+        private float timeElapsed = 0;
 
         public GameObject staffPrefab;
+        public GameObject cellBlockPrefab;
         public GameObject containmentBuilding;
+        public GameObject gameManagerObject;
 
         public Dictionary<int, GameObject> securityStaff = new Dictionary<int, GameObject>();
         public Dictionary<int, GameObject> researchStaff = new Dictionary<int, GameObject>();
@@ -31,41 +36,75 @@ namespace Assets.Scripts
         // Start is called before the first frame update
         void Start()
         {
-			
+            gameManagerObject = this.gameObject;
         }
 
         // Update is called once per frame
         void Update()
         {
-
+            timeElapsed += Time.deltaTime;
+            if (timeElapsed >= 15)
+            {
+                timeElapsed = 0;
+                GenerateResearch();
+                
+            }
         }
 
 
         public void GenerateResearch()
         {
+            int moneyTotal = 0;
+            List<GameObject> currentFloorStaff;
+            GameObject currentCellBlockHolder;
+
+            List<DangerLevel> dangerLevelOfScp = new List<DangerLevel>();
+            List<int> tiersOfResearchers = new List<int>();
+
             for (int i = 0; i < containmentBuilding.GetComponent<Containment>().Floors.Count; i++)
             {
-                List<GameObject> currentFloorStaff;
-                int researcherCount = 0;
+                dangerLevelOfScp.Clear();
+                tiersOfResearchers.Clear();
 
-                currentFloorStaff = containmentBuilding.GetComponent<Containment>().Floors[i].GetComponent<Floor>().residentStaff;
+                currentFloorStaff = containmentBuilding.GetComponent<Containment>().Floors[i].GetComponent<CellBlock>().residentStaff;
+
+                currentCellBlockHolder = containmentBuilding.GetComponent<Containment>().Floors[i];
+                for (int y = 0; y < currentCellBlockHolder.GetComponent<CellBlock>().Cells.Count; y++)
+                {
+                    if (currentCellBlockHolder.GetComponent<CellBlock>().Cells[y].IsFilled)
+                    {
+                        dangerLevelOfScp.Add(currentCellBlockHolder.GetComponent<CellBlock>().Cells[y].CellInhabitant.DL);
+                    }
+                }
 
                 for (int x = 0; x < currentFloorStaff.Count; x++)
                 {
                     if (currentFloorStaff[i].GetComponent<Staff>().type == StaffType.research)
                     {
-                        
-                        researcherCount++;
-                        // IF YOU ADD TIERS RECORD THEM HERE
-
+                        tiersOfResearchers.Add(currentFloorStaff[i].GetComponent<Staff>().tier);
                     }
-
                 }
 
-                
-            }
+                int scpValue = 0;
+                //Add SCP Values
+                for (int z = 0; z < dangerLevelOfScp.Count; z++)
+                {
+                    scpValue += (int)dangerLevelOfScp[z];
+                }
 
-            
+                int researcherTierValue = 0;
+                // Add researcher tiers
+                for (int z = 0; z < tiersOfResearchers.Count; z++)
+                {
+                    researcherTierValue += tiersOfResearchers[z];
+                }
+
+
+                // Add to money total
+                moneyTotal += (int)(scpValue + researcherTierValue * researchValue);
+
+            }
+            gameManagerObject.GetComponent<Money>().GainMoney(moneyTotal);
         }
 
         public void moveStaff(GameObject staff, GameObject endDestination)
@@ -130,6 +169,43 @@ namespace Assets.Scripts
             return firstName + " " + lastName;
         }
 
+		/// <summary>
+		/// Finds the dead staff member and removes them from the scene
+		/// </summary>
+		/// <param name="id">The id of the dead staff member</param>
+		public void StaffDied(int id)
+		{
+			// Finds dead member
+			GameObject deadStaffMember = null;
+
+			foreach(KeyValuePair<int, GameObject> pair in researchStaff)
+			{
+				if(pair.Key == id)
+				{
+					deadStaffMember = pair.Value;
+					break;
+				}
+			}
+
+			foreach(KeyValuePair<int, GameObject> pair in securityStaff)
+			{
+				// if the dead staff member was found, it breaks out of this loop
+				if(deadStaffMember != null)
+					break;
+
+				if(pair.Key == id)
+				{
+					deadStaffMember = pair.Value;
+					break;
+				}
+			}
+
+			// Checks if the dead staff member was found
+			if(deadStaffMember == null)
+				return;
+
+			// Removes Member from Room
+		}
 
         /// <summary>
         /// Fils the list with random Names

@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6454559578862669840}
   - component: {fileID: 4817544379060113732}
+  - component: {fileID: 4545521082286778481}
+  - component: {fileID: 1117688234532089568}
   m_Layer: 0
   m_Name: Guard
   m_TagString: Untagged
@@ -81,3 +83,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4545521082286778481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8278159748851312279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c749dc02a8ad9b408767331b65878db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tier: 0
+  staffName: 
+  description: 
+  type: 2
+  iD: 0
+  aiController: {fileID: 0}
+  currentLocation: {fileID: 0}
+--- !u!114 &1117688234532089568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8278159748851312279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3525166e0032c3d4fbd88815456ed45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveRight: 0
+  moveLeft: 0
+  stop: 0
+  speed: 0
+  hasExited: 0
+  roomCenter: {fileID: 0}
+  wanderRange: 0
+  spriteFlipper: {fileID: 0}
+  flipDirection: 0
+  exitSpot: {fileID: 0}
+  moveToRoom: {fileID: 0}
