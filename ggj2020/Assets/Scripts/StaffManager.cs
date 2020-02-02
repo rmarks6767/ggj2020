@@ -7,6 +7,12 @@ namespace Assets.Scripts
 {
     public class StaffManager : MonoBehaviour
     {
+        public int researchPayRate = 15;
+        public int securityPayRate = 10;
+
+        public int researchCost = 150;
+        public int securityCost = 100;
+
 
         public GameObject staffPrefab;  
 
@@ -33,7 +39,7 @@ namespace Assets.Scripts
 
         }
 
-        
+
         public void AddStaff(GameObject roomToMoveTo, StaffType type)
         {
             GameObject newStaff = Instantiate(staffPrefab);
@@ -49,7 +55,7 @@ namespace Assets.Scripts
             if (type == StaffType.research)
             {
                 researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
-                    
+
             }
             else if (type == StaffType.security)
             {
@@ -59,15 +65,6 @@ namespace Assets.Scripts
             newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
         }
 
-
-        /// <summary>
-        /// Selects 
-        /// </summary>
-        /// <param name="type"></param>
-        public void SelectID(StaffType type)
-        {
-            return;
-        }
 
 
         /// <summary>
