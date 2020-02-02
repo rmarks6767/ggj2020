@@ -46,14 +46,14 @@ namespace Assets.Scripts
         {
             Staff staffStorage;
 
-            for (int i = 0; i < workingStaff.Count; i++)
+            /*for (int i = 0; i < workingStaff.Count; i++)
             {
                 if (id == workingStaff[i].ID)
                 {
                     staffStorage = workingStaff[i];
                     return staffStorage;
                 }
-            }
+            }*/
 
             return null;
         }
