@@ -45,8 +45,6 @@ public class SCPManager : MonoBehaviour
             wantedScips.Add(scip);
         }
        
-
-        AddSCPToScene(5);
     }
 
     // Update is called once per frame
