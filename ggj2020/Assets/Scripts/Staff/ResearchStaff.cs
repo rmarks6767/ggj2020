@@ -5,13 +5,13 @@ using Assets.Scripts;
 
 public class ResearchStaff : StaffAbstract
 {
-    Staff type;
+    StaffType type;
     int level;
     int cost;
     // Start is called before the first frame update
     void Start()
     {
-        type = Staff.research;
+        type = StaffType.research;
         level = 1;
         cost = 600;
     }

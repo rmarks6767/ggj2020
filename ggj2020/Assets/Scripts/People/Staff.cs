@@ -35,7 +35,7 @@ namespace Assets.Scripts
             set { type = value; }
         }
 
-        public Researcher(int tier, string staffName, string description)
+        public Staff(int tier, string staffName, string description)
         {
             this.tier = tier;
             this.staffName = staffName;
