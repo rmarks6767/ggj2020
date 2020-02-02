@@ -7,7 +7,7 @@ namespace Assets.Scripts
 
     public class SecurityRoom : Floor
     {
-        public List<GameObject> onFloorStaff = new List<GameObject>();
+        
 
         public override void Start()
         {
