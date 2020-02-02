@@ -12,6 +12,21 @@ public class SCPManager : MonoBehaviour
     private Containment building;
     private Money money;
     private StaffManager sManager;
+    
+    public List<SCP> Scips
+    {
+        get { return scips; }
+    }
+
+    public List<SCP> WantedScips
+    {
+        get { return wantedScips; }
+    }
+
+    public List<SCP> ContainedScips
+    {
+        get {return containedScips; }
+    }
 
     // Start is called before the first frame update
     void Start()
