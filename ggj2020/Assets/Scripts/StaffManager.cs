@@ -2,12 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Assets.Scripts
 {
     public class StaffManager : MonoBehaviour
     {
+        public int researchPayRate = 15;
+        public int securityPayRate = 10;
 
-     
+        public int researchCost = 150;
+        public int securityCost = 100;
+
+
+        public GameObject staffPrefab;  
+
+        public Dictionary<int, GameObject> securityStaff = new Dictionary<int, GameObject>();
+        public Dictionary<int, GameObject> researchStaff = new Dictionary<int, GameObject>();
+        
 
         private List<string> firstNameList = new List<string>();
         private List<string> lastNameList = new List<string>();
@@ -29,7 +40,31 @@ namespace Assets.Scripts
         }
 
 
-        //public Create
+        public void AddStaff(GameObject roomToMoveTo, StaffType type)
+        {
+            GameObject newStaff = Instantiate(staffPrefab);
+
+            newStaff.GetComponent<Staff>().AssignRole(type);
+
+            newStaff.GetComponent<Staff>().AssignData(RandomlySelectName(), StaffIdCounter);
+
+            StaffIdCounter++;
+
+            // IF YOU WANT TO PUT TIER DATA IN FUTURE ENTER IT HERE
+
+            if (type == StaffType.research)
+            {
+                researchStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+
+            }
+            else if (type == StaffType.security)
+            {
+                securityStaff.Add(newStaff.GetComponent<Staff>().iD, newStaff);
+            }
+
+            newStaff.GetComponent<Staff>().AssignLocation(roomToMoveTo);
+        }
+
 
 
         /// <summary>

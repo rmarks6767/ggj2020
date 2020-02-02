@@ -18,6 +18,7 @@ namespace Assets.Scripts
         private void Start()
         {
             aiController = gameObject.GetComponent<CoreAI>();
+            tier = 1;
         }
         public override string ToString()
         {
