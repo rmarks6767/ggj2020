@@ -7,6 +7,8 @@ namespace Assets.Scripts
 
     public class ResearchRoom : Floor
     {
+        
+
         public override void Start()
         {
             buildingType = BuildingType.research;
