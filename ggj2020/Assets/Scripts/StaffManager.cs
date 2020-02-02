@@ -7,7 +7,7 @@ namespace Assets.Scripts
     public class StaffManager : MonoBehaviour
     {
 
-        p
+     
 
         private List<string> firstNameList = new List<string>();
         private List<string> lastNameList = new List<string>();
@@ -29,7 +29,7 @@ namespace Assets.Scripts
         }
 
 
-        public Create
+        //public Create
 
 
         /// <summary>
