@@ -12,6 +12,8 @@ namespace Assets.Scripts
         private DangerLevel cellLevel;
         private int index;
         private bool isFilled;
+        public GameObject cellBlock;
+        public int spot;
 
         public SCP CellInhabitant
         {
@@ -34,12 +36,13 @@ namespace Assets.Scripts
             get { return index; }
         }
 
-        public Cell(DangerLevel cellLevel, int index, SCP cellInhabitant = null)
+        public Cell(DangerLevel cellLevel, int index, GameObject block, int spt, SCP cellInhabitant = null)
         {
             this.cellLevel = cellLevel;
             this.cellInhabitant = cellInhabitant;
             this.index = index;
-
+            this.cellBlock = block;
+            this.spot = spt;
             isFilled = false;
         }
 

@@ -18,9 +18,9 @@ namespace Assets.Scripts
     /// </summary>
     public enum DangerLevel
     {
-        safe = 1,
-        euclid = 2,
-        keter = 3
+        safe = 0,
+        euclid = 1,
+        keter = 2
     }
 
     /// <summary>
@@ -190,7 +190,7 @@ namespace Assets.Scripts
         public SCP GetSCP(string name)
         {
             SCP targetSCP = null;
-            for(int i = 0; i < scps.Values.Count; i++)
+            for(int i = 0; i < scps.Keys.Count; i++)
             {
                 if(targetSCP != null)
                 {
