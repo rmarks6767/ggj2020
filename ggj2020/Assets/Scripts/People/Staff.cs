@@ -11,6 +11,9 @@ namespace Assets.Scripts
         private string description;
         private StaffType type;
 
+        // A Unique ID for each person
+        private int iD;
+
         public int Tier
         {
             get { return tier; }
@@ -35,16 +38,24 @@ namespace Assets.Scripts
             set { type = value; }
         }
 
-        public Researcher(int tier, string staffName, string description)
+        public int ID
+        {
+            get { return iD; }
+            set { iD = value; }
+        }
+
+
+        public Staff(int tier, string staffName, StaffType type, string description)
         {
             this.tier = tier;
             this.staffName = staffName;
             this.description = description;
+            this.type = type;
         }
 
         public override string ToString()
         {
-            return staffName + ", " + " Level: " + tier + ", " + description;
+            return staffName + ", " + type + ", Level: " + tier + ", " + description;
         }
 
     }
