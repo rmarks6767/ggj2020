@@ -10,39 +10,30 @@ namespace Assets.Scripts
     {
         private SCP cellInhabitant;
         private DangerLevel cellLevel;
+        private bool isFilled;
 
-
-        /// <summary>
-        /// Inhabitant of the cell
-        /// </summary>
         public SCP CellInhabitant
         {
-            get
-            {
-                return cellInhabitant;
-            }
-            set
-            {
-                cellInhabitant = value;
-            }
+            get { return cellInhabitant; }
+            set { cellInhabitant = value; }
         }
 
         public DangerLevel CellLevel
         {
-            get
-            {
-                return cellLevel;
-            }
-            set
-            {
-                cellLevel = value;
-            }
+            get { return cellLevel; }
+        }
+
+        public bool IsFilled
+        {
+            get { return IsFilled; }
         }
 
         public Cell(DangerLevel cellLevel, SCP cellInhabitant = null)
         {
             this.cellLevel = cellLevel;
             this.cellInhabitant = cellInhabitant;
+
+            isFilled = false;
         }
 
         /// <summary>
@@ -52,6 +43,7 @@ namespace Assets.Scripts
         public void ContainSCP(SCP scip)
         {
             cellInhabitant = scip;
+            isFilled = true;
         }
 
 

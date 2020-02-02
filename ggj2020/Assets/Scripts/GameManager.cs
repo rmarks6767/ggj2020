@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Assets.Scripts
 {
@@ -7,6 +8,7 @@ namespace Assets.Scripts
     /// </summary>
     public enum StaffType
     {
+        all,
         research,
         security
     }
@@ -16,6 +18,7 @@ namespace Assets.Scripts
     /// </summary>
     public enum DangerLevel
     {
+        all,
         safe,
         euclid,
         keter
@@ -35,7 +38,28 @@ namespace Assets.Scripts
 
     class GameManager : Singleton<GameManager>
     {
-        public string playerName, siteName, location;
+        [Header("Player Info")]
+        public string playerName;
+        public string siteName;
+        public string location;
+
+        [Header("Room Prefabs")]
+        public GameObject researchRoomPrefab;
+        public GameObject securityRoomPrefab;
+        public GameObject cellBlockPrefab;
+
+        [Header("Building Prefabs")]
+        public GameObject researchBuildingPrefab;
+        public GameObject securityBuildingPrefab;
+        public GameObject containmentBuildingPrefab;
+
+        [Header("Staff Prefabs")]
+        public GameObject researchStaffPrefab;
+        public GameObject securityStaffPrefab;
+        public GameObject dClassPrefab;
+
+        [Header("Etc")]
+        public Transform screenLocation;
 
         /// <summary>
         /// The money that the player will have
@@ -46,7 +70,7 @@ namespace Assets.Scripts
         /// <summary>
         /// The staff that exist in the given room
         /// </summary>
-        private Dictionary<StaffType, int> staff;
+        private Dictionary<StaffType, List<Staff>> staff;
 
         /// <summary>
         /// The scps that are active in the given room
@@ -64,16 +88,26 @@ namespace Assets.Scripts
         }
 
         /// <summary>
+        /// List of all buildings
+        /// </summary>
+        private Dictionary<string, GameObject> buildings;
+
+        public Dictionary<string, GameObject> Buildings
+        {
+            get { return buildings; }
+        }
+
+        /// <summary>
         /// GameManager will be a singleton and hold all of the money 
         /// and people in a given room
         /// </summary>
-        public GameManager()
+        void Start()
         {
             // Create the defaults for the staff
-            staff = new Dictionary<StaffType, int>()
+            staff = new Dictionary<StaffType, List<Staff>>()
             {
-                { StaffType.research, 0 },
-                { StaffType.security, 0 }
+                { StaffType.research, new List<Staff>() },
+                { StaffType.security, new List<Staff>() }
             };
 
             // Create the defaults for the SCPs
@@ -92,6 +126,13 @@ namespace Assets.Scripts
                 {"move", RunCommands.Move}
             };
 
+            buildings = new Dictionary<string, GameObject>()
+            {
+                { "research", Instantiate(researchBuildingPrefab, screenLocation) },
+                { "security", Instantiate(securityBuildingPrefab, screenLocation) },
+                { "containment", Instantiate(containmentBuildingPrefab, screenLocation) }
+            };
+
             playerName = "#%^$%&$&@";
             siteName = "%$^";
             location = "~/building/floor";
@@ -101,8 +142,8 @@ namespace Assets.Scripts
         /// Used to increment the number of a given type plus one
         /// </summary>
         /// <param name="staffType">The type to increment</param>
-        public void AddStaff( StaffType staffType ) 
-            => staff[staffType]++;
+        public void AddStaff( StaffType staffType, Staff newStaff ) 
+            => staff[staffType].Add(newStaff);
 
         /// <summary>
         /// Used to add a new SCP object to the room
@@ -118,6 +159,7 @@ namespace Assets.Scripts
         /// <param name="amount">The amount to add to the money</param>
         public void AddMoney(int amount) 
             => money += amount;
+        
         /// <summary>
         /// Used to get the SCP by the name and the DangerLevel
         /// </summary>
@@ -142,66 +184,155 @@ namespace Assets.Scripts
             return targetSCP;
         }
 
+        /// <summary>
+        /// Will return all of the scps of a given type...or all
+        /// </summary>
+        /// <param name="command">The danger level of the given scps</param>
+        /// <returns>Returns the scps of that type</returns>
+        public List<SCP> GetSCPs(string command)
+        {
+            List<SCP> allSCPs = new List<SCP>();
+
+            if (command == "all")
+            {
+                allSCPs.AddRange(scps[DangerLevel.euclid]);
+                allSCPs.AddRange(scps[DangerLevel.keter]);
+                allSCPs.AddRange(scps[DangerLevel.safe]);
+            }
+            else if( command == "captured" )
+            {
+                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => scp.Contained));
+            }
+            else if (command == "wanted")
+            {
+                allSCPs.AddRange(scps[DangerLevel.euclid].FindAll(scp => !scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.keter].FindAll(scp => !scp.Contained));
+                allSCPs.AddRange(scps[DangerLevel.safe].FindAll(scp => !scp.Contained));
+            }
+            else
+            {
+                return null;
+            }
+            return allSCPs;
+        }
+
+        /// <summary>
+        /// Used to get the staff by the name and the staffType
+        /// </summary>
+        /// <param name="staffType">The type that the staff is</param>
+        /// <param name="name">The name of the given staff</param>
+        /// <returns>Returns a given staff object</returns>
+        public Staff GetStaff(StaffType staffType, string name)
+            => staff[staffType].Find(staff => staff.staffName == name);
+
+        public Staff GetStaff(string name)
+        {
+            Staff targetStaff = null;
+            for (int i = 0; i < staff.Values.Count; i++)
+            {
+                if (targetStaff != null)
+                {
+                    break;
+                }
+
+                targetStaff = staff[(StaffType)i].Find(staff => staff.staffName == name);
+            }
+            return targetStaff;
+        }
+
+        /// <summary>
+        /// Will return all of the staff of a given type...or all
+        /// </summary>
+        /// <param name="staffType">The staff type of the given staff</param>
+        /// <returns>Returns the staff of that type</returns>
+        public List<Staff> GetStaff(StaffType staffType = StaffType.all)
+        {
+            if (staffType == StaffType.all)
+            {
+                List<Staff> allStaff = new List<Staff>();
+
+                allStaff.AddRange(staff[StaffType.research]);
+                allStaff.AddRange(staff[StaffType.security]);
+
+                return allStaff;
+            }
+            return staff[staffType]; 
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>Returns a cell by name</returns>
+        public Cell FindCell(int index)
+            => FindCells()[index];
 
         /// <summary>
         /// 
         /// </summary>
         /// <returns>a list of every cell in the containment building</returns>
-        public List<Cell> FindCells(Containment building)
+        public List<Cell> FindCells()
         {
-            List<Cell> tempList = new List<Cell>();
-            CellBlock tempCellBlock;
-            foreach (Floor block in building.Floors)
+            List<Cell> output = new List<Cell>();
+            Containment containment = buildings["containment"].GetComponent<Containment>();
+            CellBlock cellBlock = null;
+            foreach (GameObject floor in containment.Floors)
             {
-                if (block.FloorRoom is CellBlock)
+                cellBlock = floor.GetComponent<CellBlock>();
+                foreach (Cell cell in cellBlock.Cells)
                 {
-                    tempCellBlock = (CellBlock)block.FloorRoom;
-                    foreach (Cell cell in tempCellBlock.Cells)
-                    {
-                            tempList.Add(cell);
-                    }
+                        output.Add(cell);
                 }
             }
-            return tempList;
+            return output;
         }
 
         /// <summary>
         /// 
         /// </summary>
         /// <returns>a list of every empty cell in the containment building</returns>
-        public List<Cell> FindOpenCells(Containment building)
+        public List<Cell> FindOpenCells()
         {
-            List<Cell> tempList = new List<Cell>();
-            foreach(Cell cell in FindCells(building))
+            List<Cell> output = new List<Cell>();
+            Containment containment = buildings["containment"].GetComponent<Containment>();
+            CellBlock cellBlock = null;
+            foreach (GameObject floor in containment.Floors)
             {
-                if (cell.CellInhabitant == null)
-                    tempList.Add(cell);
+                cellBlock = floor.GetComponent<CellBlock>();
+                foreach (Cell cell in cellBlock.Cells)
+                {
+                    if (!cell.IsFilled)
+                    {
+                        output.Add(cell);
+                    }
+                }
             }
-            return tempList;
+            return output;
         }
 
         /// <summary>
         /// 
         /// </summary>
         /// <returns>a list of every full cell in the containment building</returns>
-        public List<Cell> FindFilledCells(Containment building)
+        public List<Cell> FindFilledCells()
         {
-            List<Cell> tempList = new List<Cell>();
-            foreach (Cell cell in FindCells(building))
+            List<Cell> output = new List<Cell>();
+            Containment containment = buildings["containment"].GetComponent<Containment>();
+            CellBlock cellBlock = null;
+            foreach (GameObject floor in containment.Floors)
             {
-                if (cell.CellInhabitant != null)
-                    tempList.Add(cell);
+                cellBlock = floor.GetComponent<CellBlock>();
+                foreach (Cell cell in cellBlock.Cells)
+                {
+                    if (cell.IsFilled)
+                    {
+                        output.Add(cell);
+                    }
+                }
             }
-            return tempList;
+            return output;
         }
-
-        /// <summary>
-        /// Used to get a given staff member
-        /// </summary>
-        /// <param name="staffType">The type to return</param>
-        /// <returns>The number of staff of that type in the room</returns>
-        public int GetStaff(StaffType staffType)
-            => staff[staffType];
 
         /// <summary>
         /// Used to get a command by name
@@ -215,6 +346,4 @@ namespace Assets.Scripts
             return null;
         }
     }
-
-
 }

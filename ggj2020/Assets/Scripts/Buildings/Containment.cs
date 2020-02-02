@@ -8,35 +8,25 @@ namespace Assets.Scripts
 
     public class Containment : Buildings
     {
-        // Max ammount of floors and cells possible in the building 
-        private int maxFloors;
-        private int maxCells;
-        private int floorCount;
-
-        private Floor[] floors;
-
-        /// <summary>
-        /// Array of all the floors in the building
-        /// </summary>
-        public Floor[] Floors
+        public override void Start()
         {
-            get { return floors; }
-            set { floors = value; }
+            base.Start();
+            buildingName = "Containment";
+            maxFloors = 6;
+            floors.Add(Instantiate(GameManager.Instance.cellBlockPrefab, GameManager.Instance.screenLocation));
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="maxFloors">Max floors per building</param>
-        /// <param name="maxCells">Max cells per floor</param>
-        public Containment(int maxFloors = 5, int maxCells = 3)
+        public override bool AddFloor()
         {
-            this.maxFloors = maxFloors;
-            this.maxCells = maxCells;
-            floors = new Floor[maxFloors];
-            
-            floors[0] = new Floor(BuildingType.containment);
-            floorCount = 1;
+            if (floorCount < maxFloors)
+            {
+                floors.Add(Instantiate(GameManager.Instance.cellBlockPrefab, GameManager.Instance.screenLocation));
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         /// <summary>
@@ -46,55 +36,20 @@ namespace Assets.Scripts
         /// <param name="roomNumber"></param>
         /// <param name="newSCP"></param>
         /// <returns></returns>
-        public bool AddSCP(int floorNumber, int roomNumber, SCP newSCP)
+        public bool AddSCP(int floorNumber, int cellNumber, SCP newSCP)
         {
-            //if(
-            //Placeholder return
-            return false;
-        }
-
-        public override void Destroy()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        /// <summary>
-        /// Returns False if floor cannot be added.
-        /// </summary>
-        /// <returns></returns>
-        public override bool AddFloor()
-        {
-            if (floorCount == maxFloors)
+            if(floorNumber > floorCount ||
+                cellNumber > 3 ||
+                ((CellBlock)(floors[floorNumber].GetComponent<Floor>())).Cells[cellNumber].IsFilled)
             {
                 return false;
             }
 
-            floors[floorCount - 1] = new Floor(BuildingType.containment);
-            floorCount++;
-            return true;
-           
-        }
-
-        /// <summary>
-        /// Looks through entire building to find staff
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        public Staff FindStaff(int id)
-        {
-            CellBlock roomStorage;
-            Staff securityStorage;
-            for (int i = 0; i < floorCount; i++)
+            else
             {
-                roomStorage = (CellBlock)floors[i].FloorRoom;
-                securityStorage = roomStorage.FindStaff(id);
-                if (securityStorage != null)
-                {
-                    return securityStorage;
-                }
+                ((CellBlock)(floors[floorNumber].GetComponent<Floor>())).Cells[cellNumber].ContainSCP(newSCP);
+                return true;
             }
-
-            return null;
         }
     }
 }
