@@ -10,8 +10,8 @@ public class SCPManager : MonoBehaviour
     List<SCP> containedScips;
     int rCount; //researcher count in the entire facility
     int sCount; //security count in the entire facility
-    public Containment building;
     float timeElapsed;
+    private Containment building;
 
     public int ResearcherCount
     {
@@ -41,6 +41,7 @@ public class SCPManager : MonoBehaviour
     void Start()
     {
         timeElapsed = 0;
+        building = GameManager.Instance.Buildings["containment"].GetComponent<Containment>();
         scips = new List<SCP>();
         wantedScips = new List<SCP>();
         containedScips = new List<SCP>();
@@ -104,33 +105,7 @@ public class SCPManager : MonoBehaviour
         newScip.GetComponent<ScipObject>().number = wantedScips[index].Number;
         Instantiate(newScip, Vector3.zero, Quaternion.identity);
     }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns>a list of every empty cell in the containment building</returns>
-    public List<Cell> FindOpenCells()
-    {
-        List<Cell> tempList = new List<Cell>();
-        CellBlock tempCellBlock;
-        foreach (Floor block in building.Floors)
-        {
-            if (block.FloorRoom is CellBlock)
-            {
-                tempCellBlock = (CellBlock)block.FloorRoom;
-                foreach (Cell cell in tempCellBlock.Cells)
-                {
-                    if (cell.CellInhabitant == null)
-                    {
-                        tempList.Add(cell);
-                    }
-                }
-            }
-        }
-        return tempList;
-    }
-
-    void loadAllScips()
+    void loadAllSscips()
     {
         scips.Add(new SCP(2, "Plague Doctor", "049", DangerLevel.euclid, false));
         scips.Add(new SCP(1, "[unknown]", "055", DangerLevel.safe, false));
