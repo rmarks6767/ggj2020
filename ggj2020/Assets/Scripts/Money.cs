@@ -26,9 +26,10 @@ public class Money : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time - startTime <= payrollRate)
+        if(Time.time - startTime >= payrollRate)
 		{
 			Payroll();
+			startTime = Time.time;
 		}
     }
 
