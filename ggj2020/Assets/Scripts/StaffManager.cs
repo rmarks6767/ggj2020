@@ -45,8 +45,27 @@ namespace Assets.Scripts
         {
             for (int i = 0; i < containmentBuilding.GetComponent<Containment>().Floors.Count; i++)
             {
+                List<GameObject> currentFloorStaff;
+                int researcherCount = 0;
+
+                currentFloorStaff = containmentBuilding.GetComponent<Containment>().Floors[i].GetComponent<Floor>().residentStaff;
+
+                for (int x = 0; x < currentFloorStaff.Count; x++)
+                {
+                    if (currentFloorStaff[i].GetComponent<Staff>().type == StaffType.research)
+                    {
+                        
+                        researcherCount++;
+                        // IF YOU ADD TIERS RECORD THEM HERE
+
+                    }
+
+                }
+
                 
             }
+
+            
         }
 
         public void moveStaff(GameObject staff, GameObject endDestination)
