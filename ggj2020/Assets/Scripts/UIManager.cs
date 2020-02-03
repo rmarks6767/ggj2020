@@ -27,6 +27,7 @@ namespace Assets.Scripts
             PauseMenu.SetActive(false);
             GameplayUI.SetActive(true);
 
+			// Gets the starting values for each text object
 			moneyDynamic.text = GameManager.Instance.Money.ToString();
 			scpDynamic.text = GameManager.Instance.scpManager.ContainedScips.Count.ToString();
 			researcherDynamic.text = GameManager.Instance.staffManager.researchStaff.Count.ToString();
